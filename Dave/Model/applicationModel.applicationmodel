@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<DaveExpert:ApplicationModelData xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DaveExpert="www.infineon.com/DaveExpert/ApplicationModel" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore">
+  <nodes xsi:type="DaveExpert:AppNode">
+    <resource xsi:type="ResourceModel:App" href="MOTORLIBS/1.0.20/motorlibs_0.app#/"/>
+  </nodes>
+  <nodes xsi:type="DaveExpert:AppNode">
+    <resource xsi:type="ResourceModel:App" href="DAVESUPPORT/1.0.44/davesupport_0.app#/"/>
+  </nodes>
+  <nodes xsi:type="DaveExpert:AppNode">
+    <resource xsi:type="ResourceModel:App" href="LIBS/1.0.28/libs_0.app#/"/>
+  </nodes>
+  <nodes xsi:type="DaveExpert:AppNode">
+    <resource xsi:type="ResourceModel:App" href="DBG001/1.0.12/dbg001_0.app#/"/>
+  </nodes>
+</DaveExpert:ApplicationModelData>

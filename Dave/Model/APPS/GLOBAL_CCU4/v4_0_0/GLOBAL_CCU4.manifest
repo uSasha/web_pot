@@ -1,0 +1,166 @@
+package Model.APPS.GLOBAL_CCU4.v4_0_0;
+
+/*************** Revision History **********************************************
+Version     Date          Description
+
+4.0.0       16-Feb-2015   Initial version for DAVEv4
+                                                          
+*******************************************************************************/
+import ifx.davex.app.manifest.*
+
+class  GLOBAL_CCU4 extends GLOBAL_CCU4_GUI {
+
+	// Note  : Following App properties are mandatory and important
+	// Begin : App property section
+	def version            = '4.0.0'
+	
+	// Example
+	//	def categoriesDescription = [
+	//		"Peripheral Specific Apps/Communication/Universal Serial Interface Channel (USIC)"]
+
+	def categoriesDescription = ["System/~Global Reg Control"]
+
+	// Minimum DAVE version required for the App
+	def minDaveVersion           = '4.0.0'
+	
+	// Keywords to search in Apps selection view
+	def keywords      = ['all']
+	
+	// Software IDs and its required minimum version
+	def softwareIDs       = [
+	   //xmc45
+        "XMC4.5.00.E144.ALL":"1.0.0","XMC4.5.00.F144.ALL":"1.0.0","XMC4.5.00.F100.ALL":"1.0.0",
+        "XMC4.5.02.F100.ALL":"1.0.0","XMC4.5.04.F100.ALL":"1.0.0","XMC4.5.04.F144.ALL":"1.0.0",
+        
+	   //xmc44
+        "XMC4.4.00.F100.ALL":"1.0.0","XMC4.4.00.F64.ALL":"1.0.0","XMC4.4.02.F100.ALL":"1.0.0",
+        "XMC4.4.02.F64.ALL":"1.0.0",
+
+	   //xmc42
+        "XMC4.2.00.F64.ALL":"1.0.0","XMC4.2.00.Q48.ALL":"1.0.0",
+
+		//xmc41
+        "XMC4.1.00.F64.ALL":"1.0.0","XMC4.1.00.Q48.ALL":"1.0.0","XMC4.1.04.F64.ALL":"1.0.0",
+        "XMC4.1.04.Q48.ALL":"1.0.0","XMC4.1.08.Q48.ALL":"1.0.0","XMC4.1.08.F64.ALL":"1.0.0",
+        
+		//xmc11
+		    "XMC1.1.00.T016.ALL":"1.0.0","XMC1.1.00.T038.ALL":"1.0.0","XMC1.1.00.Q024.ALL":"1.0.0",
+        "XMC1.1.00.Q040.ALL":"1.0.0",
+    
+		//xmc12
+        "XMC1.2.01.T028.ALL":"1.0.0","XMC1.2.01.T038.ALL":"1.0.0","XMC1.2.01.Q040.ALL":"1.0.0",
+        "XMC1.2.02.T016.ALL":"1.0.0","XMC1.2.02.T028.ALL":"1.0.0","XMC1.2.02.T038.ALL":"1.0.0",
+        "XMC1.2.02.Q024.ALL":"1.0.0","XMC1.2.02.Q040.ALL":"1.0.0","XMC1.2.00.T038.ALL":"1.0.0",
+        "XMC1.2.03.T016.ALL":"1.0.0",
+        
+		//xmc13
+        "XMC1.3.01.Q024.ALL":"1.0.0","XMC1.3.01.Q040.ALL":"1.0.0","XMC1.3.01.T016.ALL":"1.0.0",
+        "XMC1.3.01.T038.ALL":"1.0.0","XMC1.3.02.Q024.ALL":"1.0.0","XMC1.3.02.Q040.ALL":"1.0.0",
+        "XMC1.3.02.T016.ALL":"1.0.0","XMC1.3.02.T038.ALL":"1.0.0"
+    ]
+
+	def singleton     = false
+	def initProvider  = true
+	def deprecated    = false
+	def sharable      = true
+	def ioApp         = false
+
+	// App short description 
+	def description = "Initializes CCU4 Global Register Set."
+	/*----------------------------------- End  : APP property section---------------------------------------------------------*/
+	
+	/*-----------------------------------Begin : APP User variable section---------------------------------------------------------*/
+	
+	MRequiredApp appres_clock_0	//for both devices
+	MVirtualResourceGroup hwres_peripheral_ccu4_global_0
+	MVirtualResourceGroup hwres_peripheral_scu_gcu_ccu4_global_enable_0
+						
+	//Virutal Signals
+	MVirtualSignal vs_global_ccu4_globalsignal	//Output of CCU4.
+	MVirtualSignal vs_global_ccu4_clk //input from clock APP
+	MVirtualSignalRA vs_clock_fccu //proxy clock signal for local ref.
+	MVirtualSignal vs_global_ccu4_gsc_enable //global ccu sych start signal
+	
+	SolverVariable sv_global_ccu4_kernel  = SolverVariable() // to assign same module number for both CCU and GCU resource
+	// End   : User variable section
+	/*-----------------------------------End : APP User variable section---------------------------------------------------------*/
+
+	// App Constructor
+	public GLOBAL_CCU4(DaveEnv daveEnv) {
+		/* -------------------------------------------------------------- */
+		/* ---------- Target Specific User Variable Initialization ------ */
+		/* -------------------------------------------------------------- */
+		Boolean family_4x = false
+	
+		if (daveEnv.project.selectedDevice.deviceId.family == "XMC4")
+		{
+			family_4x = true
+		}
+		
+		/* ---------------------------------------------------------- */
+		/* ------------ App consumption Block ----------------------- */
+		/* ---------------------------------------------------------- */
+	     if (family_4x == true)
+		 {
+			 appres_clock_0 =  MRequiredApp("CLOCK_XMC4","CLOCK APP for XMC4X", RSHARABLE, "0.0.0", true)
+		 }
+		 else
+		 {
+			 appres_clock_0 =  MRequiredApp("CLOCK_XMC1","CLOCK APP for XMC1X", RSHARABLE, "0.0.0", true)
+		 }
+	
+		/* ---------------------------------------------------------- */
+		/* ------------ Hardware resource consumption block --------- */
+		/* ---------------------------------------------------------- */
+		hwres_peripheral_ccu4_global_0                  =  MVirtualResourceGroup("Global", ["peripheral","ccu4",sv_global_ccu4_kernel, "global"])
+		hwres_peripheral_scu_gcu_ccu4_global_enable_0   =  MVirtualResourceGroup("CCU4 sync start", 
+			                                                                      ["peripheral","scu","*", "gcu", "ccu4_global_enable", sv_global_ccu4_kernel])
+		
+		/* ---------------------------------------------------------- */
+		/* -------------- APP IO Signals ---------------------------- */
+		/* ---------------------------------------------------------- */
+		vs_global_ccu4_clk          = MVirtualSignal(hwres_peripheral_ccu4_global_0, "clock_ccu", "clk", true ,false)
+		vs_global_ccu4_globalsignal = MVirtualSignal(hwres_peripheral_ccu4_global_0, "ccu4_global", "global_signal", true, false) 
+		vs_global_ccu4_gsc_enable   = MVirtualSignal(hwres_peripheral_scu_gcu_ccu4_global_enable_0, "ccu4_global_start", "gsc_enable", true ,true)
+		
+		if (family_4x == true)
+		{
+		/* ---------------------------------------------------------- */
+		/* ------------------- Proxy Signal ------------------------- */
+		/* ---------------------------------------------------------- */
+		vs_clock_fccu = MVirtualSignalRA(appres_clock_0, "vs_fccu")
+		
+		/* ---------------------------------------------------------- */
+		/* ---------------- APP IO Connections ---------------------- */
+		/* ---------------------------------------------------------- */
+		addConnectionConstraint(vs_clock_fccu, vs_global_ccu4_clk, true)
+		}
+		/* -------------------------------------------------------- */
+		/* ------------ APP Configuration ------------------------- */
+		/* -------------------------------------------------------- */
+		
+		/* ------ TAB : Clock Setting related configuration ---------- */
+	     if (family_4x == true)
+		 {
+	        gfloat_clkFreq.value = MF({appres_clock_0.getVal(["gfloat_ccufreq", "value"])}, Float)	
+		 }
+		 else
+		 {
+	        gfloat_clkFreq.value = MF({appres_clock_0.getVal(["gfloat_pclkactfrq", "value"])}, Float)	
+		 }
+		
+	}
+	
+	// File Generation
+	def generateFiles(){
+		copy("global_ccu4.c", "global_ccu4.c")
+		copy("global_ccu4.h", "global_ccu4.h")
+		generate("global_ccu4_confc.tmpl", "global_ccu4_conf.c")
+		generate("global_ccu4_confh.tmpl", "global_ccu4_conf.h")
+		generate("global_ccu4_extern.tmpl", "global_ccu4_extern.h")
+	}
+	
+	//
+	// Add main code here
+	//
+}

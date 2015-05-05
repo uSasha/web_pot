@@ -1,0 +1,314 @@
+package Model.APPS.DIGITAL_IO.v4_0_1;
+
+/*************** Revision History **********************************************
+Version        Date          Description 
+
+  4.0.0       16-Feb-2015   Initial version for DAVEv4
+  4.0.1       20-Feb-2015   APP Help documentation improved.
+*******************************************************************************/
+
+// Import statements
+import ifx.davex.app.manifest.*
+
+class  DIGITAL_IO extends DIGITAL_IO_GUI {
+	/*-----------------------Begin : App Properties-------------------------------------------------------*/
+	
+	// Note  : GPIO properties are mandatory and important
+	
+	def version            = '4.0.1'
+
+	
+	// Example
+	//	def categoriesDescription = [
+	//		"Peripheral Specific APPs/Communication/Universal Serial Interface Channel (USIC)"]
+
+	def categoriesDescription = ['System'] 
+
+	// Minimum DAVE version required for the APP
+	def minDaveVersion           = '4.0.0'
+	
+	// Keywords to search in APPs selection view
+	def keywords      = [
+		'GPIO',
+		'IO',
+		'Pin',
+		'Driver',
+		'ALL'
+		]
+	
+	// Software IDs and its required minimum version
+	// Example
+    // def softwareIDs       = [
+	//  "XMC4.5.00.F144.AA":"1.0.0",
+	// 	"XMC4.5.00.F144.AB":"1.0.0",
+	//	"XMC4.5.00.F144.ALL":"1.0.0"]
+	
+	def softwareIDs       = [
+		"XMC4.5.00.E144.ALL":"1.0.0","XMC4.5.00.F144.ALL":"1.0.0","XMC4.5.00.F100.ALL":"1.0.0",
+		"XMC4.5.02.F100.ALL":"1.0.0","XMC4.5.04.F100.ALL":"1.0.0","XMC4.5.04.F144.ALL":"1.0.0",
+
+		"XMC4.4.00.F100.ALL":"1.0.0","XMC4.4.00.F64.ALL":"1.0.0",
+		"XMC4.4.02.F100.ALL":"1.0.0","XMC4.4.02.F64.ALL":"1.0.0",
+		
+		"XMC4.2.00.F64.ALL":"1.0.0","XMC4.2.00.Q48.ALL":"1.0.0",
+		
+		"XMC4.1.00.F64.ALL":"1.0.0","XMC4.1.00.Q48.ALL":"1.0.0",
+		"XMC4.1.04.F64.ALL":"1.0.0","XMC4.1.04.Q48.ALL":"1.0.0",
+		"XMC4.1.08.F64.ALL":"1.0.0","XMC4.1.08.Q48.ALL":"1.0.0",
+		
+		"XMC1.1.00.T016.ALL":"1.0.0","XMC1.1.00.T038.ALL":"1.0.0","XMC1.1.00.Q024.ALL":"1.0.0",
+		"XMC1.1.00.Q040.ALL":"1.0.0",
+		
+		"XMC1.2.00.T038.ALL":"1.0.0","XMC1.2.01.T038.ALL":"1.0.0","XMC1.2.01.Q040.ALL":"1.0.0",
+		"XMC1.2.02.T016.ALL":"1.0.0","XMC1.2.02.T028.ALL":"1.0.0","XMC1.2.02.Q024.ALL":"1.0.0",
+		"XMC1.2.02.Q040.ALL":"1.0.0",
+		
+		"XMC1.3.01.Q024.ALL":"1.0.0","XMC1.3.01.Q040.ALL":"1.0.0",
+		"XMC1.3.01.T016.ALL":"1.0.0","XMC1.3.01.T038.ALL":"1.0.0",
+		"XMC1.3.02.T016.ALL":"1.0.0","XMC1.3.02.T038.ALL":"1.0.0",
+		"XMC1.3.02.Q024.ALL":"1.0.0","XMC1.3.02.Q040.ALL":"1.0.0"
+		]
+
+
+	def singleton     = false
+	def initProvider  = true
+	def deprecated    = false
+	def sharable      = false
+
+
+	// APP short description 
+	def description = "The DIGITAL_IO APP is used to configure \n a port pin as digital Input/Output"
+	
+/* ----------------------End: APP Properties----------------------------------------------------------*/
+	
+/*-----------------------Begin : User Variables for hardware resources and virtual signals------------*/
+		
+	SolverVariable port_no = SolverVariable()
+	
+	MVirtualResourceGroup hwres_port_pin
+	MVirtualSignal vs_digital_io_sw_pin
+	MVirtualSignal vs_digital_io_pad_pin
+
+	
+/*-----------------End : User Variables for hardware resources and virtual signals--------------------*/
+	
+/*-----------------Begin : APP Constructor and Logic -------------------------------------------------*/
+	
+	public DIGITAL_IO(DaveEnv daveEnv) {
+	
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                          Target Specific User Variable initialization                                                                     */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+				
+		MF mf_digital_input
+		MF mf_digital_output
+		MF mf_digital_output_speedclass
+		MF mf_port_constraint
+		MF mf_iocr_oe
+		MF mf_speed_class
+		
+		//device based port range constraint
+		if (daveEnv.project.selectedDevice.deviceId.family == "XMC4") 
+		{
+			glabel_hysteresis.visible = false
+			gcombo_hysteresis.visible = false
+			
+		
+			gcombo_driver_strength.options = ["Don't Care",						/* shall  be removed because redundant */
+											  "Weak Driver",
+											  "Medium Driver",
+											  "Strong Driver Soft Edge",
+											  "Strong Driver Slow Edge",
+											  "Strong Driver Sharp Edge",
+											  "Strong Driver Medium Edge"]
+			
+			gcombo_driver_strength.value = "Don't Care"
+			
+			mf_port_constraint = MF({
+				List a;
+				
+				if (gcombo_io_function.value == 'Input') 
+				{
+					a= [0, 1, 2, 3, 4, 5, 6, 14, 15]
+				}
+				else 
+				{
+					a= [0, 1, 2, 3, 4, 5, 6]
+				}
+				 a;
+			}, List)
+			
+		}
+		
+		//device based port range constraint
+		if (daveEnv.project.selectedDevice.deviceId.family == "XMC1") 
+		{                                                                    
+			glabel_driver_strength.visible = false
+			gcombo_driver_strength.visible = false
+
+			gcombo_hysteresis.options = ["Standard", 					/* shall be removed because redundant */
+										 "Large"]
+
+			gcombo_hysteresis.value = "Standard"
+			
+			mf_port_constraint = MF({
+				List b;
+				
+				if ((gcombo_io_function.value == 'Input') ||(gcombo_io_function.value == 'Input/Output')) 
+				{
+					b= [0, 1, 2]
+				}
+				else 
+				{
+					b= [0, 1, 2]
+				}
+				 b;
+			}, List)
+				
+			
+		  }
+     				
+		//checking Input selection
+		mf_digital_input = MF({
+			if(gcombo_io_function.value == 'Input')
+			{
+				true
+			}
+			else
+			{
+			
+				false	
+			}
+			
+			
+			}, Boolean)
+		
+		//checking Output selection
+		mf_digital_output = MF({
+			
+			if(gcombo_io_function.value == 'Input/Output')
+			{
+				true	
+			}
+			else
+			{
+				false
+			}
+			
+			
+			}, Boolean)
+
+		mf_iocr_oe = MF({
+			if (gcombo_io_function.value == "Input/Output") 
+			{
+				 [1]
+			}
+			else 
+			{
+				 [0]
+			}
+		}, List)
+
+		gcombo_input_mode.enabled = mf_digital_input
+		gcombo_hysteresis.enabled = mf_digital_input
+		glabel_hysteresis.enabled = mf_digital_input
+		glabel_input_mode.enabled = mf_digital_input
+		
+		gcombo_output_mode.enabled = mf_digital_output
+		gcombo_initial_output_level.enabled = mf_digital_output	
+		gcombo_driver_strength.enabled = mf_digital_output
+		
+		glabel_driver_strength.enabled = mf_digital_output
+		glabel_output_mode.enabled = mf_digital_output
+		glabel_initial_output_level.enabled = mf_digital_output
+		
+		//Solver constraint for port
+		addUriElementRangeConstraint(port_no, mf_port_constraint)
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                Consumed Resource Groups/APPs Definitions                                                                  */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------	Hardware resource consumption block ------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+		hwres_port_pin = MVirtualResourceGroup("pin", ["port", "p", port_no, "pad", "*"])
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                 Virtual Signals Definitions                                                                               */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------	DIGITAL IO Signals ------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+		@AddPin(pinDisplayName ='pin')
+		vs_digital_io_pad_pin_AddPin = MVirtualSignal(hwres_port_pin, "pin", "pad", true, true) 
+		vs_digital_io_sw_pin = MVirtualSignal(hwres_port_pin, "software controlled output signal", "swreg_out", mf_digital_output, false)
+		
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                 Virtual Signals Connections                                                                               */ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+		addRegisterBitFieldConstraint(hwres_port_pin, "iocr_oe",  mf_iocr_oe, mf_digital_output)
+		
+		if (daveEnv.project.selectedDevice.deviceId.family == "XMC4")
+		{
+			mf_speed_class = MF({
+				if (gcombo_driver_strength.value == "Weak Driver" || gcombo_driver_strength.value == "Medium Driver")
+				{
+					 ['A1', 'A1+', 'A2']
+				}
+				else if (gcombo_driver_strength.value == "Strong Driver Slow Edge")
+				{
+					 ['A1+']
+				}
+				else if (gcombo_driver_strength.value == "Strong Driver Soft Edge")
+				{
+					 ['A1+', 'A2']
+				}
+				else if(gcombo_driver_strength.value == "Strong Driver Medium Edge" || gcombo_driver_strength.value == "Strong Driver Sharp Edge")
+				{
+					 ['A2']
+				}
+				else
+				{
+					['A1', 'A1+', 'A2']
+				}
+			}, List)
+	
+			addResourcePropertyConstraint(hwres_port_pin, "speed_class of rg_property", mf_speed_class,mf_digital_output)
+		}
+			
+		
+ }
+/*-----------------End : APP Constructor and Logic ----------------s---------------------------------*/
+
+
+/*-----------------Begin : Source Files Generation -------------------------------------------------*/                                                            
+ 
+	
+	// File Generation
+	def generateFiles(){
+		
+		copy("digital_io.c", "digital_io.c")
+		copy("digital_io.h", "digital_io.h")
+		generate("digital_io_confc.tmpl", "digital_io_conf.c")
+		generate("digital_io_confh.tmpl", "digital_io_conf.h")
+		generate("digital_io_externh.tmpl", "digital_io_extern.h")
+		
+	}
+	
+/*-----------------End : Source Files Generation -------------------------------------------------*/
+
+/*-----------------Begin : Main routine  -------------------------------------------------*/
+			//for testing
+	// Add main code here
+	public static  main(args){
+		DIGITAL_IO dio = new DIGITAL_IO()
+		println "infineon"
+	}
+	//
+
+/*-----------------End : Main routine -------------------------------------------------*/
+	
+}

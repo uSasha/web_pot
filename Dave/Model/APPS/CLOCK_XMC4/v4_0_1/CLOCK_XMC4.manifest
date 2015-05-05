@@ -1,0 +1,657 @@
+package Model.APPS.CLOCK_XMC4.v4_0_1;
+
+/*************** Revision History **********************************************
+    Version    Date          Description //Retain this format
+
+     4.0.0     16-Feb-2015   Initial version for DAVEv4      
+     4.0.1     20-Feb-2015   Maximum value of PLL frequency (fPLL) has been changed into 120MHz.      
+*******************************************************************************/
+
+// Import statements
+import ifx.davex.app.manifest.*
+
+class  CLOCK_XMC4 extends CLOCK_XMC4_GUI {
+// Begin   : CLOCK_XMC4 property section
+	def version            = '4.0.1'
+	
+	//	Categories to search in APP selection view
+	def categoriesDescription = ['System']
+	
+	// Minimum DAVE version required for the APP
+	def minDaveVersion           = '4.0.0'
+	
+	// Keywords to search in APP selection view
+	def keywords      = [
+		"System Clock",
+		"PLL",
+		"CLOCK",
+		"Clock", 
+		"ALL"
+		]
+	// Software IDs and its required minimum device descriptions version
+	def softwareIDs       = [
+		"XMC4.5.00.E144.ALL":"1.0.0","XMC4.5.00.F144.ALL":"1.0.0","XMC4.5.00.F100.ALL":"1.0.0",
+		"XMC4.5.02.F100.ALL":"1.0.0","XMC4.5.04.F100.ALL":"1.0.0","XMC4.5.04.F144.ALL":"1.0.0",
+
+		"XMC4.4.00.F100.ALL":"1.0.0","XMC4.4.00.F64.ALL":"1.0.0",
+		"XMC4.4.02.F100.ALL":"1.0.0","XMC4.4.02.F64.ALL":"1.0.0",
+		
+		"XMC4.2.00.F64.ALL":"1.0.0","XMC4.2.00.Q48.ALL":"1.0.0",
+		
+		"XMC4.1.00.F64.ALL":"1.0.0","XMC4.1.00.Q48.ALL":"1.0.0",
+		"XMC4.1.04.F64.ALL":"1.0.0","XMC4.1.04.Q48.ALL":"1.0.0",
+		"XMC4.1.08.F64.ALL":"1.0.0","XMC4.1.08.Q48.ALL":"1.0.0"
+	]
+	
+	// This APP shall only be instantiated once
+	def singleton     = true
+	// Not required
+	def initProvider  = false
+	// No more useful in future
+	def deprecated    = false
+	// This APP shall be used & consumed by multiple APPs
+	def sharable      = true
+	// This APP consumes direct HW pin resource/
+	def ioApp         = true
+
+	// APP short description 
+	def description = "APP to configure System and Peripheral Clocks."
+	
+// End   : CLOCK_XMC4 property section
+	
+// Begin : User variable section (XMC4 Devices)
+	// Resource group (Functional Block) declaration
+	MVirtualResourceGroup rg_pll
+	MVirtualResourceGroup rg_sys
+	MVirtualResourceGroup rg_cpu
+	MVirtualResourceGroup rg_perbridge
+	MVirtualResourceGroup rg_ebu
+	MVirtualResourceGroup rg_ccu
+	MVirtualResourceGroup rg_wdt
+	MVirtualResourceGroup rg_usb
+	MVirtualResourceGroup rg_mmc
+	MVirtualResourceGroup rg_extclk
+	MVirtualResourceGroup rg_hibernate
+	MVirtualResourceGroup rg_rtcclksel
+	MVirtualResourceGroup rg_extclkpin
+	// Virtual Signal declaration
+	MVirtualSignal vs_fpb
+	MVirtualSignal vs_fccu
+	MVirtualSignal vs_extclk
+	MVirtualSignal vs_extclkpin
+	// Required APP consumption
+	MRequiredApp app_extclkout
+	// Local variables: Contents are used in multiple places
+	GCheck NormalMode = GCheck(widgetName:"NormalMode")
+	GCheck USBEnable = GCheck(widgetName:"USBEnable")
+	GCheck EBUEnable = GCheck(widgetName:"EBUEnable")
+	GCheck SDMMCEnable = GCheck(widgetName:"SDMMCEnable")
+	GCheck WDTEnable = GCheck(widgetName:"WDTEnable")
+	GCheck RTCEnable = GCheck(widgetName:"RTCEnable")
+	GCheck ExtClkOutEnable = GCheck(widgetName:"ExtClkOutEnable")
+	GFloat InputFreq = GFloat(widgetName:"InputFreq", value:12.0, min:0, max:24.0, enabled:true, visible:true)
+	GInteger gint_mainpllndiv = GInteger(widgetName:"gint_mainpllndiv", value:40, minValue:1, maxValue:128, enabled:false, visible:true)
+	GInteger gint_mainpllpdiv = GInteger(widgetName:"gint_mainpllpdiv", value:1, minValue:1, maxValue:16, enabled:false, visible:true)
+	GInteger gint_mainpllk2div = GInteger(widgetName:"gint_mainpllk2div", value:4, minValue:1, maxValue:128, enabled:false, visible:true)
+	GInteger gint_mainpllk1div = GInteger(widgetName:"gint_mainpllk1div", value:1, minValue:1, maxValue:128, enabled:false, visible:true)
+	GInteger gint_usbpll_ndiv = GInteger(widgetName:"gint_usbpll_ndiv", value:64, minValue:1, maxValue:128, enabled:false, visible:true)
+	GInteger gint_usbpll_pdiv = GInteger(widgetName:"gint_usbpll_pdiv", value:2, minValue:1, maxValue:16, enabled:false, visible:true)
+	GFloat Freq_VCO = GFloat(widgetName:"VCO Frequency", value:240.0, min:260.0, max:520.0, enabled:true, visible:true)
+	
+// End   : User variable section (XMC4 Devices)
+
+
+	
+	// CLOCK_XMC4 Constructor
+  public CLOCK_XMC4(DaveEnv daveEnv) {
+		// Target based variables for resource consumption, UI dependency etc.
+	String Family = daveEnv.project.selectedDevice.deviceId.family 	//ex:XMC4 or XMC1
+	String Series = (daveEnv.project.selectedDevice.deviceId.family + daveEnv.project.selectedDevice.deviceId.series) //ex:XMC45, 44..
+	String Device = daveEnv.project.selectedDevice.deviceId.device 	// 00, 02, 04, 06
+	String Device_Name = daveEnv.project.selectedDevice.deviceId.deviceName 	//XMC4500-F144x1024-AB...
+	String Step = daveEnv.project.selectedDevice.deviceId.step 		// AA, AB, AC....
+	String Package = daveEnv.project.selectedDevice.deviceId.icPackage //F144, E144..
+	String SofwareId  = daveEnv.project.selectedDevice.deviceId.softwareId   //XMC4.5.00.F144.AB
+//		String Family = "XMC4"
+//		String Series = "XMC45"
+//		String Device = "02"
+//		String Device_Name = "XMC4500-F144x1024-AB"
+//		String Step = "AA"
+//		String Package = "F144"
+//		String SofwareId  = "XMC4.5.00.F144.AB"
+		
+		/* Constants */
+		float Fvco_min = 260
+		float Fvco_max = 520
+		/* USB PLL */
+		int USB_PDiv = 2
+		int USB_DIV = 4
+		int fUSBPLLTarget = 192
+		/* Wdt */
+		float BackupClk = 24
+		float StandbyClk = 0.032768
+		
+		//Variables used for peripheral availability
+		boolean IsCCU_Available = true
+		boolean IsUSB_Available = true
+		boolean IsEBU_Available = true
+		boolean IsSDMMC_Available = true
+		boolean IsETH_Available = true
+		boolean IsCAN_Available = true
+		boolean IsExtClkOut_Available = true
+		
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+		 Target related dependency within family
+------------------------------------------------------------------------------------------------------------------------------------------- */
+		if(Series == "XMC45"){
+			if(Integer.parseInt(Device) >= 2)
+			{
+				IsETH_Available = false
+			}
+			if(Integer.parseInt(Device) >= 4)
+			{
+				IsCAN_Available = false
+				IsUSB_Available = false
+			}
+		}
+		else if(Series == "XMC44"){
+			IsEBU_Available = false
+			IsSDMMC_Available = false
+			if(Integer.parseInt(Device) >= 2)
+			{
+				IsETH_Available = false
+			}
+			if(Integer.parseInt(Device) >= 4)
+			{
+				IsCAN_Available = false
+				IsUSB_Available = false
+			}
+		}
+		else if((Series == "XMC42") || (Series == "XMC41")){
+			IsEBU_Available = false
+			IsSDMMC_Available = false
+			if(Integer.parseInt(Device) >= 2)
+			{
+				IsETH_Available = false
+			}
+			if(Integer.parseInt(Device) >= 4)
+			{
+				IsCAN_Available = false
+				IsUSB_Available = false
+			}
+		}
+	
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+											  GUI Parameters Visibility, Enable and options
+------------------------------------------------------------------------------------------------------------------------------------------- */
+		// Page 1
+		NormalMode.value = MF({gcombo_mainpllset.value == "Normal Mode"},Boolean)
+		
+		if((Series == "XMC45") || (Series == "XMC44"))
+		{
+			gcombo_extclkoutsrc.options = ["System Clock","USB PLL Clock","Main PLL Clock"]
+		}
+		else
+		{
+			gcombo_extclkoutsrc.options = ["System Clock","USB PLL Clock","Main PLL Clock", "Standby Clock"]
+		}
+		
+
+		if(IsExtClkOut_Available == false)
+		{
+			ggroup_extclkoutfreq.visible = false
+		}
+		else{
+			glabel_extclkoutsrc.enabled = MF({gcheck_extclkout.value == true}, Boolean)
+			gcombo_extclkoutsrc.enabled = MF({gcheck_extclkout.value == true}, Boolean)
+			glabel_extclkplldiv.enabled = MF({(gcheck_extclkout.value == true) && ((gcombo_extclkoutsrc.value == "USB PLL Clock") || (gcombo_extclkoutsrc.value == "Main PLL Clock"))},Boolean)
+			gint_extclkplldiv.enabled = MF({(gcheck_extclkout.value == true) && ((gcombo_extclkoutsrc.value == "USB PLL Clock") || (gcombo_extclkoutsrc.value == "Main PLL Clock"))},Boolean)
+			glabel_extclkfreqact.enabled = MF({gcheck_extclkout.value == true}, Boolean)
+		}
+		
+		ggroup_usbfreq.visible = MF({(IsUSB_Available == true)}, Boolean)
+		ggroup_ebufreq.visible = MF({(IsEBU_Available == true)}, Boolean)
+		
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+//                                            GUI parameters dependencies
+//-------------------------------------------------------------------------------------------------------------------------------------------*/
+		// Page 1
+		if((Series == "XMC42") || (Series == "XMC41"))
+		{
+		  gfloat_actsysfreq.maxValue = 80.0
+                  gfloat_mainplldesfreq.value = 80.0
+		}
+		else
+		{
+                  gfloat_actsysfreq.maxValue = 120.0
+                  gfloat_mainplldesfreq.value = 120.0
+		}
+		
+		gfloat_mainplldesfreq.minValue = MF({
+			if(gcombo_mainpllset.value == "Normal Mode")
+			{
+				float a = 3.0 /* fPLL = fVCO/K2, where fVCO range 260MHz to 520MHz, K2 Div is 7bit value  */
+				(a)
+			}
+			else
+			{
+				float a = (InputFreq.value / 128) /* fOSC/K1 */
+				(a)				
+			}
+		}, Float)
+		
+		gfloat_mainplldesfreq.maxValue = MF({
+			if(gcombo_mainpllset.value == "Normal Mode")
+			{
+				float a = 120.0 /* fPLL = fVCO/K2, where fVCO range 260MHz to 520MHz, K2 Div is 7bit value  */
+				(a)
+			}
+			else
+			{
+				float a = (InputFreq.value) /* fOSC/K1 */
+				(a)				
+			}
+	    }, Float)
+		
+		gfloat_mainpllactfreq.minValue = MF({gfloat_mainplldesfreq.minValue}, Float)
+		gfloat_mainpllactfreq.maxValue = MF({gfloat_mainplldesfreq.maxValue}, Float)
+		
+		gfloat_actsysfreq.value = MF({
+			if(gcombo_sysclksrc.value == "Internal Fast Oscillator")
+			{
+				float a = (BackupClk / gint_sysclkdiv.value)
+				(a)
+			}
+			else if(gcombo_sysclksrc.value == "Main PLL Clock")
+			{
+				float b = (gfloat_mainpllactfreq.value / gint_sysclkdiv.value)
+				(b)
+			}
+			else
+			{
+				float c = 120.0
+				(c)
+			}
+		}, Float)
+		
+		InputFreq.value = MF({
+			if(gcombo_pllclksrc.value == "Internal Fast Oscillator"){
+				(BackupClk)
+			}
+			else{
+				(gfloat_extclkoscfreq.value)
+			}
+		}, Float)
+		
+		// Calculation to find the Main PLL PDIV
+		gint_mainpllpdiv.value = MF({
+			if(gcombo_mainpllset.value == "Normal Mode"){
+				float a
+				a = (InputFreq.value * gint_mainpllndiv.value) / (gfloat_mainplldesfreq.value * gint_mainpllk2div.value)
+				return Math.round(a)
+			}
+			else{
+				1
+			}
+		},Integer)
+		
+		// Calculation to find the Main K2 PDIV
+		gint_mainpllk2div.value = MF ({
+			if(gcombo_mainpllset.value == "Normal Mode"){
+				float p_div = 2.0
+				float k2_div = 2.0
+				float Fvco = 480.0
+				float n_div =  (gfloat_mainplldesfreq.value * p_div * k2_div) / InputFreq.value
+				if(gint_mainpllndiv.value > n_div)
+				{
+					k2_div = k2_div * ((gint_mainpllndiv.value) / n_div)
+					if(k2_div > 128)
+					{
+						k2_div = k2_div - 1
+					}
+				}
+				else
+				{
+					k2_div
+				}
+
+				return Math.round(k2_div) 
+			}
+			else{
+				4
+			}
+		},Integer)
+
+		gint_mainpllndiv.value = MF ({
+			if(gcombo_mainpllset.value == "Normal Mode"){
+				float p_div = 2.0
+				float k2_div = 2.0
+				float Fvco = 480.0
+				float n_div_init =  (gfloat_mainplldesfreq.value * p_div * k2_div) / InputFreq.value
+				float n_div = n_div_init
+				float err = 0.0
+				float actpllfreq = 0.0
+				Fvco = (Math.round(n_div) * InputFreq.value) / p_div
+				
+				while(Fvco < Fvco_min)
+				{
+					n_div = 2 * n_div
+					Fvco = (Math.round(n_div) * InputFreq.value) / p_div
+				}
+				while(Fvco > Fvco_max)
+				{
+					n_div = n_div - 1
+					Fvco = (Math.round(n_div) * InputFreq.value) / p_div
+				}
+				k2_div = k2_div * (Math.round(n_div) / n_div_init)
+				k2_div = Math.round(k2_div)
+				actpllfreq = ((Math.round(n_div) * InputFreq.value)/ (p_div * k2_div))
+				err = gfloat_mainplldesfreq.value - actpllfreq
+				if(Math.abs(err) > 0.1)
+				{
+					p_div = p_div + 1
+					n_div = (gfloat_mainplldesfreq.value * p_div * k2_div) / InputFreq.value
+					actpllfreq = k2_div * ((Math.round(n_div) * InputFreq.value)/ (gfloat_mainplldesfreq.value * p_div * k2_div))
+				    err = gfloat_mainplldesfreq.value - actpllfreq 
+				}
+
+				return Math.round(n_div)
+			}
+			else{
+				40
+			}
+		},Integer)
+		gint_mainpllk1div.value = MF({
+			if(gcombo_mainpllset.value == "Prescaler Mode")
+			{
+				int a = (InputFreq.value / gfloat_mainplldesfreq.value)
+				if(a < 1)
+				{
+					a = 1
+				}
+				else if(a > 128)
+				{
+					a = 128
+				}
+				else
+				{
+					a = a
+				}
+				(a)
+			}
+			else /* Normal Mode */
+			{
+				int a = 1
+				(a)
+			}
+		}, Integer)
+		
+		Freq_VCO.value = MF({
+			float a = ((gint_mainpllndiv.value * InputFreq.value) / (gint_mainpllpdiv.value))
+			(a)
+		}, Float)
+
+		
+		gfloat_mainpllactfreq.value = MF ({
+			if(gcombo_pllclksrc.value == "External Crystal High Precision Oscillator"){
+				if(gcombo_mainpllset.value == "Normal Mode"){
+					float a = ((gint_mainpllndiv.value * InputFreq.value) / (gint_mainpllpdiv.value * gint_mainpllk2div.value))
+					(a)
+				}
+				else{
+					(InputFreq.value / gint_mainpllk1div.value)
+				}
+			}
+			else{
+				if(gcombo_mainpllset.value == "Normal Mode"){
+					float a = ((gint_mainpllndiv.value * InputFreq.value) / (gint_mainpllpdiv.value * gint_mainpllk2div.value))
+					(a)
+				}
+				else{
+					(InputFreq.value / gint_mainpllk1div.value)
+				}
+			}
+		},Float)
+		
+		//Page 2
+		// CPU Clock derived from System Clock
+		gfloat_cpuclkfreq.value = MF({
+				(gfloat_actsysfreq.value/gint_cpuclkdiv.value)
+		},Float)
+		// Peripheral Clock derived from CPU Clock
+		gfloat_peribusfreq.value = MF({
+				(gfloat_cpuclkfreq.value/gint_peribusdiv.value)
+		},Float)
+		// CCU Clock derived from System Clock
+		gfloat_ccufreq.value = MF({
+				(gfloat_actsysfreq.value/gint_ccufreqdiv.value)
+		},Float)
+		
+		if(IsUSB_Available == true)
+		{
+			// Calculation to find the USB PLL N DIV
+			gint_usbpll_ndiv.value = MF({
+				int a = ((fUSBPLLTarget * USB_PDiv * 2) / gfloat_extclkoscfreq.value)
+				(a)
+			}, Integer)
+			// Calculation to find the actual frequency depending on USB PLL divider parameters
+			gfloat_usbactfreq.value = MF({
+				if(gcombo_usbclksrc.value == "USB PLL Clock"){
+					((gint_usbpll_ndiv.value * gfloat_extclkoscfreq.value) / (USB_PDiv * 2 * gint_usbdiv.value))
+				}
+				else{
+					(gfloat_actsysfreq.value / gint_usbdiv.value)
+				}
+			}, Float)
+		}
+		
+		if(IsEBU_Available == true)
+		{
+          gfloat_ebufreq.value = MF({gfloat_mainpllactfreq.value / gint_ebufreqdiv.value}, Float)
+		}
+		//Page 3
+		gfloat_wdtactfreq.value = MF({
+				if(gcombo_wdtclksrc.value == "Internal Fast Oscillator"){
+				  float a = (BackupClk / ginteger_wdtclkdiv.value)
+				  (a)
+				}
+				else if(gcombo_wdtclksrc.value == "Standby Clock"){
+                    float a = (StandbyClk / ginteger_wdtclkdiv.value)
+                    (a)
+				}
+				else if(gcombo_wdtclksrc.value == "Main PLL Clock"){
+					float a = (gfloat_mainpllactfreq.value / ginteger_wdtclkdiv.value)
+					(a)
+				}
+				else{
+					float a = 32.0
+					(a)
+				}			
+			}, Float)
+		
+		//Page 4
+		if(IsExtClkOut_Available == true)
+		{
+			gfloat_extclkfreqact.value = MF({
+				if(gcombo_extclkoutsrc.value == "System Clock"){
+					(gfloat_actsysfreq.value)
+				}
+				else if(gcombo_extclkoutsrc.value == "USB PLL Clock"){
+					float a = (((gint_usbpll_ndiv.value * gfloat_extclkoscfreq.value) / (gint_usbpll_pdiv.value * 2)) / gint_extclkplldiv.value)
+					(a)
+				}
+				else if(gcombo_extclkoutsrc.value == "Main PLL Clock"){
+					float b = (gfloat_mainpllactfreq.value/gint_extclkplldiv.value)
+					(b)
+				}
+				else if(gcombo_extclkoutsrc.value == "Standby Clock"){
+					float b = (StandbyClk)
+					(b)
+				}
+				else{
+					float c = 50.0
+					(c)
+				}			
+			}, Float)
+		}
+
+  gfloat_dia_cpuclkfreq.value = MF({gfloat_cpuclkfreq.value}, Float);
+  gfloat_dia_dmaclkfreq.value = MF({gfloat_cpuclkfreq.value}, Float);
+  gfloat_dia_periphclkfreq.value = MF({gfloat_peribusfreq.value}, Float);
+  gfloat_dia_ccuclkfreq.value = MF({gfloat_ccufreq.value}, Float);
+  gfloat_dia_usbclkfreq.value = MF({gfloat_usbactfreq.value}, Float);
+  gfloat_dia_sdmmcclkfreq.value = MF({gfloat_usbactfreq.value}, Float);
+  gfloat_dia_ethclkfreq.value = MF({gfloat_actsysfreq.value}, Float);
+  gfloat_dia_ebuclkfreq.value = MF({gfloat_ebufreq.value}, Float);
+  gfloat_dia_wdtclkfreq.value = MF({gfloat_wdtactfreq.value}, Float);
+  gfloat_dia_extclkoutfreq.value = MF({gfloat_extclkfreqact.value}, Float);
+  gfloat_dia_usbpllclkfreq.value = MF({gfloat_usbactfreq.value}, Float);
+  gfloat_dia_pllclkfreq.value = MF({gfloat_mainpllactfreq.value}, Float);
+  gfloat_dia_oficlkfreq.value = MF({
+	  float a = 24.0
+	  (a)
+  }, Float);
+  gfloat_dia_ohpclkfreq.value = MF({gfloat_extclkoscfreq.value}, Float);
+  gfloat_dia_oscclkfreq.value = MF({
+	  if(gcombo_pllclksrc.value == "External Crystal High Precision Oscillator")
+	  {
+		  gfloat_dia_ohpclkfreq.value
+	  }
+	  else
+	  {
+		  gfloat_dia_oficlkfreq.value
+	  }
+  }, Float);
+
+  ggroup_extclk.enabled = MF({
+	  if((gcombo_pllclksrc.value == "External Crystal High Precision Oscillator") || (gcombo_usbclksrc.value == "USB PLL Clock"))
+	  {
+		  true
+	  }
+	  else
+	  {
+		  false
+	  }
+  }, Boolean)
+  
+  gfloat_extclkoscfreq.minValue = MF({
+	  if(gcombo_extclkmode.value == "External Crystal Mode")
+	  {
+		  float a = 8.0
+		  (a)
+	  }
+	  else
+	  {
+		  float a = 4.0
+		  (a)
+	  }
+  }, Float)
+  gfloat_extclkoscfreq.maxValue = MF({
+	  if(gcombo_extclkmode.value == "External Crystal Mode")
+	  {
+		  float a = 25.0
+		  (a)
+	  }
+	  else
+	  {
+		  float a = 40.0
+		  (a)
+	  }
+  }, Float)
+  
+  gmessage_extclkoutfreq.visible = MF({(gcheck_extclkout.value == true) && (gfloat_extclkfreqact.value > 80.0)}, Boolean)
+//  gmessage_extclkoutfreq.isError = MF({
+//	  float a = 80.0
+//	  if(gfloat_extclkfreqact.value > a)
+//	  {
+//		  (true)
+//	  }
+//	  else
+//	  {
+//		  (false)
+//	  }
+//  }, Boolean)
+  gmessage_extclkoutfreq.text = MF({
+	  float a = 80.0
+	  String msg
+	  if(gfloat_extclkfreqact.value > a)
+	  {
+		  msg = "The output frequency at the pin is not supported (max. 80MHz)."
+	  }
+	  else
+	  {
+		  msg = ""
+	  }
+	  (msg)
+  }, String)
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+//                                                            Consumed Resource Groups/APPs Definitions
+//-------------------------------------------------------------------------------------------------------------------------------------------*/
+		rg_pll = MVirtualResourceGroup("PLL", ["peripheral", "scu", "0", "clkctrl", "0","pll"])
+		rg_sys = MVirtualResourceGroup("SYSTEM", ["peripheral", "scu", "0", "clkctrl", "0","sys"])
+		rg_cpu = MVirtualResourceGroup("CPU", ["peripheral", "scu", "0", "clkctrl", "0","cpu"])
+		rg_perbridge = MVirtualResourceGroup("PERIBRIDGE", ["peripheral", "scu", "0", "clkctrl", "0","perbridge"])
+		if(IsEBU_Available == true)
+		{
+          rg_ebu = MVirtualResourceGroup("EBU", ["peripheral", "scu", "0", "clkctrl", "0","ebu"])
+		}
+		if(IsCCU_Available == true)
+		{
+          rg_ccu = MVirtualResourceGroup("CCU", ["peripheral", "scu", "0", "clkctrl", "0","ccu"])
+		}
+		rg_wdt = MVirtualResourceGroup("WDT", ["peripheral", "scu", "0", "clkctrl", "0","wdt"])
+		if(IsUSB_Available == true)
+		{
+          rg_usb = MVirtualResourceGroup("USB", ["peripheral", "scu", "0", "clkctrl", "0","usb"])
+		}
+		if(IsSDMMC_Available == true)
+		{
+          rg_mmc = MVirtualResourceGroup("SDMMC", ["peripheral", "scu", "0", "clkctrl", "0","sdmmc"])
+		}
+		rg_extclk = MVirtualResourceGroup("EXTCLK", ["peripheral", "scu", "0", "clkctrl", "0","extclk"], MF({(IsExtClkOut_Available==true) && (gcheck_extclkout.value == true)}, Boolean))
+		rg_hibernate = MVirtualResourceGroup("HIBERNATE", ["peripheral", "scu", "0", "pwrctrl", "0","hibernate"])
+		rg_rtcclksel = MVirtualResourceGroup("RTC", ["peripheral", "scu", "0","rtcclksel"])
+		rg_extclkpin = MVirtualResourceGroup("External Clock Output Pin", ["port", "p", "*", "pad", "*"], MF({(IsExtClkOut_Available==true) && (gcheck_extclkout.value == true)}, Boolean))
+		
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+//                                                            Virtual Signals Definitions
+//-------------------------------------------------------------------------------------------------------------------------------------------*/
+		vs_fpb =  MVirtualSignal(rg_perbridge, "clk_perbridge_output", "fpb", true, true) /* required{}, exposeToUser{} */
+		vs_fccu =  MVirtualSignal(rg_ccu, "clk_ccu_output", "fccu", MF({(IsCCU_Available == true)}, Boolean), true) /* required{}, exposeToUser{} */
+		vs_extclk =  MVirtualSignal(rg_extclk, "clk_external_output", "extclk", MF({(IsExtClkOut_Available==true) && (gcheck_extclkout.value == true)}, Boolean), false) /* required{}, exposeToUser{} */
+    @AddPin(pinDisplayName ='external_clock_pin')
+		vs_extclkpin_AddPin =  MVirtualSignal(rg_extclkpin, "external_clock_pin", "pad", MF({(IsExtClkOut_Available==true) && (gcheck_extclkout.value == true)}, Boolean), false) /* required{}, exposeToUser{} */
+		
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+//                                                            Virtual Signals Connections
+//-------------------------------------------------------------------------------------------------------------------------------------------*/
+		addConnectionConstraint(vs_extclk, vs_extclkpin)
+  }
+	
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+//                                                            Source Files Generation
+//-------------------------------------------------------------------------------------------------------------------------------------------*/
+	def generateFiles(){
+		copy("clock_xmc4.c", "clock_xmc4.c")
+		copy("clock_xmc4.h", "clock_xmc4.h")
+		generate("clock_xmc4_confh.tmpl", "clock_xmc4_conf.h")
+		generate("clock_xmc4_confc.tmpl", "clock_xmc4_conf.c")
+		generate("clock_xmc4_externh.tmpl", "clock_xmc4_extern.h")
+	}
+	
+	// testing purpose
+//	public static  main(args){
+//		CLOCK_XMC4 clock_xmc4 = new CLOCK_XMC4()
+//		println clock_xmc4.toString()
+//		clock_xmc4.gfloat_mainplldesfreq.value = 250.0
+//		clock_xmc4.gfloat_extclkoscfreq.value = 8
+//		println "Fosc = " + clock_xmc4.gfloat_extclkoscfreq.value
+//		println "N DIV = " + clock_xmc4.gint_mainpllndiv.value
+//		println "P DIV = " + clock_xmc4.gint_mainpllpdiv.value
+//		println "K2 DIV = " + clock_xmc4.gint_mainpllk2div.value
+//		println "VCO Freq = " + clock_xmc4.Freq_VCO.value
+//		println "Act PLL Freq = " + clock_xmc4.gfloat_mainpllactfreq.value
+//		
+//	}
+}

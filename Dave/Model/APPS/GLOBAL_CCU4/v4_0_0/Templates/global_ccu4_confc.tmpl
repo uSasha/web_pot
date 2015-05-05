@@ -1,0 +1,103 @@
+package Model.APPS.GLOBAL_CCU4.v4_0_0.Templates;
+
+import Model.APPS.GLOBAL_CCU4.v4_0_0.GLOBAL_CCU4
+
+out.print("""
+/***********************************************************************************************************************
+ Copyright (c) 2015, Infineon Technologies AG                                                                         **
+ All rights reserved.                                                                                                 **
+                                                                                                                      **
+ Redistribution and use in source and binary forms, with or without modification,are permitted provided that the      **
+ following conditions are met:                                                                                        **
+                                                                                                                      **
+ *Redistributions of source code must retain the above copyright notice, this list of conditions and the following    **
+  disclaimer.                                                                                                         **
+ *Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following **
+  disclaimer in the documentation and/or other materials provided with the distribution.                              **
+ *Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote       **
+  products derived from this software without specific prior written permission.                                      **
+                                                                                                                      **
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"  AND ANY EXPRESS OR IMPLIED WARRANTIES,  **
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE    **
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE  FOR ANY DIRECT, INDIRECT, INCIDENTAL,  **
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR      **
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,    **
+ WHETHER IN CONTRACT, STRICT LIABILITY,OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE  **
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                                                 **
+                                                                                                                      **
+ To improve the quality of the software, users are encouraged to share modifications, enhancements or bug fixes with  **
+ Infineon Technologies AG dave@infineon.com).                                                                         **
+                                                                                                                      **
+************************************************************************************************************************
+**                                                                                                                    **
+** PLATFORM : Infineon XMC4000/XMC1000 Series                                                                         **
+**                                                                                                                    **
+** COMPILER : Compiler Independent                                                                                    **
+**                                                                                                                    **
+** AUTHOR   : APP Developer                                                                                           **
+**                                                                                                                    **
+** NOTE     : Any Changes made to this file will be overwritten during Code Generation                                **
+**                                                                                                                    **
+***********************************************************************************************************************/
+/**
+ * @file global_ccu4_conf.c
+ * @date 16 Feb, 2015
+ * @version 4.0.0
+ * 
+ * @brief Configuration file generated based on UI settings of GLOBAL_CCU4 APP
+ * <b>Detailed description of the file:</b><br>
+ * 
+ * History<br>
+ *
+ * v4.0.0   16/02/2015   Initial version<br>
+ */
+
+/***********************************************************************************************************************
+**                                       Header file inclusion                                                        **
+***********************************************************************************************************************/
+#include "global_ccu4.h"
+
+/***********************************************************************************************************************
+**                                         External variables                                                         **
+***********************************************************************************************************************/
+
+/***********************************************************************************************************************
+**                                           Local constants                                                          **
+***********************************************************************************************************************/
+
+""");
+
+def MappedUri = null
+def appInst  = null
+def kernelno = null
+def module_clock = null
+
+Map mcms_action = [
+	'Period and Compare' : 'XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR',
+	'Period, Compare and Prescaler' : 'XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR_PCMP',
+	'Period, Compare, Prescaler and Dither' : 'XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR_PCMP_DIT'
+	]
+
+for (Object appIns : appInstancesList )
+{
+  appInst = appIns.getInstanceLabel()
+  MappedUri = appIns.hwres_peripheral_ccu4_global_0.getSolverUri()
+  kernelno = MappedUri[4]  
+  module_clock = appIns.hwres_peripheral_ccu4_global_0.getRegValue("gctrl", "gctrl_pcis")
+
+        
+out.print("""   
+/**< Configuration for Handle${appInst} */
+GLOBAL_CCU4_t ${appInst} =
+{
+  .module_frequency = ${((appIns.gfloat_clkFreq.value.round(4))*(10.power(6))).toInteger()}U,  /**< CCU4 input clock frequency */
+  .module_ptr = (XMC_CCU4_MODULE_t*) CCU4${kernelno},      /**< CCU4 Module Pointer */
+  .mcs_action = (XMC_CCU4_SLICE_MCMS_ACTION_t)${mcms_action[appIns.gcombo_mc_shadow_tx_function.value]},
+  .is_initialized = false
+};
+
+""")
+   
+}
+ 
+

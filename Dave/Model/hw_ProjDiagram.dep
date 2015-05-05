@@ -80,7 +80,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="50"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="65" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_ccu_output"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="65" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_ccu_output"/>
       <link>
         <businessObjects href="APPS/CLOCK_XMC4/v4_0_1/CLOCK_XMC4_0.app#//@virtualSignals.1"/>
       </link>
@@ -91,7 +91,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="70"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="85" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_perbridge_output"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="85" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_perbridge_output"/>
       <link>
         <businessObjects href="APPS/CLOCK_XMC4/v4_0_1/CLOCK_XMC4_0.app#//@virtualSignals.0"/>
       </link>
@@ -232,7 +232,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="55"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="70" style="//@styles.8/@styles.3" value="global_signal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="70" style="//@styles.9/@styles.3" value="global_signal"/>
       <link>
         <businessObjects href="APPS/PWM/v4_0_0/PWM_0.app#//@virtualSignals.5"/>
       </link>
@@ -287,7 +287,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="120"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="130" y="135" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_compare_match"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="130" y="135" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_compare_match"/>
       <link>
         <businessObjects href="APPS/PWM/v4_0_0/PWM_0.app#//@virtualSignals.6"/>
       </link>
@@ -298,7 +298,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="140"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="130" y="155" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_period_match"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="130" y="155" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_period_match"/>
       <link>
         <businessObjects href="APPS/PWM/v4_0_0/PWM_0.app#//@virtualSignals.7"/>
       </link>
@@ -309,7 +309,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="160"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="175" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="timer_status"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="175" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="timer_status"/>
       <link>
         <businessObjects href="APPS/PWM/v4_0_0/PWM_0.app#//@virtualSignals.8"/>
       </link>
@@ -320,7 +320,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="180"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="195" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_output"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="195" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_output"/>
       <link>
         <businessObjects href="APPS/PWM/v4_0_0/PWM_0.app#//@virtualSignals.9"/>
       </link>
@@ -383,7 +383,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="45" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="45" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global"/>
       <link>
         <businessObjects href="APPS/GLOBAL_CCU4/v4_0_0/GLOBAL_CCU4_0.app#//@virtualSignals.0"/>
       </link>
@@ -394,7 +394,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="76" height="20" x="25" y="60" style="//@styles.8/@styles.3" value="clock_ccu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="76" height="20" x="25" y="60" style="//@styles.9/@styles.3" value="clock_ccu"/>
       <link>
         <businessObjects href="APPS/GLOBAL_CCU4/v4_0_0/GLOBAL_CCU4_0.app#//@virtualSignals.1"/>
       </link>
@@ -405,7 +405,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="60" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global_start"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="60" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global_start"/>
       <link>
         <businessObjects href="APPS/GLOBAL_CCU4/v4_0_0/GLOBAL_CCU4_0.app#//@virtualSignals.2"/>
       </link>
@@ -471,7 +471,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="50"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="135" height="20" x="10" y="65" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_timer"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="135" height="20" x="10" y="65" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_timer"/>
       <link>
         <businessObjects href="APPS/RTC/v4_0_1/RTC_0.app#//@virtualSignals.0"/>
       </link>
@@ -958,7 +958,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="55"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="70" style="//@styles.8/@styles.3" value="gating_input"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="70" style="//@styles.9/@styles.3" value="gating_input"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.184"/>
       </link>
@@ -969,7 +969,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="75"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="90" style="//@styles.8/@styles.3" value="trigger_input"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="90" style="//@styles.9/@styles.3" value="trigger_input"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.183"/>
       </link>
@@ -1552,7 +1552,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="35"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="50" style="//@styles.8/@styles.3" value="background_connection_to_global_signal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="50" style="//@styles.9/@styles.3" value="background_connection_to_global_signal"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.185"/>
       </link>
@@ -1563,7 +1563,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="35"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="50" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_background_source"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="150" y="50" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="event_background_source"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.182"/>
       </link>
@@ -1770,7 +1770,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="35"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="50" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="global_signal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="50" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="global_signal"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.0"/>
       </link>
@@ -1781,7 +1781,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="55"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="70" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group0"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="70" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group0"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.1"/>
       </link>
@@ -1792,7 +1792,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="75"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="90" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group0"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="90" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group0"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.2"/>
       </link>
@@ -1803,7 +1803,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="95"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="110" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group1"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="110" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group1"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.6"/>
       </link>
@@ -1814,7 +1814,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="115"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="130" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group1"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="130" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group1"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.7"/>
       </link>
@@ -1825,7 +1825,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="135"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="150" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="150" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group2"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.11"/>
       </link>
@@ -1836,7 +1836,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="155"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="170" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="170" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group2"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.12"/>
       </link>
@@ -1847,7 +1847,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="175"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="190" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group3"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="190" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_arbitration_round_group3"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.16"/>
       </link>
@@ -1858,7 +1858,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="195"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="210" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group3"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="115" height="20" x="120" y="210" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="end_of_sampling_signal_of_group3"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.17"/>
       </link>
@@ -1869,7 +1869,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="35"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="50" style="//@styles.8/@styles.3" value="group0_input_queue"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="50" style="//@styles.9/@styles.3" value="group0_input_queue"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.3"/>
       </link>
@@ -1880,7 +1880,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="55"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="70" style="//@styles.8/@styles.3" value="group0_input_scan"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="70" style="//@styles.9/@styles.3" value="group0_input_scan"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.4"/>
       </link>
@@ -1891,7 +1891,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="75"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="90" style="//@styles.8/@styles.3" value="sync_request_signal_group0"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="90" style="//@styles.9/@styles.3" value="sync_request_signal_group0"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.5"/>
       </link>
@@ -1902,7 +1902,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="95"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="110" style="//@styles.8/@styles.3" value="group1_input_queue"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="110" style="//@styles.9/@styles.3" value="group1_input_queue"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.8"/>
       </link>
@@ -1913,7 +1913,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="115"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="130" style="//@styles.8/@styles.3" value="group1_input_scan"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="130" style="//@styles.9/@styles.3" value="group1_input_scan"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.9"/>
       </link>
@@ -1924,7 +1924,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="135"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="150" style="//@styles.8/@styles.3" value="sync_request_signal_group1"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="150" style="//@styles.9/@styles.3" value="sync_request_signal_group1"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.10"/>
       </link>
@@ -1935,7 +1935,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="155"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="170" style="//@styles.8/@styles.3" value="group2_input_queue"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="170" style="//@styles.9/@styles.3" value="group2_input_queue"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.13"/>
       </link>
@@ -1946,7 +1946,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="175"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="190" style="//@styles.8/@styles.3" value="group2_input_scan"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="190" style="//@styles.9/@styles.3" value="group2_input_scan"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.14"/>
       </link>
@@ -1957,7 +1957,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="195"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="210" style="//@styles.8/@styles.3" value="sync_request_signal_group2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="210" style="//@styles.9/@styles.3" value="sync_request_signal_group2"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.15"/>
       </link>
@@ -1968,7 +1968,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="215"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="230" style="//@styles.8/@styles.3" value="group3_input_queue"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="230" style="//@styles.9/@styles.3" value="group3_input_queue"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.18"/>
       </link>
@@ -1979,7 +1979,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="235"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="250" style="//@styles.8/@styles.3" value="group3_input_scan"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="250" style="//@styles.9/@styles.3" value="group3_input_scan"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.19"/>
       </link>
@@ -1990,7 +1990,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="255"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="270" style="//@styles.8/@styles.3" value="sync_request_signal_group3"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="86" height="20" x="25" y="270" style="//@styles.9/@styles.3" value="sync_request_signal_group3"/>
       <link>
         <businessObjects href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@virtualSignals.20"/>
       </link>
@@ -2037,7 +2037,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="10" y="45" style="//@styles.8/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="pin"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="10" y="45" style="//@styles.9/@styles.3" horizontalAlignment="ALIGNMENT_RIGHT" value="pin"/>
       <link>
         <businessObjects href="APPS/DIGITAL_IO/v4_0_1/DIGITAL_IO_0.app#//@virtualSignals.1"/>
       </link>
@@ -2045,10 +2045,10 @@
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="171" height="71" x="454" y="40">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="131" height="71" x="20" style="//@styles.7" cornerHeight="5" cornerWidth="5"/>
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="131" height="71" x="20" style="//@styles.8" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.13"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.14"/>
     </link>
     <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.3" referencedGraphicsAlgorithm="//@children.7/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
       <properties key="SignalName" value="sr_irq0"/>
@@ -2059,7 +2059,7 @@
       </link>
     </anchors>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.8/@styles.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.9/@styles.0">
         <points x="20" y="40"/>
         <points x="151" y="40"/>
       </graphicsAlgorithm>
@@ -2067,13 +2067,13 @@
     <children xsi:type="pi:ContainerShape" visible="true">
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20"/>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.8/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_SCU_XMC4"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.9/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_SCU_XMC4"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true">
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20" y="20"/>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.8/@styles.2" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_SCU_XMC4_0">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.9/@styles.2" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_SCU_XMC4_0">
           <properties key="AppInstanceLabel" value="GLOBAL_SCU_XMC4_0"/>
         </graphicsAlgorithm>
       </children>
@@ -2084,7 +2084,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
     </children>
     <children visible="true">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="45" style="//@styles.8/@styles.3" value="sr_irq0"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="45" style="//@styles.9/@styles.3" value="sr_irq0"/>
       <link>
         <businessObjects href="APPS/GLOBAL_SCU_XMC4/v4_0_0/GLOBAL_SCU_XMC4_0.app#//@virtualSignals.0"/>
       </link>
@@ -4241,6 +4241,201 @@
     <styles foreground="//@colors.3" lineStyle="UNSPECIFIED" filled="false" id="APP_INST_NAME" font="//@fonts.1" angle="0" rotation="0.0"/>
     <styles foreground="//@colors.3" lineStyle="UNSPECIFIED" filled="false" id="SIGNAL_NAME" font="//@fonts.0" angle="0" rotation="0.0"/>
     <renderingStyle>
+      <adaptedGradientColoredAreas definedStyleId="copper-white-gloss" gradientType="0">
+        <adaptedGradientColoredAreas styleAdaption="0">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="249" green="245" blue="242"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="249" green="245" blue="242"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="237" green="224" blue="216"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="237" green="224" blue="216"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="228" green="208" blue="196"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="245" green="240" blue="232"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="230" green="221" blue="208"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="230" green="221" blue="208"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+      </adaptedGradientColoredAreas>
+    </renderingStyle>
+  </styles>
+  <styles background="//@colors.1" lineWidth="2" lineVisible="true" transparency="0.0" id="GLOBAL_SCU_XMC4/0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="true" id="E-CLASS" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <renderingStyle>
+        <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
+          <adaptedGradientColoredAreas styleAdaption="0">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="248" green="251" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="248" green="251" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="237" green="245" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="237" green="245" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="222" green="237" blue="250"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="222" green="237" blue="250"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="212" green="231" blue="248"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="250" green="251" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="226" green="229" blue="233"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="226" green="229" blue="233"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="1">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="238" green="246" blue="253"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="238" green="246" blue="253"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="208" green="230" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="208" green="230" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="172" green="210" blue="244"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="172" green="210" blue="244"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="129" green="185" blue="234"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="170" green="208" blue="242"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="154" green="191" blue="224"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="154" green="191" blue="224"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="2">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="245" green="249" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="245" green="249" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="226" green="239" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="226" green="239" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="203" green="227" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="203" green="227" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="187" green="218" blue="247"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="197" green="224" blue="247"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="178" green="205" blue="229"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="178" green="205" blue="229"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="3">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="153" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="51" green="153" blue="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="4">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="255" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="255" green="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+        </adaptedGradientColoredAreas>
+      </renderingStyle>
+    </styles>
+    <styles foreground="//@colors.3" lineStyle="UNSPECIFIED" filled="false" id="APP_NAME" font="//@fonts.0" angle="0" rotation="0.0"/>
+    <styles foreground="//@colors.3" lineStyle="UNSPECIFIED" filled="false" id="APP_INST_NAME" font="//@fonts.1" angle="0" rotation="0.0"/>
+    <styles foreground="//@colors.3" lineStyle="UNSPECIFIED" filled="false" id="SIGNAL_NAME" font="//@fonts.0" angle="0" rotation="0.0"/>
+    <renderingStyle>
       <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
         <adaptedGradientColoredAreas styleAdaption="0">
           <gradientColor>
@@ -4592,12 +4787,12 @@
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.1" end="//@children.7/@anchors.0">
     <properties key="uri" value="http://resources/4.0.1/app/RTC/0/http://resources/4.0.1/app/RTC/0/vs_gcu_intrtctick_int/http://resources/4.0.1/app/RTC/0/vs_global_scu_xmc4_node"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.6" foreground="//@colors.6" lineStyle="UNSPECIFIED" style="//@styles.8/@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.6" foreground="//@colors.6" lineStyle="UNSPECIFIED" style="//@styles.9/@styles.0"/>
     <link>
       <businessObjects href="APPS/RTC/v4_0_1/RTC_0.app#//@connections.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.6" foreground="//@colors.6" lineStyle="UNSPECIFIED" style="//@styles.8/@styles.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.6" foreground="//@colors.6" lineStyle="UNSPECIFIED" style="//@styles.9/@styles.0">
         <points x="-10" y="5"/>
         <points/>
         <points x="-10" y="-5"/>

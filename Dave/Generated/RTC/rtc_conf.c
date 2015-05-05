@@ -89,11 +89,11 @@ const RTC_CONFIG_t RTC_0_config  =
   /* Timer Periodic minutes interrupt disabled */
   .periodic_min_intr = RTC_PERIODICMININT_DISABLE,
 
-  /* Timer Periodic hours interrupt disabled */
-  .periodic_hour_intr = RTC_PERIODICHOURINT_DISABLE,
+  /* Timer Periodic hours interrupt enabled */
+  .periodic_hour_intr = RTC_PERIODICHOURINT_ENABLE,
 
-  /* Timer Periodic days interrupt enabled */
-  .periodic_day_intr = RTC_PERIODICDAYINT_ENABLE,
+  /* Timer Periodic days interrupt disabled */
+  .periodic_day_intr = RTC_PERIODICDAYINT_DISABLE,
 
   /* Timer Periodic months interrupt disabled */
   .periodic_month_intr = RTC_PERIODICMONTHINT_DISABLE,
@@ -108,7 +108,7 @@ const RTC_CONFIG_t RTC_0_config  =
   .eventtrig_alarm = RTC_EVENTTRIGSCU_ALARM_ENABLE,
 
    /* Event: Periodic Interrupt */ 
-  .pi_listener = Time_Handler,
+  .pi_listener = IRQ_HourPassed,
 
   /* Event: Alarm Interrupt */  
   .ai_listener = NULL

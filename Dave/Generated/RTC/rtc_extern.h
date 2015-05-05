@@ -71,7 +71,7 @@ extern RTC_t RTC_0;
  *
  *
  */
-extern void Time_Handler(void);
+extern void IRQ_HourPassed(void);
 
 #ifdef __cplusplus
 }

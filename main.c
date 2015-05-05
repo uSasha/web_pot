@@ -11,30 +11,33 @@
 #include <XMC4500.h>
 #include <DAVE.h>			//Declarations from DAVE Code Generation (includes SFR declaration)
 #include "cmsis_os.h"                   /* ARM::CMSIS:RTOS:Keil RTX          */
+#include "rtc.h"                        // Infineon::DAVE:RTC
 
 
 extern void Init_Thread_Pump(void);
 extern void Init_Thread_Sensors(void);
+extern int Init_Thread_WebServer (void);
 
-osThreadId t_ledOff;                    /* assigned task id of task: ledOff  */
+bool watering_days[7] = {false, false, false, false, false, false, false};
+uint32_t watering_time = 12;						// hour 24 hour/day format
+
+extern osThreadId 	t_webServer;                    /* assigned task id of task: ledOff  */
 extern osThreadId 	t_pump;
+extern osThreadId t_webServer;
 
 
-/*----------------------------------------------------------------------------
-  Task 2 'ledOff': switches the LED off
- *---------------------------------------------------------------------------*/
- void ledOff (void const *argument) {
-  for (;;) {
-		DIGITAL_IO_SetOutputHigh(&DIGITAL_IO_0);
-    osDelay(4);                         /* delay 4000ms                     */
-    DIGITAL_IO_SetOutputLow(&DIGITAL_IO_0);
-		osSignalWait (0x0001, osWaitForever); /* wait for an event flag 0x0001   */
-  }
+// RTC interrupt handler, fires every day
+void IRQ_HourPassed(void)
+{
+	// check is it time to water flowers
+	XMC_RTC_TIME_t current_time;
+	RTC_GetTime(&current_time);
+
+	if((current_time.hours == watering_time) && (watering_days[current_time.daysofweek]))
+	{
+		osSignalSet(t_pump, 0x0001);	// water wlowers
+	}
 }
-
-
-osThreadDef(ledOff, osPriorityNormal, 1, 0);
-
 
 /**
  * @brief main() - Application entry point
@@ -53,6 +56,7 @@ int main(void)
 
 	Init_Thread_Pump();
 	Init_Thread_Sensors();
+	Init_Thread_WebServer();
 	osKernelStart();
 	
   if(status == DAVE_STATUS_FAILURE)
@@ -65,7 +69,5 @@ int main(void)
   }
 
   /* Placeholder for user application code. The while loop below can be replaced with user application code. */
-  t_ledOff 		= osThreadCreate(osThread(ledOff), 	NULL);  /* start task 'ledOff' */
-
 	osDelay(osWaitForever);
 }

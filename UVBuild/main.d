@@ -29,6 +29,12 @@
 .\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\PWM/PWM.h
 .\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\PWM/pwm_conf.h
 .\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\PWM/PWM_Extern.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4/CPU_CTRL_XMC4.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4/cpu_ctrl_xmc4_extern.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/GLOBAL_SCU_XMC4.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/global_scu_xmc4_conf.h
+.\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/global_scu_xmc4_extern.h
 .\uvbuild\main.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\RTC/RTC.h
 .\uvbuild\main.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h
 .\uvbuild\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

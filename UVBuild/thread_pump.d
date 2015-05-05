@@ -19,7 +19,13 @@
 .\uvbuild\thread_pump.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
 .\uvbuild\thread_pump.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h
 .\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\RTC\rtc_conf.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/global_scu_xmc4.h
 .\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\DAVE_Common.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/global_scu_xmc4_conf.h
+.\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4/global_scu_xmc4_extern.h
 .\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\RTC\rtc_extern.h
 .\uvbuild\thread_pump.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\PWM\pwm.h
 .\uvbuild\thread_pump.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h

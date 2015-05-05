@@ -3644,14 +3644,15 @@ ed\ADC_MEASUREMENT -IC:\coding\ARM_Contest\web_pot\Dave\Generated\CLOCK_XMC4 -I
 ARM Macro Assembler    Page 57 
 
 
-C:\coding\ARM_Contest\web_pot\Dave\Generated\DIGITAL_IO -IC:\coding\ARM_Contest
-\web_pot\Dave\Generated\GLOBAL_ADC -IC:\coding\ARM_Contest\web_pot\Dave\Generat
-ed\GLOBAL_CCU4 -IC:\coding\ARM_Contest\web_pot\Dave\Generated\PWM -IC:\coding\A
-RM_Contest\web_pot\Dave\Generated\RTC -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DF
-P\2.2.0\Device\Include --predefine="__RTX SETA 1" --predefine="__MICROLIB SETA 
-1" --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predef
-ine="XMC4500_F100x1024 SETA 1" --list=.\startup_xmc4500.lst RTE\Device\XMC4500-
-F100x1024\startup_XMC4500.s
+C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4 -IC:\coding\ARM_Cont
+est\web_pot\Dave\Generated\DIGITAL_IO -IC:\coding\ARM_Contest\web_pot\Dave\Gene
+rated\GLOBAL_ADC -IC:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_CCU4 -IC
+:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4 -IC:\coding\ARM_Con
+test\web_pot\Dave\Generated\PWM -IC:\coding\ARM_Contest\web_pot\Dave\Generated\
+RTC -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include --predefine
+="__RTX SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
+SETA 514" --predefine="_RTE_ SETA 1" --predefine="XMC4500_F100x1024 SETA 1" --l
+ist=.\startup_xmc4500.lst RTE\Device\XMC4500-F100x1024\startup_XMC4500.s
 
 
 

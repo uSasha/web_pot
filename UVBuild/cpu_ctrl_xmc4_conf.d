@@ -1,0 +1,17 @@
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_device.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\XMC4500.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\DAVE_Common.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h
+.\uvbuild\cpu_ctrl_xmc4_conf.o: C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h

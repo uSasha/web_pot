@@ -3,7 +3,7 @@
     <vendor>Infineon</vendor>
     <name>web_pot</name>
     <description>Generated Configuration Files for CE Project web_pot</description>
-    <url>C:\coding\ARM_Contest\web_pot</url>
+    <url>D:\Infineon\ARM_contest\web_pot</url>
     <releases>
         <release version="1.0.0">- Initial setup for web_pot</release>
     </releases>
@@ -11,7 +11,7 @@
         <generator id="DAVE">
             <description>DAVE Infineon XMC1000/XMC4000 Enviornment</description>
             <select Dname="XMC4500-F100x1024" Dvendor="Infineon:7"/>
-            <command>C:\DAVEv4\DAVE-4.0.0\eclipse\DAVE-4.0.0.exe -data C:\Workspaces\DAVE-4.0.0\WS_2015_02_21</command>
+            <command>D:\DAVEv4\DAVE-4.0.0\eclipse\DAVE-4.0.0.exe -data D:\DAVE-4.0.0\WS_2015_02_21</command>
         </generator>
     </generators>
     <taxonomy>

@@ -72,8 +72,9 @@ extern "C" {
 #endif
 
 
-#define ADC_MEASUREMENT_MAXCHANNELS 1U
+#define ADC_MEASUREMENT_MAXCHANNELS 2U
 #define ADC_MEASUREMENT_Channel_A ADC_MEASUREMENT_Channel_A_handle
+#define ADC_MEASUREMENT_Channel_B ADC_MEASUREMENT_Channel_B_handle
 
 #define ADC_MEASUREMENT_MAJOR_VERSION (4) /**< Major version number of ADC_MEASUREMENT APP*/
 #define ADC_MEASUREMENT_MINOR_VERSION (0) /**< Minor version number of ADC_MEASUREMENT APP*/

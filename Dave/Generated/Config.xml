@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project MotherSystem_Version="" Name="web_pot" Path="C:\coding\ARM_Contest\web_pot">
+<Project MotherSystem_Version="" Name="web_pot" Path="D:\Infineon\ARM_contest\web_pot">
     <COMPILER>
         <Name>ARM_GCC_HOME</Name>
         <Version/>

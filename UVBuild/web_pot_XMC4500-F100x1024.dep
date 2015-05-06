@@ -7,7 +7,7 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x554A217B)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54763950)
@@ -19,39 +19,39 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\CPU_CTRL_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\DIGITAL_IO.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502C57E)
 I (Thread_sensors.h)(0x5549E38B)
 I (Thread_pump.h)(0x554A1733)
@@ -60,7 +60,7 @@ F (.\Thread_pump.c)(0x554A1733)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICRO
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502C57E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54763950)
@@ -76,27 +76,27 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 F (.\Thread_webserver.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\thread_webserver.o --depend .\uvbuild\thread_webserver.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x554A217B)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
@@ -115,46 +115,46 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\CPU_CTRL_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\DIGITAL_IO.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502C57E)
-F (.\Thread_sensors.c)(0x554A0D19)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\thread_sensors.o --depend .\uvbuild\thread_sensors.d)
+F (.\Thread_sensors.c)(0x554A2B8A)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\thread_sensors.o --depend .\uvbuild\thread_sensors.d)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502C57E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54763950)
@@ -169,43 +169,43 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x554A217B)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\CLOCK_XMC4.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\CPU_CTRL_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\DIGITAL_IO.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
-I (logging_system.h)(0x554A10F2)
-F (.\logging_system.c)(0x554A1134)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\logging_system.o --depend .\uvbuild\logging_system.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
+I (logging_system.h)(0x554A2C6B)
+F (.\logging_system.c)(0x554A2BF2)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\logging_system.o --depend .\uvbuild\logging_system.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x554A217B)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
@@ -224,39 +224,39 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\CPU_CTRL_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\DIGITAL_IO.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
 F (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4_IFX.lib)(0x550AB7B6)()
 F (RTE\CMSIS\RTX_Conf_CM.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\rtx_conf_cm.o --depend .\uvbuild\rtx_conf_cm.d)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502C57E)
@@ -265,7 +265,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5502C57E)
 F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\adc_measurement.o --depend .\uvbuild\adc_measurement.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -282,14 +282,14 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\adc_measurement_conf.o --depend .\uvbuild\adc_measurement_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\adc_measurement_conf.o --depend .\uvbuild\adc_measurement_conf.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -306,11 +306,11 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
 F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\clock_xmc4.o --depend .\uvbuild\clock_xmc4.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
@@ -330,10 +330,10 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\clock_xmc4_conf.o --depend .\uvbuild\clock_xmc4_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\clock_xmc4_conf.o --depend .\uvbuild\clock_xmc4_conf.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
@@ -352,9 +352,9 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
 F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\cpu_ctrl_xmc4.o --depend .\uvbuild\cpu_ctrl_xmc4.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
@@ -369,10 +369,10 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\cpu_ctrl_xmc4_conf.o --depend .\uvbuild\cpu_ctrl_xmc4_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\cpu_ctrl_xmc4_conf.o --depend .\uvbuild\cpu_ctrl_xmc4_conf.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -386,11 +386,11 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\dave.o --depend .\uvbuild\dave.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.c)(0x554A217B)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\dave.o --depend .\uvbuild\dave.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE.h)(0x554A217B)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
@@ -409,39 +409,39 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\GLOBAL_CCU4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\CPU_CTRL_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\GLOBAL_SCU_XMC4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\RTC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\GLOBAL_ADC.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT\ADC_MEASUREMENT_Extern.h)(0x554A217C)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\DIGITAL_IO.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
 F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\digital_io.o --depend .\uvbuild\digital_io.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
@@ -459,10 +459,10 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\digital_io_conf.o --depend .\uvbuild\digital_io_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\digital_io_conf.o --depend .\uvbuild\digital_io_conf.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
@@ -479,11 +479,11 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_adc.o --depend .\uvbuild\global_adc.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO\digital_io_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_adc.o --depend .\uvbuild\global_adc.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -500,11 +500,11 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_adc_conf.o --depend .\uvbuild\global_adc_conf.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_adc_conf.o --depend .\uvbuild\global_adc_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc.h)(0x54E6C4A8)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -521,11 +521,11 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_vadc_map.h)(0x54E01210)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_ccu4.o --depend .\uvbuild\global_ccu4.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC\global_adc_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_ccu4.o --depend .\uvbuild\global_ccu4.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -541,11 +541,11 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_ccu4_conf.o --depend .\uvbuild\global_ccu4_conf.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_ccu4_conf.o --depend .\uvbuild\global_ccu4_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -561,11 +561,11 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_scu_xmc4.o --depend .\uvbuild\global_scu_xmc4.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_scu_xmc4.o --depend .\uvbuild\global_scu_xmc4.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -580,14 +580,14 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_scu_xmc4_conf.o --depend .\uvbuild\global_scu_xmc4_conf.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\global_scu_xmc4_conf.o --depend .\uvbuild\global_scu_xmc4_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -602,13 +602,13 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\pwm.o --depend .\uvbuild\pwm.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\pwm.o --depend .\uvbuild\pwm.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
@@ -625,16 +625,16 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\pwm_conf.o --depend .\uvbuild\pwm_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.c)(0x554A217C)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\pwm_conf.o --depend .\uvbuild\pwm_conf.d)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm.h)(0x5549DDDA)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_gpio.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
@@ -651,17 +651,17 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55098254)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include\system_XMC4500.h)(0x54DDDAC0)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio.h)(0x54E6D980)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x54E014FC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\pwm_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_ccu4.h)(0x54E6CA8A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(0x54E6E1BC)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\rtc.o --depend .\uvbuild\rtc.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM\PWM_Extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.c)(0x5549DDDB)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\rtc.o --depend .\uvbuild\rtc.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -679,17 +679,17 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
-F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.c)(0x5549DDDA)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\rtc_conf.o --depend .\uvbuild\rtc_conf.d)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
+F (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.c)(0x554A217B)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\rtc_conf.o --depend .\uvbuild\rtc_conf.d)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc.h)(0x5549DDDB)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_scu.h)(0x54E6D58A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54763950)
@@ -707,15 +707,15 @@ I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_scu.h)(
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_rtc.h)(0x54E6C9F2)
 I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x54763950)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc4_rtc.h)(0x54E6D15E)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_conf.h)(0x554A217B)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h)(0x5549DDDB)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\DAVE_Common.h)(0x5549DDDB)
 I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x5549DDDA)
-I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x5549DDDA)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h)(0x554A217C)
+I (D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC\rtc_extern.h)(0x554A217C)
 F (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\src\xmc4_eru.c)(0x54E02388)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Infineon\ARM_contest\web_pot\RTE-I D:\Infineon\ARM_contest\web_pot\RTE\Device\XMC4500-F100x1024-I D:\Infineon\ARM_contest\web_pot\Dave\Generated-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CLOCK_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\CPU_CTRL_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\PWM-I D:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_series\Include-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver-I D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DXMC4500_F100x1024 --C99-o .\uvbuild\xmc4_eru.o --depend .\uvbuild\xmc4_eru.d)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_eru.h)(0x54E6CA8A)
 I (D:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\inc\xmc_common.h)(0x54E6C6C4)

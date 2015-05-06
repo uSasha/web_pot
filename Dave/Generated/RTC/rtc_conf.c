@@ -83,14 +83,14 @@ const RTC_CONFIG_t RTC_0_config  =
   /* Event trigger to SCU interrupt enabled */
   .eventtrig_timer = RTC_EVENTTRIGSCU_TIMER_ENABLE,
 
-  /* Timer Periodic seconds interrupt disabled */
-  .periodic_sec_intr = RTC_PERIODICSECINT_DISABLE,
+  /* Timer Periodic seconds interrupt enabled */
+  .periodic_sec_intr = RTC_PERIODICSECINT_ENABLE,
 
   /* Timer Periodic minutes interrupt disabled */
   .periodic_min_intr = RTC_PERIODICMININT_DISABLE,
 
-  /* Timer Periodic hours interrupt enabled */
-  .periodic_hour_intr = RTC_PERIODICHOURINT_ENABLE,
+  /* Timer Periodic hours interrupt disabled */
+  .periodic_hour_intr = RTC_PERIODICHOURINT_DISABLE,
 
   /* Timer Periodic days interrupt disabled */
   .periodic_day_intr = RTC_PERIODICDAYINT_DISABLE,

@@ -68,6 +68,7 @@ extern "C" {
 extern ADC_MEASUREMENT_t ADC_MEASUREMENT_0;
 
  extern ADC_MEASUREMENT_channel_t ADC_MEASUREMENT_Channel_A_handle;
+ extern ADC_MEASUREMENT_channel_t ADC_MEASUREMENT_Channel_B_handle;
 
 #ifdef __cplusplus
 }

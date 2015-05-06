@@ -719,7 +719,7 @@
     <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.4/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
       <properties key="SignalName" value="Channel_B"/>
       <properties key="uri" value="http://resources/4.0.1/app/ADC_MEASUREMENT/0/vs_adc_measurement_channelB"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="139"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.5" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="139"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.1"/>
       </link>
@@ -1277,7 +1277,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="119"/>
     </children>
     <children>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="134" value="Channel_B"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="134" style="//@styles.9/@styles.3" value="Channel_B"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.1"/>
       </link>
@@ -2001,7 +2001,7 @@
       <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="121" height="81" x="20" style="//@styles.6" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.10"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.8"/>
     </link>
     <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.6/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
       <properties key="SignalName" value="pin"/>
@@ -2048,7 +2048,7 @@
       <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="131" height="71" x="20" style="//@styles.8" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.14"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.11"/>
     </link>
     <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.3" referencedGraphicsAlgorithm="//@children.7/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
       <properties key="SignalName" value="sr_irq0"/>

@@ -24,20 +24,11 @@
   <nodes xsi:type="ApplicationModel:AppNode">
     <resource xsi:type="ResourceModel:App" href="APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#/"/>
   </nodes>
-  <nodes xsi:type="ApplicationModel:PeripheralNode">
-    <resource xsi:type="ResourceModel:Peripheral" href="HW_RESOURCES/VADC/VADC_0.dd#/"/>
-  </nodes>
-  <nodes xsi:type="ApplicationModel:PortNode">
-    <resource xsi:type="ResourceModel:Port" href="HW_RESOURCES/P14/P14_14.dd#/"/>
-  </nodes>
   <nodes xsi:type="ApplicationModel:AppNode">
     <resource xsi:type="ResourceModel:App" href="APPS/DIGITAL_IO/v4_0_1/DIGITAL_IO_0.app#/"/>
   </nodes>
   <nodes xsi:type="ApplicationModel:PortNode">
     <resource xsi:type="ResourceModel:Port" href="HW_RESOURCES/P1/P1_1.dd#/"/>
-  </nodes>
-  <nodes xsi:type="ApplicationModel:DevicePackageNode">
-    <resource xsi:type="ResourceModel:DevicePackage" href="HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#/"/>
   </nodes>
   <nodes xsi:type="ApplicationModel:PeripheralNode">
     <resource xsi:type="ResourceModel:Peripheral" href="HW_RESOURCES/CPU/CPU_0.dd#/"/>
@@ -48,15 +39,26 @@
   <nodes xsi:type="ApplicationModel:AppNode">
     <resource xsi:type="ResourceModel:App" href="APPS/CPU_CTRL_XMC4/v4_0_0/CPU_CTRL_XMC4_0.app#/"/>
   </nodes>
+  <nodes xsi:type="ApplicationModel:PeripheralNode">
+    <resource xsi:type="ResourceModel:Peripheral" href="HW_RESOURCES/VADC/VADC_0.dd#/"/>
+  </nodes>
+  <nodes xsi:type="ApplicationModel:DevicePackageNode">
+    <resource xsi:type="ResourceModel:DevicePackage" href="HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#/"/>
+  </nodes>
+  <nodes xsi:type="ApplicationModel:PortNode">
+    <resource xsi:type="ResourceModel:Port" href="HW_RESOURCES/P14/P14_14.dd#/"/>
+  </nodes>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.1" target="//@nodes.2"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.2" target="//@nodes.0"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.5" target="//@nodes.0"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.6" target="//@nodes.7"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.7" target="//@nodes.0"/>
-  <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.5" target="//@nodes.14"/>
-  <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.14" target="//@nodes.15"/>
+  <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.5" target="//@nodes.11"/>
+  <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.11" target="//@nodes.12"/>
   <hwConnections href="APPS/GLOBAL_CCU4/v4_0_0/GLOBAL_CCU4_0.app#//@connections.0"/>
   <hwConnections href="APPS/PWM/v4_0_0/PWM_0.app#//@connections.1"/>
   <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.53"/>
   <hwConnections href="APPS/RTC/v4_0_1/RTC_0.app#//@connections.0"/>
+  <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.55"/>
+  <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.107"/>
 </ApplicationModel:ApplicationData>

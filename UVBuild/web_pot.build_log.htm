@@ -26,12 +26,13 @@ Project File Date:  05/06/2015
 
 <h2>Output:</h2>
 Build target 'XMC4500-F100x1024'
-compiling main.c...
-compiling Thread_pump.c...
-compiling logging_system.c...
-linking...
-Program Size: Code=20380 RO-data=1048 RW-data=332 ZI-data=65160  
-".\UVBuild\web_pot.axf" - 0 Error(s), 0 Warning(s).
+compiling Thread_sensors.c...
+Thread_sensors.c(15): error:  #101: "sensors_data" has already been declared in the current scope
+  struct sensors_data
+Thread_sensors.c(52): error:  #167: argument of type "struct sensors_data *" is incompatible with parameter of type "struct sensors_data *"
+                        if(!data_Write(data_buffer, BUFFER_SIZE))
+Thread_sensors.c: 0 warnings, 2 errors
+".\UVBuild\web_pot.axf" - 2 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -73,19 +74,19 @@ Package Vendor: Infineon
    * Component: FLASH Version: 1.0.0
 
 Package Vendor: Infineon
-                C:\coding\ARM_Contest\web_pot/Infineon.web_pot.1.0.0.pack
-                Infineon::DAVE:Framework:1.0.0
+                D:\Infineon\ARM_contest\web_pot/Infineon.web_pot.1.0.0.pack
+                Infineon::DAVE:CPU_CTRL_XMC4:4.0.0
                 Generated Configuration Files for CE Project web_pot
-   * Component: Framework Version: 1.0.0
-   * Component: CLOCK_XMC4 Version: 4.0.1
-   * Component: RTC Version: 4.0.1
-   * Component: ADC_MEASUREMENT Version: 4.0.1
-   * Component: DIGITAL_IO Version: 4.0.1
-   * Component: PWM Version: 4.0.0
-   * Component: GLOBAL_SCU_XMC4 Version: 4.0.0
-   * Component: GLOBAL_ADC Version: 4.0.0
-   * Component: GLOBAL_CCU4 Version: 4.0.0
    * Component: CPU_CTRL_XMC4 Version: 4.0.0
+   * Component: GLOBAL_CCU4 Version: 4.0.0
+   * Component: GLOBAL_ADC Version: 4.0.0
+   * Component: GLOBAL_SCU_XMC4 Version: 4.0.0
+   * Component: PWM Version: 4.0.0
+   * Component: DIGITAL_IO Version: 4.0.1
+   * Component: ADC_MEASUREMENT Version: 4.0.1
+   * Component: RTC Version: 4.0.1
+   * Component: CLOCK_XMC4 Version: 4.0.1
+   * Component: Framework Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
   D:\Infineon\ARM_contest\web_pot\RTE
@@ -233,73 +234,74 @@ Package Vendor: Infineon
       Source file:   Device\XMClib\src\xmc_common.c
       Source file:   Device\XMClib\src\xmc4_flash.c
 
-   * Component: Infineon::DAVE:Framework:1.0.0
-      Include file:  Dave\Generated\DAVE.h
-      Include file:  Dave\Generated\DAVE_Common.h
-      Source file:   Dave\Generated\DAVE.c
-
-   * Component: Infineon::DAVE:CLOCK_XMC4:4.0.1
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4.h
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h
-      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4.c
-      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c
-
-   * Component: Infineon::DAVE:RTC:4.0.1
-      Include file:  Dave\Generated\RTC\rtc.h
-      Include file:  Dave\Generated\RTC\rtc_conf.h
-      Include file:  Dave\Generated\RTC\rtc_extern.h
-      Source file:   Dave\Generated\RTC\rtc.c
-      Source file:   Dave\Generated\RTC\rtc_conf.c
-
-   * Component: Infineon::DAVE:ADC_MEASUREMENT:4.0.1
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement.h
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_extern.h
-      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement.c
-      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c
-
-   * Component: Infineon::DAVE:DIGITAL_IO:4.0.1
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io.h
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io_conf.h
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io_extern.h
-      Source file:   Dave\Generated\DIGITAL_IO\digital_io.c
-      Source file:   Dave\Generated\DIGITAL_IO\digital_io_conf.c
-
-   * Component: Infineon::DAVE:PWM:4.0.0
-      Include file:  Dave\Generated\PWM\pwm.h
-      Include file:  Dave\Generated\PWM\pwm_conf.h
-      Include file:  Dave\Generated\PWM\pwm_extern.h
-      Source file:   Dave\Generated\PWM\pwm.c
-      Source file:   Dave\Generated\PWM\pwm_conf.c
-
-   * Component: Infineon::DAVE:GLOBAL_SCU_XMC4:4.0.0
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h
-      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c
-      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c
-
-   * Component: Infineon::DAVE:GLOBAL_ADC:4.0.0
-      Include file:  Dave\Generated\GLOBAL_ADC\global_adc.h
-      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_conf.h
-      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_extern.h
-      Source file:   Dave\Generated\GLOBAL_ADC\global_adc.c
-      Source file:   Dave\Generated\GLOBAL_ADC\global_adc_conf.c
+   * Component: Infineon::DAVE:CPU_CTRL_XMC4:4.0.0
+      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c
+      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c
+      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h
+      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h
+      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h
 
    * Component: Infineon::DAVE:GLOBAL_CCU4:4.0.0
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4.h
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h
-      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4.c
       Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.c
+      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4.c
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4.h
 
-   * Component: Infineon::DAVE:CPU_CTRL_XMC4:4.0.0
-      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h
-      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h
-      Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h
-      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c
-      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c
+   * Component: Infineon::DAVE:GLOBAL_ADC:4.0.0
+      Source file:   Dave\Generated\GLOBAL_ADC\global_adc_conf.c
+      Source file:   Dave\Generated\GLOBAL_ADC\global_adc.c
+      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_extern.h
+      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_conf.h
+      Include file:  Dave\Generated\GLOBAL_ADC\global_adc.h
+
+   * Component: Infineon::DAVE:GLOBAL_SCU_XMC4:4.0.0
+      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c
+      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h
+
+   * Component: Infineon::DAVE:PWM:4.0.0
+      Source file:   Dave\Generated\PWM\pwm_conf.c
+      Source file:   Dave\Generated\PWM\pwm.c
+      Include file:  Dave\Generated\PWM\pwm_extern.h
+      Include file:  Dave\Generated\PWM\pwm_conf.h
+      Include file:  Dave\Generated\PWM\pwm.h
+
+   * Component: Infineon::DAVE:DIGITAL_IO:4.0.1
+      Source file:   Dave\Generated\DIGITAL_IO\digital_io_conf.c
+      Source file:   Dave\Generated\DIGITAL_IO\digital_io.c
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io_extern.h
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io_conf.h
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io.h
+
+   * Component: Infineon::DAVE:ADC_MEASUREMENT:4.0.1
+      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_extern.h
+      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement.c
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement.h
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h
+
+   * Component: Infineon::DAVE:RTC:4.0.1
+      Include file:  Dave\Generated\RTC\rtc_conf.h
+      Source file:   Dave\Generated\RTC\rtc_conf.c
+      Source file:   Dave\Generated\RTC\rtc.c
+      Include file:  Dave\Generated\RTC\rtc_extern.h
+      Include file:  Dave\Generated\RTC\rtc.h
+
+   * Component: Infineon::DAVE:CLOCK_XMC4:4.0.1
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h
+      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c
+      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4.c
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4.h
+
+   * Component: Infineon::DAVE:Framework:1.0.0
+      Source file:   Dave\Generated\DAVE.c
+      Include file:  Dave\Generated\DAVE_Common.h
+      Include file:  Dave\Generated\DAVE.h
+Target not created.
 </pre>
 </body>
 </html>

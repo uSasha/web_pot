@@ -3629,30 +3629,30 @@ EAK]
   492 000008D8                 END
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M4.fp
  --apcs=interwork --depend=.\uvbuild\startup_xmc4500.d -o.\uvbuild\startup_xmc4
-500.o -IC:\coding\ARM_Contest\web_pot\RTE -IC:\coding\ARM_Contest\web_pot\RTE\D
-evice\XMC4500-F100x1024 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Driver\Incl
-ude -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\A
-RM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.
-2.0\Device\XMC4500_series\Include -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.
-2.0\Device\XMClib\inc -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driv
-er -IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.3.0\Network\Include -IC:\coding\
-ARM_Contest\web_pot\Dave\Generated -IC:\coding\ARM_Contest\web_pot\Dave\Generat
-ed\ADC_MEASUREMENT -IC:\coding\ARM_Contest\web_pot\Dave\Generated\CLOCK_XMC4 -I
+500.o -ID:\Infineon\ARM_contest\web_pot\RTE -ID:\Infineon\ARM_contest\web_pot\R
+TE\Device\XMC4500-F100x1024 -ID:\Infineon\ARM_contest\web_pot\Dave\Generated -I
+D:\Infineon\ARM_contest\web_pot\Dave\Generated\ADC_MEASUREMENT -ID:\Infineon\AR
+M_contest\web_pot\Dave\Generated\CLOCK_XMC4 -ID:\Infineon\ARM_contest\web_pot\D
+ave\Generated\CPU_CTRL_XMC4 -ID:\Infineon\ARM_contest\web_pot\Dave\Generated\DI
+GITAL_IO -ID:\Infineon\ARM_contest\web_pot\Dave\Generated\GLOBAL_ADC -ID:\Infin
+eon\ARM_contest\web_pot\Dave\Generated\GLOBAL_CCU4 -ID:\Infineon\ARM_contest\we
+b_pot\Dave\Generated\GLOBAL_SCU_XMC4 -ID:\Infineon\ARM_contest\web_pot\Dave\Gen
+erated\PWM -ID:\Infineon\ARM_contest\web_pot\Dave\Generated\RTC -ID:\Keil_v5\AR
 
 
 
 ARM Macro Assembler    Page 57 
 
 
-C:\coding\ARM_Contest\web_pot\Dave\Generated\CPU_CTRL_XMC4 -IC:\coding\ARM_Cont
-est\web_pot\Dave\Generated\DIGITAL_IO -IC:\coding\ARM_Contest\web_pot\Dave\Gene
-rated\GLOBAL_ADC -IC:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_CCU4 -IC
-:\coding\ARM_Contest\web_pot\Dave\Generated\GLOBAL_SCU_XMC4 -IC:\coding\ARM_Con
-test\web_pot\Dave\Generated\PWM -IC:\coding\ARM_Contest\web_pot\Dave\Generated\
-RTC -IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include --predefine
-="__RTX SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
-SETA 514" --predefine="_RTE_ SETA 1" --predefine="XMC4500_F100x1024 SETA 1" --l
-ist=.\startup_xmc4500.lst RTE\Device\XMC4500-F100x1024\startup_XMC4500.s
+M\PACK\ARM\CMSIS\4.3.0\CMSIS\Include -ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSI
+S\RTOS\RTX\INC -ID:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMC4500_
+series\Include -ID:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\Device\XMClib\i
+nc -ID:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.2.0\RTE_Driver -ID:\Keil_v5\ARM
+\PACK\Infineon\XMC4000_DFP\2.2.0\Device\Include --predefine="__RTX SETA 1" --pr
+edefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_
+VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine="XMC4500_F100x1024 SET
+A 1" --list=.\startup_xmc4500.lst RTE\Device\XMC4500-F100x1024\startup_XMC4500.
+s
 
 
 
@@ -3786,43 +3786,43 @@ BusFault_Handler 00000070
 
 Symbol: BusFault_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 330 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 330 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 330 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 BusFault_Handler_Veneer 00000072
 
 Symbol: BusFault_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 330 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 150 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 330 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_0_IRQHandler 00000638
 
 Symbol: CAN0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 410 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 410 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 410 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_0_IRQHandler_Veneer 0000063A
 
 Symbol: CAN0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 410 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -3831,64 +3831,64 @@ Symbol: CAN0_0_IRQHandler_Veneer
 ARM Macro Assembler    Page 2 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 239 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 410 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_1_IRQHandler 0000064C
 
 Symbol: CAN0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 411 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 411 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 411 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_1_IRQHandler_Veneer 0000064E
 
 Symbol: CAN0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 411 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 240 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 411 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_2_IRQHandler 00000660
 
 Symbol: CAN0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 412 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 412 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 412 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_2_IRQHandler_Veneer 00000662
 
 Symbol: CAN0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 412 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 241 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 412 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_3_IRQHandler 00000674
 
 Symbol: CAN0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 413 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -3897,64 +3897,64 @@ ARM Macro Assembler    Page 3 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 413 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 413 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_3_IRQHandler_Veneer 00000676
 
 Symbol: CAN0_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 413 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 242 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 413 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_4_IRQHandler 00000688
 
 Symbol: CAN0_4_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 414 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 414 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 414 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_4_IRQHandler_Veneer 0000068A
 
 Symbol: CAN0_4_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 414 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 243 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 414 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_5_IRQHandler 0000069C
 
 Symbol: CAN0_5_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 415 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 415 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 415 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_5_IRQHandler_Veneer 0000069E
 
 Symbol: CAN0_5_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
 
 
 
@@ -3963,57 +3963,57 @@ Relocatable symbols
 
       at line 415 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 244 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 415 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_6_IRQHandler 000006B0
 
 Symbol: CAN0_6_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 416 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 416 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 416 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_6_IRQHandler_Veneer 000006B2
 
 Symbol: CAN0_6_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 416 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 245 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 416 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_7_IRQHandler 000006C4
 
 Symbol: CAN0_7_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 417 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 417 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 417 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CAN0_7_IRQHandler_Veneer 000006C6
 
 Symbol: CAN0_7_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 417 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 246 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 417 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_0_IRQHandler 00000408
@@ -4026,60 +4026,60 @@ Symbol: CCU40_0_IRQHandler
 ARM Macro Assembler    Page 5 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 382 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 382 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 382 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_0_IRQHandler_Veneer 0000040A
 
 Symbol: CCU40_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 382 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 207 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 382 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_1_IRQHandler 0000041C
 
 Symbol: CCU40_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 383 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 383 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 383 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_1_IRQHandler_Veneer 0000041E
 
 Symbol: CCU40_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 383 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 208 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 383 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_2_IRQHandler 00000430
 
 Symbol: CCU40_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 384 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 384 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 384 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_2_IRQHandler_Veneer 00000432
@@ -4092,60 +4092,60 @@ ARM Macro Assembler    Page 6 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 384 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 209 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 384 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_3_IRQHandler 00000444
 
 Symbol: CCU40_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 385 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 385 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 385 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU40_3_IRQHandler_Veneer 00000446
 
 Symbol: CCU40_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 385 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 210 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 385 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_0_IRQHandler 00000458
 
 Symbol: CCU41_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 386 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 386 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 386 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_0_IRQHandler_Veneer 0000045A
 
 Symbol: CCU41_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 386 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 211 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 386 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_1_IRQHandler 0000046C
@@ -4158,60 +4158,60 @@ Relocatable symbols
 
 Symbol: CCU41_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 387 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 387 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 387 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_1_IRQHandler_Veneer 0000046E
 
 Symbol: CCU41_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 387 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 212 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 387 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_2_IRQHandler 00000480
 
 Symbol: CCU41_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 388 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 388 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 388 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_2_IRQHandler_Veneer 00000482
 
 Symbol: CCU41_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 388 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 213 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 388 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_3_IRQHandler 00000494
 
 Symbol: CCU41_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 389 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 389 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 389 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU41_3_IRQHandler_Veneer 00000496
@@ -4224,60 +4224,60 @@ Relocatable symbols
 
 Symbol: CCU41_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 389 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 214 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 389 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_0_IRQHandler 000004A8
 
 Symbol: CCU42_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 390 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 390 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 390 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_0_IRQHandler_Veneer 000004AA
 
 Symbol: CCU42_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 390 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 215 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 390 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_1_IRQHandler 000004BC
 
 Symbol: CCU42_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 391 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 391 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 391 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_1_IRQHandler_Veneer 000004BE
 
 Symbol: CCU42_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 391 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 216 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 391 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -4290,60 +4290,60 @@ CCU42_2_IRQHandler 000004D0
 
 Symbol: CCU42_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 392 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 392 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 392 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_2_IRQHandler_Veneer 000004D2
 
 Symbol: CCU42_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 392 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 217 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 392 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_3_IRQHandler 000004E4
 
 Symbol: CCU42_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 393 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 393 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 393 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU42_3_IRQHandler_Veneer 000004E6
 
 Symbol: CCU42_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 393 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 218 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 393 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_0_IRQHandler 000004F8
 
 Symbol: CCU43_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 394 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 394 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 394 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -4356,60 +4356,60 @@ CCU43_0_IRQHandler_Veneer 000004FA
 
 Symbol: CCU43_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 394 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 219 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 394 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_1_IRQHandler 0000050C
 
 Symbol: CCU43_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 395 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 395 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 395 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_1_IRQHandler_Veneer 0000050E
 
 Symbol: CCU43_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 395 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 220 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 395 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_2_IRQHandler 00000520
 
 Symbol: CCU43_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 396 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 396 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 396 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_2_IRQHandler_Veneer 00000522
 
 Symbol: CCU43_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 396 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 221 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
 
 
 
@@ -4422,58 +4422,58 @@ CCU43_3_IRQHandler 00000534
 
 Symbol: CCU43_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 397 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 397 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 397 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU43_3_IRQHandler_Veneer 00000536
 
 Symbol: CCU43_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 397 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 222 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 397 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_0_IRQHandler 00000548
 
 Symbol: CCU80_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 398 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 398 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 398 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_0_IRQHandler_Veneer 0000054A
 
 Symbol: CCU80_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 398 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 223 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 398 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_1_IRQHandler 0000055C
 
 Symbol: CCU80_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 399 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 399 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -4481,65 +4481,65 @@ Symbol: CCU80_1_IRQHandler
 ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 399 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_1_IRQHandler_Veneer 0000055E
 
 Symbol: CCU80_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 399 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 224 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 399 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_2_IRQHandler 00000570
 
 Symbol: CCU80_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 400 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 400 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 400 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_2_IRQHandler_Veneer 00000572
 
 Symbol: CCU80_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 400 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 225 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 400 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_3_IRQHandler 00000584
 
 Symbol: CCU80_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 401 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 401 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 401 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU80_3_IRQHandler_Veneer 00000586
 
 Symbol: CCU80_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 401 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
 
 
 
@@ -4547,62 +4547,62 @@ ARM Macro Assembler    Page 13 Alphabetic symbol ordering
 Relocatable symbols
 
       at line 226 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 401 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_0_IRQHandler 00000598
 
 Symbol: CCU81_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 402 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 402 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 402 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_0_IRQHandler_Veneer 0000059A
 
 Symbol: CCU81_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 402 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 227 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 402 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_1_IRQHandler 000005AC
 
 Symbol: CCU81_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 403 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 403 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 403 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_1_IRQHandler_Veneer 000005AE
 
 Symbol: CCU81_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 403 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 228 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 403 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_2_IRQHandler 000005C0
 
 Symbol: CCU81_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 404 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -4611,64 +4611,64 @@ Symbol: CCU81_2_IRQHandler
 ARM Macro Assembler    Page 14 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 404 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 404 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_2_IRQHandler_Veneer 000005C2
 
 Symbol: CCU81_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 404 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 229 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 404 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_3_IRQHandler 000005D4
 
 Symbol: CCU81_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 405 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 405 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 405 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 CCU81_3_IRQHandler_Veneer 000005D6
 
 Symbol: CCU81_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 405 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 230 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 405 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DAC0_0_IRQHandler 000003E0
 
 Symbol: DAC0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 380 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 380 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 380 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DAC0_0_IRQHandler_Veneer 000003E2
 
 Symbol: DAC0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 380 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -4677,64 +4677,64 @@ ARM Macro Assembler    Page 15 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 205 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 380 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DAC0_1_IRQHandler 000003F4
 
 Symbol: DAC0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 381 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 381 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 381 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DAC0_1_IRQHandler_Veneer 000003F6
 
 Symbol: DAC0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 381 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 206 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 381 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_0_IRQHandler 00000340
 
 Symbol: DSD0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 372 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 372 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 372 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_0_IRQHandler_Veneer 00000342
 
 Symbol: DSD0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 372 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 197 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 372 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_1_IRQHandler 00000354
 
 Symbol: DSD0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
 
 
 
@@ -4743,57 +4743,57 @@ Relocatable symbols
 
       at line 373 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 373 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 373 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_1_IRQHandler_Veneer 00000356
 
 Symbol: DSD0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 373 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 198 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 373 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_2_IRQHandler 00000368
 
 Symbol: DSD0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 374 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 374 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 374 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_2_IRQHandler_Veneer 0000036A
 
 Symbol: DSD0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 374 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 199 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 374 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_3_IRQHandler 0000037C
 
 Symbol: DSD0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 375 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 375 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 375 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_3_IRQHandler_Veneer 0000037E
@@ -4806,60 +4806,60 @@ Symbol: DSD0_3_IRQHandler_Veneer
 ARM Macro Assembler    Page 17 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 375 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 200 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 375 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_4_IRQHandler 00000390
 
 Symbol: DSD0_4_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 376 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 376 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 376 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_4_IRQHandler_Veneer 00000392
 
 Symbol: DSD0_4_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 376 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 201 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 376 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_5_IRQHandler 000003A4
 
 Symbol: DSD0_5_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 377 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 377 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 377 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_5_IRQHandler_Veneer 000003A6
 
 Symbol: DSD0_5_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 377 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 202 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 377 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_6_IRQHandler 000003B8
@@ -4872,60 +4872,60 @@ ARM Macro Assembler    Page 18 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 378 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 378 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 378 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_6_IRQHandler_Veneer 000003BA
 
 Symbol: DSD0_6_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 378 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 203 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 378 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_7_IRQHandler 000003CC
 
 Symbol: DSD0_7_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 379 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 379 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 379 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DSD0_7_IRQHandler_Veneer 000003CE
 
 Symbol: DSD0_7_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 379 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 204 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 379 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DebugMon_Handler 000000AC
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 333 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 333 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 333 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 DebugMon_Handler_Veneer 000000AE
@@ -4938,60 +4938,60 @@ Relocatable symbols
 
 Symbol: DebugMon_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 333 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 157 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 333 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_0_IRQHandler 000000FC
 
 Symbol: ERU0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 343 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 343 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 343 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_0_IRQHandler_Veneer 000000FE
 
 Symbol: ERU0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 343 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 164 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 343 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_1_IRQHandler 00000110
 
 Symbol: ERU0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 344 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 344 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 344 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_1_IRQHandler_Veneer 00000112
 
 Symbol: ERU0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 344 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 165 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 344 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_2_IRQHandler 00000124
@@ -5004,60 +5004,60 @@ Relocatable symbols
 
 Symbol: ERU0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 345 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 345 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 345 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_2_IRQHandler_Veneer 00000126
 
 Symbol: ERU0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 345 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 166 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 345 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_3_IRQHandler 00000138
 
 Symbol: ERU0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 346 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 346 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 346 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU0_3_IRQHandler_Veneer 0000013A
 
 Symbol: ERU0_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 346 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 167 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 346 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_0_IRQHandler 0000014C
 
 Symbol: ERU1_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 347 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 347 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 347 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -5070,60 +5070,60 @@ ERU1_0_IRQHandler_Veneer 0000014E
 
 Symbol: ERU1_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 347 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 168 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 347 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_1_IRQHandler 00000160
 
 Symbol: ERU1_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 348 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 348 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 348 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_1_IRQHandler_Veneer 00000162
 
 Symbol: ERU1_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 348 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 169 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 348 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_2_IRQHandler 00000174
 
 Symbol: ERU1_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 349 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 349 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 349 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_2_IRQHandler_Veneer 00000176
 
 Symbol: ERU1_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 349 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 170 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 349 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -5136,60 +5136,60 @@ ERU1_3_IRQHandler 00000188
 
 Symbol: ERU1_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 350 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 350 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 350 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ERU1_3_IRQHandler_Veneer 0000018A
 
 Symbol: ERU1_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 350 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 171 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 350 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ETH0_0_IRQHandler 000008A4
 
 Symbol: ETH0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 441 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 441 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 441 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 ETH0_0_IRQHandler_Veneer 000008A6
 
 Symbol: ETH0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 441 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 271 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 441 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 FCE0_0_IRQHandler 00000854
 
 Symbol: FCE0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 437 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 437 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
 
 
 
@@ -5202,58 +5202,58 @@ FCE0_0_IRQHandler_Veneer 00000856
 
 Symbol: FCE0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 437 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 267 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 437 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 GPDMA0_0_IRQHandler 00000868
 
 Symbol: GPDMA0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 438 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 438 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 438 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 GPDMA0_0_IRQHandler_Veneer 0000086A
 
 Symbol: GPDMA0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 438 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 268 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 438 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 GPDMA1_0_IRQHandler 000008B8
 
 Symbol: GPDMA1_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 442 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 442 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 442 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 GPDMA1_0_IRQHandler_Veneer 000008BA
 
 Symbol: GPDMA1_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 442 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 273 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -5261,65 +5261,65 @@ Symbol: GPDMA1_0_IRQHandler_Veneer
 ARM Macro Assembler    Page 24 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 442 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 HardFault_Handler 00000048
 
 Symbol: HardFault_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 328 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 328 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 328 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 HardFault_Handler_Veneer 0000004A
 
 Symbol: HardFault_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 328 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 148 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 328 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 LEDTS0_0_IRQHandler 00000840
 
 Symbol: LEDTS0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 436 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 436 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 436 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 LEDTS0_0_IRQHandler_Veneer 00000842
 
 Symbol: LEDTS0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 436 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 265 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 436 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 MemManage_Handler 0000005C
 
 Symbol: MemManage_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 329 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
 
 
 
@@ -5327,62 +5327,62 @@ ARM Macro Assembler    Page 25 Alphabetic symbol ordering
 Relocatable symbols
 
       at line 329 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 329 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 MemManage_Handler_Veneer 0000005E
 
 Symbol: MemManage_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 329 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 149 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 329 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 NMI_Handler 0000001C
 
 Symbol: NMI_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 327 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 327 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 327 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 NMI_Handler_Veneer 0000001E
 
 Symbol: NMI_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 327 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 147 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 327 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 PMU0_0_IRQHandler 0000019C
 
 Symbol: PMU0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 351 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 351 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 351 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 PMU0_0_IRQHandler_Veneer 0000019E
 
 Symbol: PMU0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 351 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -5391,64 +5391,64 @@ Symbol: PMU0_0_IRQHandler_Veneer
 ARM Macro Assembler    Page 26 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 175 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 351 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF0_0_IRQHandler 000005E8
 
 Symbol: POSIF0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 406 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 406 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 406 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF0_0_IRQHandler_Veneer 000005EA
 
 Symbol: POSIF0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 406 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 231 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 406 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF0_1_IRQHandler 000005FC
 
 Symbol: POSIF0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 407 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 407 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 407 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF0_1_IRQHandler_Veneer 000005FE
 
 Symbol: POSIF0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 407 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 232 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 407 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF1_0_IRQHandler 00000610
 
 Symbol: POSIF1_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 408 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -5457,64 +5457,64 @@ ARM Macro Assembler    Page 27 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 408 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 408 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF1_0_IRQHandler_Veneer 00000612
 
 Symbol: POSIF1_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 408 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 233 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 408 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF1_1_IRQHandler 00000624
 
 Symbol: POSIF1_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 409 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 409 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 409 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 POSIF1_1_IRQHandler_Veneer 00000626
 
 Symbol: POSIF1_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 409 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 234 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 409 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 PendSV_Handler 000000C0
 
 Symbol: PendSV_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 334 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 334 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 334 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 PendSV_Handler_Veneer 000000C2
 
 Symbol: PendSV_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
 
 
 
@@ -5523,9 +5523,9 @@ Relocatable symbols
 
       at line 334 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 159 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 334 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 Reset_Handler 00000000
@@ -5541,43 +5541,43 @@ SCU_0_IRQHandler 000000E8
 
 Symbol: SCU_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 342 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 342 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 342 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SCU_0_IRQHandler_Veneer 000000EA
 
 Symbol: SCU_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 342 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 163 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 342 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SDMMC0_0_IRQHandler 0000087C
 
 Symbol: SDMMC0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 439 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 439 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 439 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SDMMC0_0_IRQHandler_Veneer 0000087E
 
 Symbol: SDMMC0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 439 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -5586,57 +5586,57 @@ Symbol: SDMMC0_0_IRQHandler_Veneer
 ARM Macro Assembler    Page 29 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 269 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 439 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SVC_Handler 00000098
 
 Symbol: SVC_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 332 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 332 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 332 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SVC_Handler_Veneer 0000009A
 
 Symbol: SVC_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 332 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 156 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 332 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SysTick_Handler 000000D4
 
 Symbol: SysTick_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 335 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 335 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 335 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SysTick_Handler_Veneer 000000D6
 
 Symbol: SysTick_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 335 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 160 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 335 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 SystemInit_DAVE3 000008CC
@@ -5658,58 +5658,58 @@ USB0_0_IRQHandler 00000890
 
 Symbol: USB0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 440 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 440 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 440 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USB0_0_IRQHandler_Veneer 00000892
 
 Symbol: USB0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 440 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 270 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 440 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_0_IRQHandler 000006D8
 
 Symbol: USIC0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 418 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 418 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 418 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_0_IRQHandler_Veneer 000006DA
 
 Symbol: USIC0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 418 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 247 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 418 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_1_IRQHandler 000006EC
 
 Symbol: USIC0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 419 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
 
 
 
@@ -5717,62 +5717,62 @@ ARM Macro Assembler    Page 31 Alphabetic symbol ordering
 Relocatable symbols
 
       at line 419 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 419 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_1_IRQHandler_Veneer 000006EE
 
 Symbol: USIC0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 419 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 248 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 419 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_2_IRQHandler 00000700
 
 Symbol: USIC0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 420 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 420 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 420 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_2_IRQHandler_Veneer 00000702
 
 Symbol: USIC0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 420 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 249 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 420 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_3_IRQHandler 00000714
 
 Symbol: USIC0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 421 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 421 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 421 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_3_IRQHandler_Veneer 00000716
 
 Symbol: USIC0_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 421 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -5781,64 +5781,64 @@ Symbol: USIC0_3_IRQHandler_Veneer
 ARM Macro Assembler    Page 32 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 250 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 421 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_4_IRQHandler 00000728
 
 Symbol: USIC0_4_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 422 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 422 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 422 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_4_IRQHandler_Veneer 0000072A
 
 Symbol: USIC0_4_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 422 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 251 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 422 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_5_IRQHandler 0000073C
 
 Symbol: USIC0_5_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 423 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 423 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 423 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC0_5_IRQHandler_Veneer 0000073E
 
 Symbol: USIC0_5_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 423 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 252 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 423 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_0_IRQHandler 00000750
 
 Symbol: USIC1_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 424 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -5847,64 +5847,64 @@ ARM Macro Assembler    Page 33 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 424 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 424 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_0_IRQHandler_Veneer 00000752
 
 Symbol: USIC1_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 424 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 253 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 424 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_1_IRQHandler 00000764
 
 Symbol: USIC1_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 425 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 425 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 425 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_1_IRQHandler_Veneer 00000766
 
 Symbol: USIC1_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 425 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 254 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 425 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_2_IRQHandler 00000778
 
 Symbol: USIC1_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 426 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 426 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 426 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_2_IRQHandler_Veneer 0000077A
 
 Symbol: USIC1_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
 
 
 
@@ -5913,57 +5913,57 @@ Relocatable symbols
 
       at line 426 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 255 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 426 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_3_IRQHandler 0000078C
 
 Symbol: USIC1_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 427 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 427 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 427 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_3_IRQHandler_Veneer 0000078E
 
 Symbol: USIC1_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 427 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 256 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 427 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_4_IRQHandler 000007A0
 
 Symbol: USIC1_4_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 428 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 428 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 428 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_4_IRQHandler_Veneer 000007A2
 
 Symbol: USIC1_4_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 428 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 257 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 428 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_5_IRQHandler 000007B4
@@ -5976,60 +5976,60 @@ Symbol: USIC1_5_IRQHandler
 ARM Macro Assembler    Page 35 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 429 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 429 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 429 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC1_5_IRQHandler_Veneer 000007B6
 
 Symbol: USIC1_5_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 429 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 258 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 429 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_0_IRQHandler 000007C8
 
 Symbol: USIC2_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 430 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 430 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 430 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_0_IRQHandler_Veneer 000007CA
 
 Symbol: USIC2_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 430 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 259 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 430 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_1_IRQHandler 000007DC
 
 Symbol: USIC2_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 431 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 431 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 431 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_1_IRQHandler_Veneer 000007DE
@@ -6042,60 +6042,60 @@ ARM Macro Assembler    Page 36 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 431 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 260 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 431 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_2_IRQHandler 000007F0
 
 Symbol: USIC2_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 432 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 432 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 432 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_2_IRQHandler_Veneer 000007F2
 
 Symbol: USIC2_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 432 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 261 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 432 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_3_IRQHandler 00000804
 
 Symbol: USIC2_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 433 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 433 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 433 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_3_IRQHandler_Veneer 00000806
 
 Symbol: USIC2_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 433 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 262 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 433 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_4_IRQHandler 00000818
@@ -6108,60 +6108,60 @@ Relocatable symbols
 
 Symbol: USIC2_4_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 434 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 434 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 434 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_4_IRQHandler_Veneer 0000081A
 
 Symbol: USIC2_4_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 434 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 263 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 434 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_5_IRQHandler 0000082C
 
 Symbol: USIC2_5_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 435 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 435 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 435 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 USIC2_5_IRQHandler_Veneer 0000082E
 
 Symbol: USIC2_5_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 435 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 264 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 435 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 UsageFault_Handler 00000084
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 331 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 331 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 331 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 UsageFault_Handler_Veneer 00000086
@@ -6174,60 +6174,60 @@ Relocatable symbols
 
 Symbol: UsageFault_Handler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 331 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 151 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 331 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_0_IRQHandler 000001B0
 
 Symbol: VADC0_C0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 352 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 352 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 352 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_0_IRQHandler_Veneer 000001B2
 
 Symbol: VADC0_C0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 352 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 177 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 352 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_1_IRQHandler 000001C4
 
 Symbol: VADC0_C0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 353 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 353 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 353 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_1_IRQHandler_Veneer 000001C6
 
 Symbol: VADC0_C0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 353 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 178 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 353 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -6240,60 +6240,60 @@ VADC0_C0_2_IRQHandler 000001D8
 
 Symbol: VADC0_C0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 354 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 354 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 354 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_2_IRQHandler_Veneer 000001DA
 
 Symbol: VADC0_C0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 354 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 179 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 354 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_3_IRQHandler 000001EC
 
 Symbol: VADC0_C0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 355 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 355 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 355 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_C0_3_IRQHandler_Veneer 000001EE
 
 Symbol: VADC0_C0_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 355 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 180 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 355 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_0_IRQHandler 00000200
 
 Symbol: VADC0_G0_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 356 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 356 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 356 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -6306,60 +6306,60 @@ VADC0_G0_0_IRQHandler_Veneer 00000202
 
 Symbol: VADC0_G0_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 356 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 181 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 356 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_1_IRQHandler 00000214
 
 Symbol: VADC0_G0_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 357 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 357 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 357 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_1_IRQHandler_Veneer 00000216
 
 Symbol: VADC0_G0_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 357 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 182 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 357 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_2_IRQHandler 00000228
 
 Symbol: VADC0_G0_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 358 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 358 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 358 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_2_IRQHandler_Veneer 0000022A
 
 Symbol: VADC0_G0_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 358 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 183 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
 
 
 
@@ -6372,58 +6372,58 @@ VADC0_G0_3_IRQHandler 0000023C
 
 Symbol: VADC0_G0_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 359 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 359 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 359 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G0_3_IRQHandler_Veneer 0000023E
 
 Symbol: VADC0_G0_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 359 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 184 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 359 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_0_IRQHandler 00000250
 
 Symbol: VADC0_G1_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 360 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 360 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 360 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_0_IRQHandler_Veneer 00000252
 
 Symbol: VADC0_G1_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 360 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 185 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 360 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_1_IRQHandler 00000264
 
 Symbol: VADC0_G1_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 361 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 361 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -6431,65 +6431,65 @@ Symbol: VADC0_G1_1_IRQHandler
 ARM Macro Assembler    Page 42 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 361 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_1_IRQHandler_Veneer 00000266
 
 Symbol: VADC0_G1_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 361 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 186 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 361 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_2_IRQHandler 00000278
 
 Symbol: VADC0_G1_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 362 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 362 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 362 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_2_IRQHandler_Veneer 0000027A
 
 Symbol: VADC0_G1_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 362 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 187 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 362 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_3_IRQHandler 0000028C
 
 Symbol: VADC0_G1_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 363 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 363 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 363 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G1_3_IRQHandler_Veneer 0000028E
 
 Symbol: VADC0_G1_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 363 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
 
 
 
@@ -6497,62 +6497,62 @@ ARM Macro Assembler    Page 43 Alphabetic symbol ordering
 Relocatable symbols
 
       at line 188 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 363 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_0_IRQHandler 000002A0
 
 Symbol: VADC0_G2_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 364 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 364 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 364 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_0_IRQHandler_Veneer 000002A2
 
 Symbol: VADC0_G2_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 364 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 189 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 364 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_1_IRQHandler 000002B4
 
 Symbol: VADC0_G2_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 365 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 365 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 365 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_1_IRQHandler_Veneer 000002B6
 
 Symbol: VADC0_G2_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 365 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 190 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 365 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_2_IRQHandler 000002C8
 
 Symbol: VADC0_G2_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 366 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
 
@@ -6561,64 +6561,64 @@ Symbol: VADC0_G2_2_IRQHandler
 ARM Macro Assembler    Page 44 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 366 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 366 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_2_IRQHandler_Veneer 000002CA
 
 Symbol: VADC0_G2_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 366 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 191 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 366 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_3_IRQHandler 000002DC
 
 Symbol: VADC0_G2_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 367 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 367 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 367 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G2_3_IRQHandler_Veneer 000002DE
 
 Symbol: VADC0_G2_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 367 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 192 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 367 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_0_IRQHandler 000002F0
 
 Symbol: VADC0_G3_0_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 368 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 368 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 368 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_0_IRQHandler_Veneer 000002F2
 
 Symbol: VADC0_G3_0_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 368 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 
@@ -6627,64 +6627,64 @@ ARM Macro Assembler    Page 45 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 193 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 368 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_1_IRQHandler 00000304
 
 Symbol: VADC0_G3_1_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 369 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 369 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 369 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_1_IRQHandler_Veneer 00000306
 
 Symbol: VADC0_G3_1_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 369 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 194 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 369 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_2_IRQHandler 00000318
 
 Symbol: VADC0_G3_2_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
       at line 370 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 370 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 370 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_2_IRQHandler_Veneer 0000031A
 
 Symbol: VADC0_G3_2_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 370 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 195 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 370 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_3_IRQHandler 0000032C
 
 Symbol: VADC0_G3_3_IRQHandler
    Definitions
-      At line 97 in macro ExcpHandler
+      At line 97 in macro M—êÿ∆
 
 
 
@@ -6693,21 +6693,21 @@ Relocatable symbols
 
       at line 371 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 99 in macro ExcpHandler
+      At line 99 in macro M—êÿ∆
       at line 371 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 107 in macro ExcpHandler
+      At line 107 in macro M—êÿ∆
       at line 371 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 VADC0_G3_3_IRQHandler_Veneer 0000032E
 
 Symbol: VADC0_G3_3_IRQHandler_Veneer
    Definitions
-      At line 104 in macro ExcpHandler
+      At line 104 in macro M—êÿ∆
       at line 371 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
    Uses
-      At line 82 in macro ExcpVector
+      At line 82 in macro ˇˇ—
       at line 196 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
-      At line 106 in macro ExcpHandler
+      At line 106 in macro M—êÿ∆
       at line 371 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 
 224 symbols
@@ -6765,4 +6765,4 @@ Symbol: __main
       At line 311 in file RTE\\Device\\XMC4500-F100x1024\\startup_XMC4500.s
 Comment: __main used once
 2 symbols
-796 symbols in table
+797 symbols in table

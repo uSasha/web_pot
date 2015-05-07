@@ -30,6 +30,26 @@
     <resourcesList name="altin" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_2/altin"/>
     <resourcesList name="pad" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_2/pad"/>
   </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="P14.1 / #30" URI="http://resources/0.1.39/port/p/14/pad/1">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.3"/>
+    <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.39/port/p/14/out/p1"/>
+    <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.39/port/p/14/omr/ps1"/>
+    <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.39/port/p/14/omr/pr1"/>
+    <resourcesList name="in_p" requiredResourceUri="http://resources/0.1.39/port/p/14/in/p1"/>
+    <resourcesList name="pps_pps" requiredResourceUri="http://resources/0.1.39/port/p/14/pps/pps1"/>
+    <resourcesList name="pdisc_pdis" requiredResourceUri="http://resources/0.1.39/port/p/14/pdisc/pdis1"/>
+    <resourcesList name="iocr_oe" requiredResourceUri="http://resources/0.1.39/port/p/14/iocr0/pc1_4"/>
+    <resourcesList name="iocr_pcr" requiredResourceUri="http://resources/0.1.39/port/p/14/iocr0/pc1_2_0"/>
+    <resourcesList name="analogout" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_1/analogout"/>
+    <resourcesList name="analogin" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_1/analogin"/>
+    <resourcesList name="altin" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_1/altin"/>
+    <resourcesList name="pad" requiredResourceUri="http://resources/0.1.39/port/p/14/pad_1/pad"/>
+  </provided>
+  <provided xsi:type="ResourceModel:BitField" name="PC1_4" URI="http://resources/0.1.39/port/p/14/iocr0/pc1_4" value="0" toolTipHelpDescription="Port Control for Port n Pin 0 to 3" defaultValue="0" startPos="15" stopPos="15" accessPermission="rw" maxValue="1" minValue="0"/>
+  <provided xsi:type="ResourceModel:BitField" name="PDIS1" URI="http://resources/0.1.39/port/p/14/pdisc/pdis1" value="1" toolTipHelpDescription="Pad Disable for Port 14 Pin 1" defaultValue="1" startPos="1" stopPos="1" accessPermission="rw" maxValue="1" minValue="0">
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0" description="Pad is enabled, digital input selected."/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b1" description="Pad is disabled, ADC 0 analog input 1 selected."/>
+  </provided>
   <categoryDescription description="Port 14 is a 14-bit analog/digital input port." name="Port 14"/>
   <addressBlock offset="0x0" size="0x0100" usage="registers"/>
 </ResourceModel:Port>

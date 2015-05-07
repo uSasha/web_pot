@@ -62,6 +62,20 @@
     <resourcesList name="cev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0cev2"/>
     <resourcesList name="res_sel" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0ch2ressel"/>
   </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="1" URI="http://resources/0.100.2/peripheral/vadc/0/group/0/ch/1">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.55"/>
+    <resourcesList name="gchass_assch" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0chass/assch1"/>
+    <resourcesList name="gchctr" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0chctr1"/>
+    <resourcesList name="gcefclr_cev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0cefclr/cev1"/>
+    <resourcesList name="gceflag_cev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0ceflag/cev1"/>
+    <resourcesList name="galias_alias1" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0alias/alias1"/>
+    <resourcesList name="gcevnp0_cevnp" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0cevnp0/cev1np"/>
+    <resourcesList name="gchctr_resreg" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0chctr1/resreg"/>
+    <resourcesList name="gch" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0ch1"/>
+    <resourcesList name="select" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0ch1select"/>
+    <resourcesList name="cev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0cev1"/>
+    <resourcesList name="res_sel" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0ch1ressel"/>
+  </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="15" URI="http://resources/0.100.2/peripheral/vadc/0/group/0/result_filter/15">
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.79"/>
     <resourcesList name="grcr" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0rcr15"/>
@@ -85,6 +99,18 @@
     <resourcesList name="grevnp_revnp" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0revnp0/rev4np"/>
     <resourcesList name="res_sel" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0_res4_ressel"/>
     <resourcesList name="rev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0rev4"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="5" URI="http://resources/0.100.2/peripheral/vadc/0/group/0/result/5">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.81"/>
+    <resourcesList name="grcr" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0rcr5"/>
+    <resourcesList name="gres" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0res5"/>
+    <resourcesList name="gresd" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0resd5"/>
+    <resourcesList name="gvfr_vf" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0vfr/vf5"/>
+    <resourcesList name="greflag_rev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0reflag/rev5"/>
+    <resourcesList name="grefclr_rev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0refclr/rev5"/>
+    <resourcesList name="grevnp_revnp" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0revnp0/rev5np"/>
+    <resourcesList name="res_sel" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0_res5_ressel"/>
+    <resourcesList name="rev" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/g0rev5"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="config" URI="http://resources/0.100.2/peripheral/vadc/0/group/3/config">
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@hwResources.5"/>
@@ -175,6 +201,25 @@
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/GLOBAL_ADC/v4_0_0/GLOBAL_ADC_0.app#//@hwResources.0"/>
     <resourcesList name="globbound" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/globbound"/>
     <resourcesList name="global_signal" requiredResourceUri="http://resources/0.100.2/peripheral/vadc/0/gl_global_signal"/>
+  </provided>
+  <provided xsi:type="ResourceModel:BitField" name="REV5NP" URI="http://resources/0.100.2/peripheral/vadc/0/g0revnp0/rev5np" value="0" toolTipHelpDescription="Service Request Node Pointer Result Event i" defaultValue="0" startPos="20" stopPos="23" accessPermission="rw" maxValue="15" minValue="0">
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0000" description="Select service request line 0 of group x"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0011" description="Select service request line 3 of group x"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0100" description="Select shared service request line 0"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0111" description="Select shared service request line 3"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b1xxx" description="Reserved"/>
+  </provided>
+  <provided xsi:type="ResourceModel:BitField" name="ALIAS1" URI="http://resources/0.100.2/peripheral/vadc/0/g0alias/alias1" value="1" toolTipHelpDescription="Alias Value for CH1 Conversion Requests" defaultValue="1" startPos="8" stopPos="12" accessPermission="rw" maxValue="31" minValue="0"/>
+  <provided xsi:type="ResourceModel:BitField" name="RESREG" URI="http://resources/0.100.2/peripheral/vadc/0/g0chctr1/resreg" value="5" toolTipHelpDescription="Result Register" defaultValue="0" startPos="16" stopPos="19" accessPermission="rw" maxValue="15" minValue="0">
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0000" description="Store result in group result register GxRES0"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b1111" description="Store result in group result register GxRES15"/>
+  </provided>
+  <provided xsi:type="ResourceModel:BitField" name="CEV1NP" URI="http://resources/0.100.2/peripheral/vadc/0/g0cevnp0/cev1np" value="0" toolTipHelpDescription="Service Request Node Pointer Channel Event i" defaultValue="0" startPos="4" stopPos="7" accessPermission="rw" maxValue="15" minValue="0">
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0000" description="Select service request line 0 of group x"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0011" description="Select service request line 3 of group x"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0100" description="Select shared service request line 0"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b0111" description="Select shared service request line 3"/>
+    <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b1xxx" description="Reserved"/>
   </provided>
   <categoryDescription description="Versatile Analog-to-Digital Converter Device Description" name="VADC"/>
   <addressBlock offset="0x0" size="0x4000" usage="registers"/>

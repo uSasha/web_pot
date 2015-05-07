@@ -61,4 +61,6 @@
   <hwConnections href="APPS/RTC/v4_0_1/RTC_0.app#//@connections.0"/>
   <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.55"/>
   <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.107"/>
+  <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.108"/>
+  <hwConnections href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@connections.56"/>
 </ApplicationModel:ApplicationData>

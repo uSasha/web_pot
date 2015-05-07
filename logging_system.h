@@ -7,11 +7,12 @@
 
 struct sensors_data
 {
-   time_t  timestamp;
-   uint8_t temperature;
-   uint8_t moisture;
+  time_t  timestamp;
+  uint8_t temperature;
+  uint8_t moisture;
+	uint8_t lite;
 };
 
-bool data_Write(struct sensors_data * data, uint32_t size_words);
+void data_Write(struct sensors_data * data);
 
-uint16_t * data_Read(uint32_t size_words);
+struct sensors_data data_Read(uint32_t size_words);

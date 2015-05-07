@@ -52,3 +52,4 @@
 .\uvbuild\logging_system.o: D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO/DIGITAL_IO.h
 .\uvbuild\logging_system.o: D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO/digital_io_conf.h
 .\uvbuild\logging_system.o: D:\Infineon\ARM_contest\web_pot\Dave\Generated\DIGITAL_IO/digital_io_extern.h
+.\uvbuild\logging_system.o: logging_system.h

@@ -727,7 +727,7 @@
     <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.4/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
       <properties key="SignalName" value="Channel_C"/>
       <properties key="uri" value="http://resources/4.0.1/app/ADC_MEASUREMENT/0/vs_adc_measurement_channelC"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="159"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.5" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="159"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.2"/>
       </link>
@@ -1288,7 +1288,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="139"/>
     </children>
     <children>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="154" value="Channel_C"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="154" style="//@styles.9/@styles.3" value="Channel_C"/>
       <link>
         <businessObjects href="APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@virtualSignals.2"/>
       </link>

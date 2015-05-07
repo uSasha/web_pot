@@ -9,4 +9,3 @@ int Init_Thread_Sensors (void);
 void sensors (void const *argument);                             // thread function
 
 extern osThreadId t_sensors;
-

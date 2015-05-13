@@ -15,8 +15,14 @@
 #include "Thread_sensors.h"
 #include "Thread_pump.h"
 #include "Thread_webserver.h"
+#include "rl_net.h"                     // Keil.MDK-Pro::Network:CORE
 
 
+void dhcp_client_notify(uint32_t if_num, dhcpClientOption opt, const uint8_t *val, uint32_t len) {
+if (opt == dhcpClientIPaddress) {
+	DIGITAL_IO_SetOutputHigh(&DIGITAL_IO_0);
+ }
+}
 
 // RTC interrupt handler, fires every day
 void IRQ_HourPassed(void)
@@ -43,6 +49,7 @@ int main(void)
 	Init_Thread_Pump();
 	Init_Thread_Sensors();
 	Init_Thread_WebServer();
+	net_initialize();
 	osKernelStart();
 	
   /* Placeholder for user application code. The while loop below can be replaced with user application code. */

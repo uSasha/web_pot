@@ -25,7 +25,7 @@
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/P1/P1_1.dd#//@provided.0"/>
   </hwResources>
   <hwResources name="PWM Output Pin" URI="http://resources/4.0.0/app/PWM/0/__pin_hwres_port_pad_pwm_out" resourceGroupUri="devicepackage/0/78" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.3"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.2"/>
   </hwResources>
   <connections URI="http://resources/4.0.0/app/PWM/0/http://resources/4.0.0/app/PWM/0/vs_pwm_ccu8_cc8_global/http://resources/4.0.0/app/PWM/0/vs_pwm_ccu8_cc8_slice_global" systemDefined="true" targetSignal="global_signal" required="false" targetVirtualSignal="//@virtualSignals.0" containingProxySignal="true"/>
   <connections URI="http://resources/4.0.0/app/PWM/0/http://resources/4.0.0/app/PWM/0/vs_pwm_ccu4_cc4_global/http://resources/4.0.0/app/PWM/0/vs_pwm_ccu4_cc4_slice_global" systemDefined="true" sourceSignal="ccu4_global" targetSignal="global_signal" targetVirtualSignal="//@virtualSignals.5" proxySrcVirtualSignalUri="http://resources/4.0.0/app/GLOBAL_CCU4/0/vs_global_ccu4_globalsignal" containingProxySignal="true">

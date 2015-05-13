@@ -1,11 +1,15 @@
 --cpu Cortex-M4.fp
 ".\uvbuild\main.o"
 ".\uvbuild\thread_pump.o"
-".\uvbuild\thread_webserver.o"
 ".\uvbuild\thread_sensors.o"
+".\uvbuild\thread_webserver.o"
 ".\uvbuild\logging_system.o"
-"D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4_IFX.lib"
+".\uvbuild\http_server_cgi.o"
+".\uvbuild\web.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4_IFX.lib"
 ".\uvbuild\rtx_conf_cm.o"
+".\uvbuild\eth_mac.o"
+".\uvbuild\eth_phy_ksz8031.o"
 ".\uvbuild\adc_measurement.o"
 ".\uvbuild\adc_measurement_conf.o"
 ".\uvbuild\clock_xmc4.o"
@@ -56,6 +60,8 @@
 ".\uvbuild\xmc_wdt.o"
 ".\uvbuild\startup_xmc4500.o"
 ".\uvbuild\system_xmc4500.o"
+"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.3.0\Network\Lib\ARM\Net_CM3_L.lib"
+".\uvbuild\net_config.o"
 --library_type=microlib --strict --scatter ".\UVBuild\web_pot.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

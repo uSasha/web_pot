@@ -1,0 +1,78 @@
+<html>
+<head>
+<script type="text/javascript" src="smoothie.js.gz"></script>
+<script type="text/javascript" src="jquery.min.js.gz"></script>
+<style>
+html *
+{
+   font-family: Verdana  !important;
+}
+</style>
+</head>
+<body>
+<h2>Magnetometer Realtime Data</h2>
+<table>
+<td>
+<canvas id="magcanvas" width="600" height="200"></canvas>
+</td>
+<td>
+<p style="color:red">x</p>
+<p style="color:green">y</p>
+<p style="color:blue">z</p>
+</td>
+</table>
+</br>
+
+<p>
+Update Interval in milliseconds:
+<input id="updateInterval" type="text" value="" style="text-align: right; width:5em">
+</p>
+
+<script>
+
+
+   var updateInterval = 300;
+   $("#updateInterval").val(updateInterval).change(function () {
+	var v = $(this).val();
+	if (v && !isNaN(+v)) {
+	  updateInterval = +v;
+	    if (updateInterval < 1) {
+			updateInterval = 1;
+		} else if (updateInterval > 2000) {
+			updateInterval = 2000;
+		}
+		$(this).val("" + updateInterval);
+		}
+	});
+
+
+  var smoothie_mag = new SmoothieChart({scaleSmoothing:0.01,maxValue:800,minValue:-800});
+  smoothie_mag.streamTo(document.getElementById("magcanvas"), 10);
+  
+   // Data
+   var linex = new TimeSeries();
+   var liney = new TimeSeries();
+   var linez = new TimeSeries();
+
+   
+  // Add a random value to each line every x milliseconds
+   var timer_callback = function(){ 
+   clearInterval(interval);
+   $.getJSON("loc.cgx", function(loc) { 
+	    linex.append(new Date().getTime(), loc.x);		
+		liney.append(new Date().getTime(), loc.y);    
+		linez.append(new Date().getTime(), loc.z);      
+		});
+		interval = setInterval(timer_callback, updateInterval);
+   };
+   var interval = setInterval(timer_callback, updateInterval);
+   
+   
+   
+
+  // Add to SmoothieChart
+  smoothie_mag.addTimeSeries(linex, { strokeStyle:'rgb(0, 255, 0)', fillStyle:'rgba(0, 255, 0, 0.4)', lineWidth:2 });
+  smoothie_mag.addTimeSeries(liney, { strokeStyle:'rgb(0, 0, 255)', fillStyle:'rgba(0, 0, 255, 0.4)', lineWidth:2 });
+  smoothie_mag.addTimeSeries(linez, { strokeStyle:'rgb(255, 0, 0)', fillStyle:'rgba(255, 0, 0, 0.4)', lineWidth:2 });
+</script>
+</body>

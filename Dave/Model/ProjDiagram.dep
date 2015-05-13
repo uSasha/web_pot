@@ -36,25 +36,25 @@
       <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="142" height="40" style="//@styles.0/@styles.6" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.8"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.10"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
       <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="25" height="22" id="icons/App_Icon_16x16.gif" stretchH="false" stretchV="false" proportional="false"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.8"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.10"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="142" height="20" x="25" font="//@fonts.0" value="DIGITAL_IO"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.8"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.10"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="142" height="20" x="25" y="17" font="//@fonts.1" value="DIGITAL_IO_0"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.8"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.10"/>
       </link>
     </children>
   </children>
@@ -144,25 +144,25 @@
       <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="177" height="40" style="//@styles.0/@styles.9" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.11"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.14"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.6" incomingConnections="//@connections.5"/>
     <children>
       <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="25" height="22" id="icons/App_Icon_16x16.gif" stretchH="false" stretchV="false" proportional="false"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.11"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.14"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="177" height="20" x="25" font="//@fonts.0" value="GLOBAL_SCU_XMC4"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.11"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.14"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="177" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_SCU_XMC4_0"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.11"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.14"/>
       </link>
     </children>
   </children>
@@ -198,25 +198,25 @@
       <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="163" height="40" style="//@styles.0/@styles.10" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="ModelConfigData.data#//@nodes.12"/>
+      <businessObjects href="ModelConfigData.data#//@nodes.15"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6"/>
     <children>
       <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="25" height="22" id="icons/App_Icon_16x16.gif" stretchH="false" stretchV="false" proportional="false"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.12"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.15"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" x="25" font="//@fonts.0" value="CPU_CTRL_XMC4"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.12"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.15"/>
       </link>
     </children>
     <children visible="true">
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" x="25" y="17" font="//@fonts.1" value="CPU_CTRL_XMC4_0"/>
       <link>
-        <businessObjects href="ModelConfigData.data#//@nodes.12"/>
+        <businessObjects href="ModelConfigData.data#//@nodes.15"/>
       </link>
     </children>
   </children>

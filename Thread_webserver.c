@@ -1,5 +1,6 @@
 #include <DAVE.h>			//Declarations from DAVE Code Generation (includes SFR declaration)
 #include <cmsis_os.h>                                           // CMSIS RTOS header file
+#include "rl_net.h"                     // Keil.MDK-Pro::Network:CORE
 
 /*----------------------------------------------------------------------------
  *      Thread 1 'Thread_Name': Sample thread
@@ -23,9 +24,8 @@ int Init_Thread_WebServer (void) {
  *---------------------------------------------------------------------------*/
 void webServer (void const *argument) {
   for (;;) {
-		DIGITAL_IO_SetOutputHigh(&DIGITAL_IO_0);
-    osDelay(4000);                         /* delay 4000ms                     */
-    DIGITAL_IO_SetOutputLow(&DIGITAL_IO_0);
-    osDelay(4000);                         /* delay 4000ms                     */
+		net_main();
+		osThreadYield();
+		
   }
 }

@@ -4,7 +4,6 @@
 #include <DAVE.h>  
 #include "logging_system.h"
 
-#define BUFFER_SIZE				10		// number of entries
 #define TICKS_IN_MINUTE		60000000	// TODO check values
 #define ADC_FACTOR_TEMP		100		// TODO check values
 #define ADC_FACTOR_MOISTURE 200 // TODO check values
@@ -12,12 +11,7 @@
 extern osThreadId t_ledOff;                    /* assigned task id of task: ledOff  */
 extern osThreadId t_pump;    
 
-struct sensors_data
-{
-   time_t  timestamp;
-   uint8_t temperature;
-   uint8_t moisture;
-} data_buffer[BUFFER_SIZE];  
+struct sensors_data data_buffer[BUFFER_SIZE]; 
 
 /*----------------------------------------------------------------------------
  *      Thread 1 'Thread_Name': Sample thread
@@ -54,7 +48,6 @@ void sensors (void const *argument) {
 				// TODO handle data write error
 			}
 			i = 0;
-			DIGITAL_IO_ToggleOutput(&DIGITAL_IO_0);
 		}
   }
 }

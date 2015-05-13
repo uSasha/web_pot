@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script language="javascript" type="text/javascript" src="jquery.min.js.gz"></script>
+	<script type="text/javascript">
+		$(function() {
+			var json_sample = [];
+			function getData() {
+				$.getJSON("loc.cgx", function(loc) { json_sample = loc; });
+				$('#val_x').val(json_sample.x);
+				$('#val_y').val(json_sample.y);
+				$('#val_z').val(json_sample.z);
+			}
+			function update() {
+				getData();
+				setTimeout(update, 300);
+			}
+			update();
+		});
+	</script>
+	<style>
+	html *
+	{
+		font-family: Verdana  !important;
+	}
+    </style>
+  </head>
+  <body>
+    <h2>WebPot</h2>
+    <p>Sensor data is:
+    x = <input id="val_x" type="text" value="">,
+    y = <input id="val_y" type="text" value="">,
+    z = <input id="val_z" type="text" value=""></p>
+	</br>
+	<a href="graph.html" target=_blank>Graphical View</a>
+  </body>
+</html>

@@ -22,28 +22,85 @@ Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
 C:\coding\ARM_Contest\web_pot\web_pot.uvprojx
-Project File Date:  05/12/2015
+Project File Date:  05/14/2015
 
 <h2>Output:</h2>
-Build target 'XMC4500-F100x1024'
+Rebuild target 'XMC4500-F100x1024'
 
 FCARM uses the following Files via command file '.\Auto_FcArm_Cmd.inp':
-~loc.cgx,
-~index.html,
-~jquery.min.js.gz,
-~graph.html,
-~smoothie.js.gz 
+~loc.cgx 
 TO web.c RTE NOPRINT ROOT(Web)
 custom translating @.\Auto_FcArm_Cmd.inp...
 Custom: C:\Keil_v5\ARM\Bin\FCARM.exe @.\Auto_FcArm_Cmd.inp
 FCARM FILE CONVERTER V2.52
-Completed 5 File(s), Ratio 99%
+Completed 1 File(s), Ratio 37%
+compiling main.c...
+compiling Thread_pump.c...
 compiling Thread_sensors.c...
+compiling Thread_webserver.c...
+compiling logging_system.c...
 compiling HTTP_Server_CGI.c...
 compiling web.c...
+compiling RTX_Conf_CM.c...
+compiling ETH_MAC.c...
+compiling ETH_PHY_KSZ8031.c...
+compiling adc_measurement.c...
+compiling adc_measurement_conf.c...
+compiling clock_xmc4.c...
+compiling clock_xmc4_conf.c...
+compiling cpu_ctrl_xmc4.c...
+compiling cpu_ctrl_xmc4_conf.c...
+compiling DAVE.c...
+compiling digital_io.c...
+compiling digital_io_conf.c...
+compiling global_adc.c...
+compiling global_adc_conf.c...
+compiling global_ccu4.c...
+compiling global_ccu4_conf.c...
+compiling global_scu_xmc4.c...
+compiling global_scu_xmc4_conf.c...
+compiling pwm.c...
+compiling pwm_conf.c...
+compiling rtc.c...
+C:\coding\ARM_Contest\web_pot\Dave\Generated\RTC\rtc.c(253): warning:  #188-D: enumerated type mixed with another type
+                        return (pi_status & ai_status);
+C:\coding\ARM_Contest\web_pot\Dave\Generated\RTC\rtc.c: 1 warning, 0 errors
+compiling rtc_conf.c...
+compiling xmc4_eru.c...
+compiling xmc4_flash.c...
+compiling xmc4_gpio.c...
+compiling xmc4_rtc.c...
+compiling xmc4_scu.c...
+compiling xmc4_usic.c...
+compiling xmc_can.c...
+compiling xmc_ccu4.c...
+compiling xmc_ccu8.c...
+compiling xmc_common.c...
+compiling xmc_dac.c...
+compiling xmc_dma.c...
+compiling xmc_ebu.c...
+compiling xmc_eru.c...
+compiling xmc_fce.c...
+compiling xmc_gpio.c...
+compiling xmc_hrpwm.c...
+compiling xmc_i2c.c...
+compiling xmc_ledts.c...
+compiling xmc_posif.c...
+compiling xmc_rtc.c...
+compiling xmc_scu.c...
+compiling xmc_sdmmc.c...
+compiling xmc_spi.c...
+compiling xmc_uart.c...
+compiling xmc_usbd.c...
+compiling xmc_usic.c...
+compiling xmc_vadc.c...
+compiling xmc_wdt.c...
+assembling startup_XMC4500.s...
+compiling system_XMC4500.c...
+compiling Net_Config.c...
 linking...
-Program Size: Code=44944 RO-data=41960 RW-data=9900 ZI-data=55592  
-".\UVBuild\web_pot.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=44944 RO-data=2456 RW-data=9900 ZI-data=55592  
+".\UVBuild\web_pot.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -52,66 +109,66 @@ Package Vendor: ARM
                 ::CMSIS:RTOS:1.0 (API)
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: RTOS Version: 1.0
+   * Component: CORE Version: 4.1.0
    * Component: Keil RTX Version: 4.78.0
+   * Component: Ethernet MAC Version: 2.01
+   * Component: Ethernet PHY Version: 2.00
 
 Package Vendor: Infineon
                 http://media.infineon.com/mdk/Infineon.XMC4000_DFP.2.2.0.pack
-                Infineon::Device:XMClib:VADC:1.0.0
+                Infineon::Device:Startup:1.0.0
                 Infineon XMC4000 Series Device Support, Drivers and Examples
-   * Component: VADC Version: 1.0.0
-   * Component: CAN Version: 1.0.0
-   * Component: RTE_Device Version: 1.0.0
-   * Component: CCU4 Version: 1.0.0
    * Component: Startup Version: 1.0.0
-   * Component: Ethernet MAC Version: 2.01
-   * Component: Ethernet PHY Version: 2.00
-   * Component: CORE Version: 4.1.0
-   * Component: FLASH Version: 1.0.0
-   * Component: Ethernet MAC Version: 2.01
-   * Component: KSZ8031 Version: 1.00
-   * Component: RTC Version: 1.0.0
-   * Component: SDMMC Version: 1.0.0
-   * Component: CCU8 Version: 1.0.0
-   * Component: SPI Version: 1.0.0
-   * Component: HRPWM Version: 1.0.0
-   * Component: UART Version: 1.0.0
-   * Component: LEDTS Version: 1.0.0
-   * Component: POSIF Version: 1.0.0
-   * Component: SCU Version: 1.0.0
-   * Component: EBU Version: 1.0.0
+   * Component: RTE_Device Version: 1.0.0
+   * Component: VADC Version: 1.0.0
    * Component: ERU Version: 1.0.0
-   * Component: USB Version: 1.0.0
-   * Component: DMA Version: 1.0.0
    * Component: WDT Version: 1.0.0
-   * Component: FCE Version: 1.0.0
+   * Component: CCU4 Version: 1.0.0
+   * Component: SPI Version: 1.0.0
+   * Component: CAN Version: 1.0.0
+   * Component: KSZ8031 Version: 1.00
+   * Component: EBU Version: 1.0.0
+   * Component: CCU8 Version: 1.0.0
+   * Component: POSIF Version: 1.0.0
+   * Component: HRPWM Version: 1.0.0
    * Component: DAC Version: 1.0.0
+   * Component: SDMMC Version: 1.0.0
+   * Component: USB Version: 1.0.0
    * Component: GPIO Version: 1.0.0
    * Component: I2C Version: 1.0.0
+   * Component: DMA Version: 1.0.0
+   * Component: LEDTS Version: 1.0.0
+   * Component: SCU Version: 1.0.0
+   * Component: UART Version: 1.0.0
+   * Component: RTC Version: 1.0.0
+   * Component: FCE Version: 1.0.0
+   * Component: FLASH Version: 1.0.0
+   * Component: Ethernet MAC Version: 2.01
 
 Package Vendor: Keil
                 http://www.keil.com/pack/Keil.MDK-Middleware.6.3.0.pack
-                Keil.MDK-Pro::Network:Interface:ETH:6.3.0
+                Keil.MDK-Pro::Network:CORE:Release:6.3.0
                 Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
-   * Component: ETH Version: 6.3.0
    * Component: CORE Variant: Release Version: 6.3.0
-   * Component: UDP Version: 6.3.0
-   * Component: TCP Version: 6.3.0
+   * Component: ETH Version: 6.3.0
    * Component: Web Server Compact Version: 6.3.0
+   * Component: TCP Version: 6.3.0
+   * Component: UDP Version: 6.3.0
 
 Package Vendor: Infineon
                 D:\Infineon\ARM_contest\web_pot/Infineon.web_pot.1.0.0.pack
-                Infineon::DAVE:GLOBAL_CCU4:4.0.0
+                Infineon::DAVE:ADC_MEASUREMENT:4.0.1
                 Generated Configuration Files for CE Project web_pot
+   * Component: ADC_MEASUREMENT Version: 4.0.1
+   * Component: GLOBAL_ADC Version: 4.0.0
    * Component: GLOBAL_CCU4 Version: 4.0.0
-   * Component: GLOBAL_SCU_XMC4 Version: 4.0.0
    * Component: PWM Version: 4.0.0
-   * Component: CLOCK_XMC4 Version: 4.0.1
    * Component: DIGITAL_IO Version: 4.0.1
    * Component: RTC Version: 4.0.1
-   * Component: GLOBAL_ADC Version: 4.0.0
    * Component: CPU_CTRL_XMC4 Version: 4.0.0
    * Component: Framework Version: 1.0.0
-   * Component: ADC_MEASUREMENT Version: 4.0.1
+   * Component: GLOBAL_SCU_XMC4 Version: 4.0.0
+   * Component: CLOCK_XMC4 Version: 4.0.1
 
 <h2>Collection of Component include folders:</h2>
   C:\coding\ARM_Contest\web_pot\RTE
@@ -138,40 +195,22 @@ Package Vendor: Infineon
 
    * Component: ::CMSIS:RTOS:1.0 (API)
 
+   * Component: ARM::CMSIS:CORE:4.1.0
+
    * Component: ARM::CMSIS:RTOS:Keil RTX:4.78.0
-      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
       Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4_IFX.lib
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
       Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
       Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
       Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
-      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
       Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
-      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4_IFX.lib
-
-   * Component: Infineon::Device:XMClib:VADC:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_vadc.c
-
-   * Component: Infineon::Device:XMClib:CAN:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_can.c
-
-   * Component: Infineon::Device:RTE_Device:1.0.0
-      Include file:  RTE_Driver\Config\XMC4500_F100\RTE_Device.h
-
-   * Component: Infineon::Device:XMClib:CCU4:1.0.0
-      Source file:   Device\XMClib\src\xmc_ccu4.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:Startup:1.0.0
-      Source file:   Device\XMC4500_series\Source\ARM\startup_XMC4500.s
-      Include file:  Device\XMC4500_series\Include\XMC4500.h
-      Source file:   Device\XMC4500_series\Source\system_XMC4500.c
 
    * Component: ::CMSIS Driver:Ethernet MAC:2.01 (API)
       Include file:  CMSIS\Driver\Include\Driver_ETH_MAC.h
@@ -179,7 +218,110 @@ Package Vendor: Infineon
    * Component: ::CMSIS Driver:Ethernet PHY:2.00 (API)
       Include file:  CMSIS\Driver\Include\Driver_ETH_PHY.h
 
-   * Component: ARM::CMSIS:CORE:4.1.0
+   * Component: Infineon::Device:Startup:1.0.0
+      Source file:   Device\XMC4500_series\Source\ARM\startup_XMC4500.s
+      Include file:  Device\XMC4500_series\Include\XMC4500.h
+      Source file:   Device\XMC4500_series\Source\system_XMC4500.c
+
+   * Component: Infineon::Device:RTE_Device:1.0.0
+      Include file:  RTE_Driver\Config\XMC4500_F100\RTE_Device.h
+
+   * Component: Infineon::Device:XMClib:VADC:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_vadc.c
+
+   * Component: Infineon::Device:XMClib:ERU:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_eru.c
+      Source file:   Device\XMClib\src\xmc4_eru.c
+
+   * Component: Infineon::Device:XMClib:WDT:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_wdt.c
+
+   * Component: Infineon::Device:XMClib:CCU4:1.0.0
+      Source file:   Device\XMClib\src\xmc_ccu4.c
+      Source file:   Device\XMClib\src\xmc_common.c
+
+   * Component: Infineon::Device:XMClib:SPI:1.0.0
+      Source file:   Device\XMClib\src\xmc4_usic.c
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_spi.c
+      Source file:   Device\XMClib\src\xmc_usic.c
+
+   * Component: Infineon::Device:XMClib:CAN:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_can.c
+
+   * Component: Infineon::CMSIS Driver:Ethernet PHY:KSZ8031:1.00
+      Source file:   RTE_Driver\ETH_PHY_KSZ8031.c
+
+   * Component: Infineon::Device:XMClib:EBU:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_ebu.c
+
+   * Component: Infineon::Device:XMClib:CCU8:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_ccu8.c
+
+   * Component: Infineon::Device:XMClib:POSIF:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_posif.c
+
+   * Component: Infineon::Device:XMClib:HRPWM:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_hrpwm.c
+
+   * Component: Infineon::Device:XMClib:DAC:1.0.0
+      Source file:   Device\XMClib\src\xmc_dac.c
+      Source file:   Device\XMClib\src\xmc_common.c
+
+   * Component: Infineon::Device:XMClib:SDMMC:1.0.0
+      Source file:   Device\XMClib\src\xmc_sdmmc.c
+      Source file:   Device\XMClib\src\xmc_common.c
+
+   * Component: Infineon::Device:XMClib:USB:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_usbd.c
+
+   * Component: Infineon::Device:XMClib:GPIO:1.0.0
+      Source file:   Device\XMClib\src\xmc4_gpio.c
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_gpio.c
+
+   * Component: Infineon::Device:XMClib:I2C:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_i2c.c
+      Source file:   Device\XMClib\src\xmc_usic.c
+      Source file:   Device\XMClib\src\xmc4_usic.c
+
+   * Component: Infineon::Device:XMClib:DMA:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_dma.c
+
+   * Component: Infineon::Device:XMClib:LEDTS:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_ledts.c
+
+   * Component: Infineon::Device:XMClib:SCU:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_scu.c
+      Source file:   Device\XMClib\src\xmc4_scu.c
+
+   * Component: Infineon::Device:XMClib:UART:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_uart.c
+      Source file:   Device\XMClib\src\xmc_usic.c
+      Source file:   Device\XMClib\src\xmc4_usic.c
+
+   * Component: Infineon::Device:XMClib:RTC:1.0.0
+      Source file:   Device\XMClib\src\xmc_common.c
+      Source file:   Device\XMClib\src\xmc_rtc.c
+      Source file:   Device\XMClib\src\xmc4_rtc.c
+
+   * Component: Infineon::Device:XMClib:FCE:1.0.0
+      Source file:   Device\XMClib\src\xmc_fce.c
+      Source file:   Device\XMClib\src\xmc_common.c
 
    * Component: Infineon::Device:XMClib:FLASH:1.0.0
       Source file:   Device\XMClib\src\xmc4_flash.c
@@ -188,182 +330,97 @@ Package Vendor: Infineon
    * Component: Infineon::CMSIS Driver:Ethernet MAC:2.01
       Source file:   RTE_Driver\ETH_MAC.c
 
-   * Component: Infineon::CMSIS Driver:Ethernet PHY:KSZ8031:1.00
-      Source file:   RTE_Driver\ETH_PHY_KSZ8031.c
-
-   * Component: Infineon::Device:XMClib:RTC:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc4_rtc.c
-      Source file:   Device\XMClib\src\xmc_rtc.c
-
-   * Component: Infineon::Device:XMClib:SDMMC:1.0.0
-      Source file:   Device\XMClib\src\xmc_sdmmc.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:CCU8:1.0.0
-      Source file:   Device\XMClib\src\xmc_ccu8.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:SPI:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc4_usic.c
-      Source file:   Device\XMClib\src\xmc_usic.c
-      Source file:   Device\XMClib\src\xmc_spi.c
-
-   * Component: Infineon::Device:XMClib:HRPWM:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_hrpwm.c
-
-   * Component: Infineon::Device:XMClib:UART:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_uart.c
-      Source file:   Device\XMClib\src\xmc_usic.c
-      Source file:   Device\XMClib\src\xmc4_usic.c
-
-   * Component: Infineon::Device:XMClib:LEDTS:1.0.0
-      Source file:   Device\XMClib\src\xmc_ledts.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:POSIF:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_posif.c
-
-   * Component: Infineon::Device:XMClib:SCU:1.0.0
-      Source file:   Device\XMClib\src\xmc_scu.c
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc4_scu.c
-
-   * Component: Infineon::Device:XMClib:EBU:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_ebu.c
-
-   * Component: Infineon::Device:XMClib:ERU:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_eru.c
-      Source file:   Device\XMClib\src\xmc4_eru.c
-
-   * Component: Infineon::Device:XMClib:USB:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_usbd.c
-
-   * Component: Infineon::Device:XMClib:DMA:1.0.0
-      Source file:   Device\XMClib\src\xmc_dma.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:WDT:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_wdt.c
-
-   * Component: Infineon::Device:XMClib:FCE:1.0.0
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_fce.c
-
-   * Component: Infineon::Device:XMClib:DAC:1.0.0
-      Source file:   Device\XMClib\src\xmc_dac.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:GPIO:1.0.0
-      Source file:   Device\XMClib\src\xmc_gpio.c
-      Source file:   Device\XMClib\src\xmc4_gpio.c
-      Source file:   Device\XMClib\src\xmc_common.c
-
-   * Component: Infineon::Device:XMClib:I2C:1.0.0
-      Source file:   Device\XMClib\src\xmc_usic.c
-      Source file:   Device\XMClib\src\xmc4_usic.c
-      Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_i2c.c
+   * Component: Keil.MDK-Pro::Network:CORE:Release:6.3.0
+      Source file:   Network\Config\Net_Config.c
+      Include file:  Network\Include\rl_net.h
+      Library file:  Network\Lib\ARM\Net_CM3_L.lib
 
    * Component: Keil.MDK-Pro::Network:Interface:ETH:6.3.0
       Source file:   Network\Config\Net_Config_ETH.h
 
-   * Component: Keil.MDK-Pro::Network:CORE:Release:6.3.0
-      Include file:  Network\Include\rl_net.h
-      Source file:   Network\Config\Net_Config.c
-      Library file:  Network\Lib\ARM\Net_CM3_L.lib
-
-   * Component: Keil.MDK-Pro::Network:Socket:UDP:6.3.0
-      Source file:   Network\Template\UDP_Socket.c
-      Source file:   Network\Config\Net_Config_UDP.h
-
-   * Component: Keil.MDK-Pro::Network:Socket:TCP:6.3.0
-      Source file:   Network\Config\Net_Config_TCP.h
-      Source file:   Network\Template\TCP_Socket_Server.c
-      Source file:   Network\Template\TCP_Socket_Client.c
-
    * Component: Keil.MDK-Pro::Network:Service:Web Server Compact:6.3.0
-      Source file:   Network\Config\Net_Config_HTTP_Server.h
-      Source file:   Network\Template\HTTP_Server_CGI.c
-      Source file:   Network\Template\HTTP_Server_Multiuser.c
       Source file:   Network\Template\HTTP_Server_Access.c
       Source file:   Network\Template\HTTP_Server_Error.c
+      Source file:   Network\Template\HTTP_Server_Multiuser.c
+      Source file:   Network\Template\HTTP_Server_CGI.c
+      Source file:   Network\Config\Net_Config_HTTP_Server.h
 
-   * Component: Infineon::DAVE:GLOBAL_CCU4:4.0.0
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h
-      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4.c
-      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.c
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4.h
-      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h
+   * Component: Keil.MDK-Pro::Network:Socket:TCP:6.3.0
+      Source file:   Network\Template\TCP_Socket_Server.c
+      Source file:   Network\Config\Net_Config_TCP.h
+      Source file:   Network\Template\TCP_Socket_Client.c
 
-   * Component: Infineon::DAVE:GLOBAL_SCU_XMC4:4.0.0
-      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h
-      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h
-      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h
+   * Component: Keil.MDK-Pro::Network:Socket:UDP:6.3.0
+      Source file:   Network\Config\Net_Config_UDP.h
+      Source file:   Network\Template\UDP_Socket.c
 
-   * Component: Infineon::DAVE:PWM:4.0.0
-      Source file:   Dave\Generated\PWM\pwm.c
-      Include file:  Dave\Generated\PWM\pwm.h
-      Include file:  Dave\Generated\PWM\pwm_conf.h
-      Source file:   Dave\Generated\PWM\pwm_conf.c
-      Include file:  Dave\Generated\PWM\pwm_extern.h
-
-   * Component: Infineon::DAVE:CLOCK_XMC4:4.0.1
-      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4.c
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4.h
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h
-      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h
-      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c
-
-   * Component: Infineon::DAVE:DIGITAL_IO:4.0.1
-      Source file:   Dave\Generated\DIGITAL_IO\digital_io_conf.c
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io_extern.h
-      Source file:   Dave\Generated\DIGITAL_IO\digital_io.c
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io.h
-      Include file:  Dave\Generated\DIGITAL_IO\digital_io_conf.h
-
-   * Component: Infineon::DAVE:RTC:4.0.1
-      Source file:   Dave\Generated\RTC\rtc_conf.c
-      Include file:  Dave\Generated\RTC\rtc_conf.h
-      Include file:  Dave\Generated\RTC\rtc_extern.h
-      Include file:  Dave\Generated\RTC\rtc.h
-      Source file:   Dave\Generated\RTC\rtc.c
+   * Component: Infineon::DAVE:ADC_MEASUREMENT:4.0.1
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_extern.h
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement.h
+      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c
+      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement.c
+      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h
 
    * Component: Infineon::DAVE:GLOBAL_ADC:4.0.0
-      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_conf.h
       Include file:  Dave\Generated\GLOBAL_ADC\global_adc.h
       Include file:  Dave\Generated\GLOBAL_ADC\global_adc_extern.h
+      Include file:  Dave\Generated\GLOBAL_ADC\global_adc_conf.h
       Source file:   Dave\Generated\GLOBAL_ADC\global_adc.c
       Source file:   Dave\Generated\GLOBAL_ADC\global_adc_conf.c
 
+   * Component: Infineon::DAVE:GLOBAL_CCU4:4.0.0
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.h
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4_extern.h
+      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4.c
+      Include file:  Dave\Generated\GLOBAL_CCU4\global_ccu4.h
+      Source file:   Dave\Generated\GLOBAL_CCU4\global_ccu4_conf.c
+
+   * Component: Infineon::DAVE:PWM:4.0.0
+      Include file:  Dave\Generated\PWM\pwm_conf.h
+      Include file:  Dave\Generated\PWM\pwm_extern.h
+      Source file:   Dave\Generated\PWM\pwm_conf.c
+      Include file:  Dave\Generated\PWM\pwm.h
+      Source file:   Dave\Generated\PWM\pwm.c
+
+   * Component: Infineon::DAVE:DIGITAL_IO:4.0.1
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io.h
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io_conf.h
+      Source file:   Dave\Generated\DIGITAL_IO\digital_io_conf.c
+      Include file:  Dave\Generated\DIGITAL_IO\digital_io_extern.h
+      Source file:   Dave\Generated\DIGITAL_IO\digital_io.c
+
+   * Component: Infineon::DAVE:RTC:4.0.1
+      Include file:  Dave\Generated\RTC\rtc.h
+      Source file:   Dave\Generated\RTC\rtc.c
+      Include file:  Dave\Generated\RTC\rtc_extern.h
+      Source file:   Dave\Generated\RTC\rtc_conf.c
+      Include file:  Dave\Generated\RTC\rtc_conf.h
+
    * Component: Infineon::DAVE:CPU_CTRL_XMC4:4.0.0
+      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c
       Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h
       Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c
       Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h
       Include file:  Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h
-      Source file:   Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c
 
    * Component: Infineon::DAVE:Framework:1.0.0
       Include file:  Dave\Generated\DAVE.h
       Include file:  Dave\Generated\DAVE_Common.h
       Source file:   Dave\Generated\DAVE.c
 
-   * Component: Infineon::DAVE:ADC_MEASUREMENT:4.0.1
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.h
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement_extern.h
-      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement.c
-      Source file:   Dave\Generated\ADC_MEASUREMENT\adc_measurement_conf.c
-      Include file:  Dave\Generated\ADC_MEASUREMENT\adc_measurement.h
+   * Component: Infineon::DAVE:GLOBAL_SCU_XMC4:4.0.0
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.h
+      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_conf.c
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.h
+      Include file:  Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4_extern.h
+      Source file:   Dave\Generated\GLOBAL_SCU_XMC4\global_scu_xmc4.c
+
+   * Component: Infineon::DAVE:CLOCK_XMC4:4.0.1
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h
+      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4.c
+      Source file:   Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c
+      Include file:  Dave\Generated\CLOCK_XMC4\clock_xmc4.h
 </pre>
 </body>
 </html>

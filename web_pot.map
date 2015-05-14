@@ -2362,55 +2362,55 @@ Image Symbol Table
     .constdata                               0x0800b190   Section       16  thread_pump.o(.constdata)
     .constdata                               0x0800b1a0   Section       16  thread_sensors.o(.constdata)
     .constdata                               0x0800b1b0   Section       16  thread_webserver.o(.constdata)
-    .constdata                               0x0800b1c0   Section    39528  web.o(.constdata)
-    imageFileData                            0x0800b1c4   Data       39476  web.o(.constdata)
-    imageFileTable                           0x08014bf8   Data          48  web.o(.constdata)
-    .constdata                               0x08014c28   Section       86  rtx_conf_cm.o(.constdata)
-    __tagsym$$used                           0x08014c44   Number         0  rtx_conf_cm.o(.constdata)
-    __tagsym$$used                           0x08014c48   Number         0  rtx_conf_cm.o(.constdata)
-    __tagsym$$used                           0x08014c4c   Number         0  rtx_conf_cm.o(.constdata)
-    __tagsym$$used                           0x08014c50   Number         0  rtx_conf_cm.o(.constdata)
-    .constdata                               0x08014c80   Section       76  eth_mac.o(.constdata)
-    DriverVersion                            0x08014c80   Data           4  eth_mac.o(.constdata)
-    DriverCapabilities                       0x08014c84   Data           4  eth_mac.o(.constdata)
-    .constdata                               0x08014ccc   Section       36  eth_phy_ksz8031.o(.constdata)
-    DriverVersion                            0x08014ccc   Data           4  eth_phy_ksz8031.o(.constdata)
-    .constdata                               0x08014cf0   Section       16  adc_measurement_conf.o(.constdata)
-    .constdata                               0x08014d00   Section       20  clock_xmc4_conf.o(.constdata)
-    .constdata                               0x08014d14   Section        1  cpu_ctrl_xmc4_conf.o(.constdata)
-    .constdata                               0x08014d18   Section      104  global_adc_conf.o(.constdata)
-    .constdata                               0x08014d80   Section        4  global_scu_xmc4_conf.o(.constdata)
-    .constdata                               0x08014d84   Section       64  pwm_conf.o(.constdata)
-    .constdata                               0x08014dc4   Section       52  rtc.o(.constdata)
-    .constdata                               0x08014df8   Section       40  rtc_conf.o(.constdata)
-    .constdata                               0x08014e20   Section       48  xmc4_scu.o(.constdata)
-    set_peripheral_reset                     0x08014e20   Data          16  xmc4_scu.o(.constdata)
-    clear_peripheral_reset                   0x08014e30   Data          16  xmc4_scu.o(.constdata)
-    clear_peripheral_reset                   0x08014e40   Data          16  xmc4_scu.o(.constdata)
-    .constdata                               0x08014e50   Section       16  xmc_vadc.o(.constdata)
-    g_xmc_vadc_group_array                   0x08014e50   Data          16  xmc_vadc.o(.constdata)
-    .constdata                               0x08014e60   Section      172  net_config.o(.constdata)
-    .constdata                               0x08014f0c   Section       28  net_eth.o(.constdata)
-    link_evt                                 0x08014f12   Data           6  net_eth.o(.constdata)
-    .constdata                               0x08014f28   Section        8  net_ip.o(.constdata)
-    ip_lhost                                 0x08014f2c   Data           4  net_ip.o(.constdata)
-    .constdata                               0x08014f30   Section        8  net_nbns_client.o(.constdata)
-    nbns_ttllen                              0x08014f30   Data           8  net_nbns_client.o(.constdata)
-    .constdata                               0x08014f38   Section      250  net_http_server.o(.constdata)
-    DYear                                    0x08014f38   Data           6  net_http_server.o(.constdata)
-    Month                                    0x08014f3e   Data          48  net_http_server.o(.constdata)
-    WkDay                                    0x08014f6e   Data          28  net_http_server.o(.constdata)
-    DMonth                                   0x08014f8a   Data          24  net_http_server.o(.constdata)
-    ftype                                    0x08014fa2   Data         144  net_http_server.o(.constdata)
-    .constdata                               0x08015034   Section        8  net_sys.o(.constdata)
-    .constdata                               0x0801503c   Section       24  net_http_server_err.o(.constdata)
-    .constdata                               0x08015054   Section        4  net_mem.o(.constdata)
-    .constdata                               0x08015058   Section        8  net_addr4.o(.constdata)
-    .constdata                               0x08015060   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x080150e4   Section        4  ctype_o.o(.constdata)
-    table                                    0x080150e4   Data           4  ctype_o.o(.constdata)
-    .conststring                             0x080150e8   Section      109  net_tcp.o(.conststring)
-    .conststring                             0x08015158   Section      511  net_http_server_err.o(.conststring)
+    .constdata                               0x0800b1c0   Section       24  web.o(.constdata)
+    imageFileData                            0x0800b1c4   Data           3  web.o(.constdata)
+    imageFileTable                           0x0800b1c8   Data          16  web.o(.constdata)
+    .constdata                               0x0800b1d8   Section       86  rtx_conf_cm.o(.constdata)
+    __tagsym$$used                           0x0800b1f4   Number         0  rtx_conf_cm.o(.constdata)
+    __tagsym$$used                           0x0800b1f8   Number         0  rtx_conf_cm.o(.constdata)
+    __tagsym$$used                           0x0800b1fc   Number         0  rtx_conf_cm.o(.constdata)
+    __tagsym$$used                           0x0800b200   Number         0  rtx_conf_cm.o(.constdata)
+    .constdata                               0x0800b230   Section       76  eth_mac.o(.constdata)
+    DriverVersion                            0x0800b230   Data           4  eth_mac.o(.constdata)
+    DriverCapabilities                       0x0800b234   Data           4  eth_mac.o(.constdata)
+    .constdata                               0x0800b27c   Section       36  eth_phy_ksz8031.o(.constdata)
+    DriverVersion                            0x0800b27c   Data           4  eth_phy_ksz8031.o(.constdata)
+    .constdata                               0x0800b2a0   Section       16  adc_measurement_conf.o(.constdata)
+    .constdata                               0x0800b2b0   Section       20  clock_xmc4_conf.o(.constdata)
+    .constdata                               0x0800b2c4   Section        1  cpu_ctrl_xmc4_conf.o(.constdata)
+    .constdata                               0x0800b2c8   Section      104  global_adc_conf.o(.constdata)
+    .constdata                               0x0800b330   Section        4  global_scu_xmc4_conf.o(.constdata)
+    .constdata                               0x0800b334   Section       64  pwm_conf.o(.constdata)
+    .constdata                               0x0800b374   Section       52  rtc.o(.constdata)
+    .constdata                               0x0800b3a8   Section       40  rtc_conf.o(.constdata)
+    .constdata                               0x0800b3d0   Section       48  xmc4_scu.o(.constdata)
+    set_peripheral_reset                     0x0800b3d0   Data          16  xmc4_scu.o(.constdata)
+    clear_peripheral_reset                   0x0800b3e0   Data          16  xmc4_scu.o(.constdata)
+    clear_peripheral_reset                   0x0800b3f0   Data          16  xmc4_scu.o(.constdata)
+    .constdata                               0x0800b400   Section       16  xmc_vadc.o(.constdata)
+    g_xmc_vadc_group_array                   0x0800b400   Data          16  xmc_vadc.o(.constdata)
+    .constdata                               0x0800b410   Section      172  net_config.o(.constdata)
+    .constdata                               0x0800b4bc   Section       28  net_eth.o(.constdata)
+    link_evt                                 0x0800b4c2   Data           6  net_eth.o(.constdata)
+    .constdata                               0x0800b4d8   Section        8  net_ip.o(.constdata)
+    ip_lhost                                 0x0800b4dc   Data           4  net_ip.o(.constdata)
+    .constdata                               0x0800b4e0   Section        8  net_nbns_client.o(.constdata)
+    nbns_ttllen                              0x0800b4e0   Data           8  net_nbns_client.o(.constdata)
+    .constdata                               0x0800b4e8   Section      250  net_http_server.o(.constdata)
+    DYear                                    0x0800b4e8   Data           6  net_http_server.o(.constdata)
+    Month                                    0x0800b4ee   Data          48  net_http_server.o(.constdata)
+    WkDay                                    0x0800b51e   Data          28  net_http_server.o(.constdata)
+    DMonth                                   0x0800b53a   Data          24  net_http_server.o(.constdata)
+    ftype                                    0x0800b552   Data         144  net_http_server.o(.constdata)
+    .constdata                               0x0800b5e4   Section        8  net_sys.o(.constdata)
+    .constdata                               0x0800b5ec   Section       24  net_http_server_err.o(.constdata)
+    .constdata                               0x0800b604   Section        4  net_mem.o(.constdata)
+    .constdata                               0x0800b608   Section        8  net_addr4.o(.constdata)
+    .constdata                               0x0800b610   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x0800b694   Section        4  ctype_o.o(.constdata)
+    table                                    0x0800b694   Data           4  ctype_o.o(.constdata)
+    .conststring                             0x0800b698   Section      109  net_tcp.o(.conststring)
+    .conststring                             0x0800b708   Section      511  net_http_server_err.o(.conststring)
     .data                                    0x20000000   Section       16  thread_pump.o(.data)
     watering_hour                            0x20000004   Data           2  thread_pump.o(.data)
     watering_days                            0x20000006   Data           7  thread_pump.o(.data)
@@ -3301,59 +3301,59 @@ Image Symbol Table
     os_thread_def_sensors                    0x0800b1a0   Data          16  thread_sensors.o(.constdata)
     os_thread_def_webServer                  0x0800b1b0   Data          16  thread_webserver.o(.constdata)
     imageLastModified                        0x0800b1c0   Data           4  web.o(.constdata)
-    os_maxtaskrun                            0x08014c28   Data           2  rtx_conf_cm.o(.constdata)
-    os_stackinfo                             0x08014c2c   Data           4  rtx_conf_cm.o(.constdata)
-    os_rrobin                                0x08014c30   Data           4  rtx_conf_cm.o(.constdata)
-    os_tickfreq                              0x08014c34   Data           4  rtx_conf_cm.o(.constdata)
-    os_tickus_i                              0x08014c38   Data           2  rtx_conf_cm.o(.constdata)
-    os_tickus_f                              0x08014c3a   Data           2  rtx_conf_cm.o(.constdata)
-    os_trv                                   0x08014c3c   Data           4  rtx_conf_cm.o(.constdata)
-    os_flags                                 0x08014c40   Data           1  rtx_conf_cm.o(.constdata)
-    CMSIS_RTOS_API_Version                   0x08014c44   Data           4  rtx_conf_cm.o(.constdata)
-    CMSIS_RTOS_RTX_Version                   0x08014c48   Data           4  rtx_conf_cm.o(.constdata)
-    os_clockrate                             0x08014c4c   Data           4  rtx_conf_cm.o(.constdata)
-    os_timernum                              0x08014c50   Data           4  rtx_conf_cm.o(.constdata)
-    mp_tcb_size                              0x08014c54   Data           2  rtx_conf_cm.o(.constdata)
-    mp_stk_size                              0x08014c58   Data           4  rtx_conf_cm.o(.constdata)
-    os_stack_sz                              0x08014c5c   Data           4  rtx_conf_cm.o(.constdata)
-    os_fifo_size                             0x08014c60   Data           1  rtx_conf_cm.o(.constdata)
-    os_thread_def_osTimerThread              0x08014c64   Data          16  rtx_conf_cm.o(.constdata)
-    os_messageQ_def_osTimerMessageQ          0x08014c74   Data           8  rtx_conf_cm.o(.constdata)
-    mp_tmr_size                              0x08014c7c   Data           2  rtx_conf_cm.o(.constdata)
-    Driver_ETH_MAC0                          0x08014c88   Data          68  eth_mac.o(.constdata)
-    Driver_ETH_PHY0                          0x08014cd0   Data          32  eth_phy_ksz8031.o(.constdata)
-    global_iclass_config                     0x08014cf0   Data           4  adc_measurement_conf.o(.constdata)
-    backgnd_config                           0x08014cf4   Data          12  adc_measurement_conf.o(.constdata)
-    CLOCK_XMC4_0_ScuClk                      0x08014d00   Data          20  clock_xmc4_conf.o(.constdata)
-    CPU_CTRL_XMC4_0_config                   0x08014d14   Data           1  cpu_ctrl_xmc4_conf.o(.constdata)
-    group_init_handle0                       0x08014d18   Data          20  global_adc_conf.o(.constdata)
-    group_init_handle1                       0x08014d2c   Data          20  global_adc_conf.o(.constdata)
-    group_init_handle2                       0x08014d40   Data          20  global_adc_conf.o(.constdata)
-    group_init_handle3                       0x08014d54   Data          20  global_adc_conf.o(.constdata)
-    global_config                            0x08014d68   Data          24  global_adc_conf.o(.constdata)
-    GLOBAL_SCU_XMC4_0_config                 0x08014d80   Data           4  global_scu_xmc4_conf.o(.constdata)
-    PWM_0_Config_Handle                      0x08014d84   Data           8  pwm_conf.o(.constdata)
-    PWM_0_gpio_out_config                    0x08014d8c   Data          12  pwm_conf.o(.constdata)
-    PWM_0_ConfigHandle                       0x08014d98   Data          44  pwm_conf.o(.constdata)
-    RTC_DAYS_IN_MONTH                        0x08014dc4   Data          52  rtc.o(.constdata)
-    RTC_0_config                             0x08014df8   Data          20  rtc_conf.o(.constdata)
-    RTC_0_time_alarm_config                  0x08014e0c   Data          20  rtc_conf.o(.constdata)
-    nlocalm                                  0x08014e60   Data          60  net_config.o(.constdata)
-    sys_config                               0x08014e9c   Data          16  net_config.o(.constdata)
-    eth0_config                              0x08014eac   Data          40  net_config.o(.constdata)
-    udp_config                               0x08014ed4   Data           8  net_config.o(.constdata)
-    tcp_config                               0x08014edc   Data          24  net_config.o(.constdata)
-    http_config                              0x08014ef4   Data          24  net_config.o(.constdata)
-    eth_bcast                                0x08014f0c   Data           6  net_eth.o(.constdata)
-    os_thread_def_eth_thread                 0x08014f18   Data          16  net_eth.o(.constdata)
-    ip_bcast                                 0x08014f28   Data           4  net_ip.o(.constdata)
-    os_timer_def_net_tick                    0x08015034   Data           8  net_sys.o(.constdata)
-    http_error                               0x0801503c   Data          24  net_http_server_err.o(.constdata)
-    os_mutex_def_mem_lock                    0x08015054   Data           4  net_mem.o(.constdata)
-    net_addr_null                            0x08015058   Data           8  net_addr4.o(.constdata)
-    __ctype_table                            0x08015060   Data         129  ctype_o.o(.constdata)
-    Region$$Table$$Base                      0x08015358   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08015378   Number         0  anon$$obj.o(Region$$Table)
+    os_maxtaskrun                            0x0800b1d8   Data           2  rtx_conf_cm.o(.constdata)
+    os_stackinfo                             0x0800b1dc   Data           4  rtx_conf_cm.o(.constdata)
+    os_rrobin                                0x0800b1e0   Data           4  rtx_conf_cm.o(.constdata)
+    os_tickfreq                              0x0800b1e4   Data           4  rtx_conf_cm.o(.constdata)
+    os_tickus_i                              0x0800b1e8   Data           2  rtx_conf_cm.o(.constdata)
+    os_tickus_f                              0x0800b1ea   Data           2  rtx_conf_cm.o(.constdata)
+    os_trv                                   0x0800b1ec   Data           4  rtx_conf_cm.o(.constdata)
+    os_flags                                 0x0800b1f0   Data           1  rtx_conf_cm.o(.constdata)
+    CMSIS_RTOS_API_Version                   0x0800b1f4   Data           4  rtx_conf_cm.o(.constdata)
+    CMSIS_RTOS_RTX_Version                   0x0800b1f8   Data           4  rtx_conf_cm.o(.constdata)
+    os_clockrate                             0x0800b1fc   Data           4  rtx_conf_cm.o(.constdata)
+    os_timernum                              0x0800b200   Data           4  rtx_conf_cm.o(.constdata)
+    mp_tcb_size                              0x0800b204   Data           2  rtx_conf_cm.o(.constdata)
+    mp_stk_size                              0x0800b208   Data           4  rtx_conf_cm.o(.constdata)
+    os_stack_sz                              0x0800b20c   Data           4  rtx_conf_cm.o(.constdata)
+    os_fifo_size                             0x0800b210   Data           1  rtx_conf_cm.o(.constdata)
+    os_thread_def_osTimerThread              0x0800b214   Data          16  rtx_conf_cm.o(.constdata)
+    os_messageQ_def_osTimerMessageQ          0x0800b224   Data           8  rtx_conf_cm.o(.constdata)
+    mp_tmr_size                              0x0800b22c   Data           2  rtx_conf_cm.o(.constdata)
+    Driver_ETH_MAC0                          0x0800b238   Data          68  eth_mac.o(.constdata)
+    Driver_ETH_PHY0                          0x0800b280   Data          32  eth_phy_ksz8031.o(.constdata)
+    global_iclass_config                     0x0800b2a0   Data           4  adc_measurement_conf.o(.constdata)
+    backgnd_config                           0x0800b2a4   Data          12  adc_measurement_conf.o(.constdata)
+    CLOCK_XMC4_0_ScuClk                      0x0800b2b0   Data          20  clock_xmc4_conf.o(.constdata)
+    CPU_CTRL_XMC4_0_config                   0x0800b2c4   Data           1  cpu_ctrl_xmc4_conf.o(.constdata)
+    group_init_handle0                       0x0800b2c8   Data          20  global_adc_conf.o(.constdata)
+    group_init_handle1                       0x0800b2dc   Data          20  global_adc_conf.o(.constdata)
+    group_init_handle2                       0x0800b2f0   Data          20  global_adc_conf.o(.constdata)
+    group_init_handle3                       0x0800b304   Data          20  global_adc_conf.o(.constdata)
+    global_config                            0x0800b318   Data          24  global_adc_conf.o(.constdata)
+    GLOBAL_SCU_XMC4_0_config                 0x0800b330   Data           4  global_scu_xmc4_conf.o(.constdata)
+    PWM_0_Config_Handle                      0x0800b334   Data           8  pwm_conf.o(.constdata)
+    PWM_0_gpio_out_config                    0x0800b33c   Data          12  pwm_conf.o(.constdata)
+    PWM_0_ConfigHandle                       0x0800b348   Data          44  pwm_conf.o(.constdata)
+    RTC_DAYS_IN_MONTH                        0x0800b374   Data          52  rtc.o(.constdata)
+    RTC_0_config                             0x0800b3a8   Data          20  rtc_conf.o(.constdata)
+    RTC_0_time_alarm_config                  0x0800b3bc   Data          20  rtc_conf.o(.constdata)
+    nlocalm                                  0x0800b410   Data          60  net_config.o(.constdata)
+    sys_config                               0x0800b44c   Data          16  net_config.o(.constdata)
+    eth0_config                              0x0800b45c   Data          40  net_config.o(.constdata)
+    udp_config                               0x0800b484   Data           8  net_config.o(.constdata)
+    tcp_config                               0x0800b48c   Data          24  net_config.o(.constdata)
+    http_config                              0x0800b4a4   Data          24  net_config.o(.constdata)
+    eth_bcast                                0x0800b4bc   Data           6  net_eth.o(.constdata)
+    os_thread_def_eth_thread                 0x0800b4c8   Data          16  net_eth.o(.constdata)
+    ip_bcast                                 0x0800b4d8   Data           4  net_ip.o(.constdata)
+    os_timer_def_net_tick                    0x0800b5e4   Data           8  net_sys.o(.constdata)
+    http_error                               0x0800b5ec   Data          24  net_http_server_err.o(.constdata)
+    os_mutex_def_mem_lock                    0x0800b604   Data           4  net_mem.o(.constdata)
+    net_addr_null                            0x0800b608   Data           8  net_addr4.o(.constdata)
+    __ctype_table                            0x0800b610   Data         129  ctype_o.o(.constdata)
+    Region$$Table$$Base                      0x0800b908   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0800b928   Number         0  anon$$obj.o(Region$$Table)
     t_pump                                   0x20000000   Data           4  thread_pump.o(.data)
     t_sensors                                0x20000010   Data           4  thread_sensors.o(.data)
     t_webServer                              0x2000001c   Data           4  thread_webserver.o(.data)
@@ -3419,9 +3419,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000201
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00017a24, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x000154a4])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000dfd4, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x0000ba50])
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00015378, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0000b928, Max: 0x00100000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -3749,43 +3749,43 @@ Memory Map of the image
     0x0800b190   0x00000010   Data   RO          216    .constdata          thread_pump.o
     0x0800b1a0   0x00000010   Data   RO          298    .constdata          thread_sensors.o
     0x0800b1b0   0x00000010   Data   RO          361    .constdata          thread_webserver.o
-    0x0800b1c0   0x00009a68   Data   RO          471    .constdata          web.o
-    0x08014c28   0x00000056   Data   RO          488    .constdata          rtx_conf_cm.o
-    0x08014c7e   0x00000002   PAD
-    0x08014c80   0x0000004c   Data   RO          519    .constdata          eth_mac.o
-    0x08014ccc   0x00000024   Data   RO          567    .constdata          eth_phy_ksz8031.o
-    0x08014cf0   0x00000010   Data   RO          632    .constdata          adc_measurement_conf.o
-    0x08014d00   0x00000014   Data   RO          691    .constdata          clock_xmc4_conf.o
-    0x08014d14   0x00000001   Data   RO          755    .constdata          cpu_ctrl_xmc4_conf.o
-    0x08014d15   0x00000003   PAD
-    0x08014d18   0x00000068   Data   RO          899    .constdata          global_adc_conf.o
-    0x08014d80   0x00000004   Data   RO         1025    .constdata          global_scu_xmc4_conf.o
-    0x08014d84   0x00000040   Data   RO         1091    .constdata          pwm_conf.o
-    0x08014dc4   0x00000034   Data   RO         1120    .constdata          rtc.o
-    0x08014df8   0x00000028   Data   RO         1166    .constdata          rtc_conf.o
-    0x08014e20   0x00000030   Data   RO         1305    .constdata          xmc4_scu.o
-    0x08014e50   0x00000010   Data   RO         1948    .constdata          xmc_vadc.o
-    0x08014e60   0x000000ac   Data   RO         2044    .constdata          net_config.o
-    0x08014f0c   0x0000001c   Data   RO         2725    .constdata          Net_CM3_L.lib(net_eth.o)
-    0x08014f28   0x00000008   Data   RO         2755    .constdata          Net_CM3_L.lib(net_ip.o)
-    0x08014f30   0x00000008   Data   RO         2899    .constdata          Net_CM3_L.lib(net_nbns_client.o)
-    0x08014f38   0x000000fa   Data   RO         2974    .constdata          Net_CM3_L.lib(net_http_server.o)
-    0x08015032   0x00000002   PAD
-    0x08015034   0x00000008   Data   RO         3029    .constdata          Net_CM3_L.lib(net_sys.o)
-    0x0801503c   0x00000018   Data   RO         3636    .constdata          Net_CM3_L.lib(net_http_server_err.o)
-    0x08015054   0x00000004   Data   RO         3653    .constdata          Net_CM3_L.lib(net_mem.o)
-    0x08015058   0x00000008   Data   RO         3705    .constdata          Net_CM3_L.lib(net_addr4.o)
-    0x08015060   0x00000081   Data   RO         4097    .constdata          mc_w.l(ctype_o.o)
-    0x080150e1   0x00000003   PAD
-    0x080150e4   0x00000004   Data   RO         4098    .constdata          mc_w.l(ctype_o.o)
-    0x080150e8   0x0000006d   Data   RO         2855    .conststring        Net_CM3_L.lib(net_tcp.o)
-    0x08015155   0x00000003   PAD
-    0x08015158   0x000001ff   Data   RO         3637    .conststring        Net_CM3_L.lib(net_http_server_err.o)
-    0x08015357   0x00000001   PAD
-    0x08015358   0x00000020   Data   RO         4134    Region$$Table       anon$$obj.o
+    0x0800b1c0   0x00000018   Data   RO          471    .constdata          web.o
+    0x0800b1d8   0x00000056   Data   RO          488    .constdata          rtx_conf_cm.o
+    0x0800b22e   0x00000002   PAD
+    0x0800b230   0x0000004c   Data   RO          519    .constdata          eth_mac.o
+    0x0800b27c   0x00000024   Data   RO          567    .constdata          eth_phy_ksz8031.o
+    0x0800b2a0   0x00000010   Data   RO          632    .constdata          adc_measurement_conf.o
+    0x0800b2b0   0x00000014   Data   RO          691    .constdata          clock_xmc4_conf.o
+    0x0800b2c4   0x00000001   Data   RO          755    .constdata          cpu_ctrl_xmc4_conf.o
+    0x0800b2c5   0x00000003   PAD
+    0x0800b2c8   0x00000068   Data   RO          899    .constdata          global_adc_conf.o
+    0x0800b330   0x00000004   Data   RO         1025    .constdata          global_scu_xmc4_conf.o
+    0x0800b334   0x00000040   Data   RO         1091    .constdata          pwm_conf.o
+    0x0800b374   0x00000034   Data   RO         1120    .constdata          rtc.o
+    0x0800b3a8   0x00000028   Data   RO         1166    .constdata          rtc_conf.o
+    0x0800b3d0   0x00000030   Data   RO         1305    .constdata          xmc4_scu.o
+    0x0800b400   0x00000010   Data   RO         1948    .constdata          xmc_vadc.o
+    0x0800b410   0x000000ac   Data   RO         2044    .constdata          net_config.o
+    0x0800b4bc   0x0000001c   Data   RO         2725    .constdata          Net_CM3_L.lib(net_eth.o)
+    0x0800b4d8   0x00000008   Data   RO         2755    .constdata          Net_CM3_L.lib(net_ip.o)
+    0x0800b4e0   0x00000008   Data   RO         2899    .constdata          Net_CM3_L.lib(net_nbns_client.o)
+    0x0800b4e8   0x000000fa   Data   RO         2974    .constdata          Net_CM3_L.lib(net_http_server.o)
+    0x0800b5e2   0x00000002   PAD
+    0x0800b5e4   0x00000008   Data   RO         3029    .constdata          Net_CM3_L.lib(net_sys.o)
+    0x0800b5ec   0x00000018   Data   RO         3636    .constdata          Net_CM3_L.lib(net_http_server_err.o)
+    0x0800b604   0x00000004   Data   RO         3653    .constdata          Net_CM3_L.lib(net_mem.o)
+    0x0800b608   0x00000008   Data   RO         3705    .constdata          Net_CM3_L.lib(net_addr4.o)
+    0x0800b610   0x00000081   Data   RO         4097    .constdata          mc_w.l(ctype_o.o)
+    0x0800b691   0x00000003   PAD
+    0x0800b694   0x00000004   Data   RO         4098    .constdata          mc_w.l(ctype_o.o)
+    0x0800b698   0x0000006d   Data   RO         2855    .conststring        Net_CM3_L.lib(net_tcp.o)
+    0x0800b705   0x00000003   PAD
+    0x0800b708   0x000001ff   Data   RO         3637    .conststring        Net_CM3_L.lib(net_http_server_err.o)
+    0x0800b907   0x00000001   PAD
+    0x0800b908   0x00000020   Data   RO         4134    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x0000ffd4, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x0000012c])
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x0000ffd4, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x00000128])
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -3885,7 +3885,7 @@ Image component sizes
        224         30         16         16          0      13089   thread_pump.o
        196         38         16         10         80       5007   thread_sensors.o
         52         10         16          4          0       1368   thread_webserver.o
-       136          8      39528          0          0       1584   web.o
+       136          8         24          0          0       1580   web.o
        240         10          0          0          0       1447   xmc4_gpio.o
        260         10          0          0          0       3504   xmc4_rtc.o
       3064        128         48          0        128      27437   xmc4_scu.o
@@ -3895,7 +3895,7 @@ Image component sizes
       2768         30         16          0          0      35563   xmc_vadc.o
 
     ----------------------------------------------------------------------
-     18766       1408      40860       9776      55152     900023   Object Totals
+     18766       1408       1356       9776      55152     900019   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          5          6      32964          0   (incl. Padding)
 
@@ -3980,15 +3980,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     44944       4086      41960       9900      55592     976928   Grand Totals
-     44944       4086      41960        300      55592     976928   ELF Image Totals (compressed)
-     44944       4086      41960        300          0          0   ROM Totals
+     44944       4086       2456       9900      55592     976924   Grand Totals
+     44944       4086       2456        296      55592     976924   ELF Image Totals (compressed)
+     44944       4086       2456        296          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                86904 (  84.87kB)
+    Total RO  Size (Code + RO Data)                47400 (  46.29kB)
     Total RW  Size (RW Data + ZI Data)             65492 (  63.96kB)
-    Total ROM Size (Code + RO Data + RW Data)      87204 (  85.16kB)
+    Total ROM Size (Code + RO Data + RW Data)      47696 (  46.58kB)
 
 ==============================================================================
 

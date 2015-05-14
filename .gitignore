@@ -64,3 +64,4 @@ UVBuild/web.crf
 UVBuild/web.crf
 startup_xmc4500.lst
 UVBuild/web.crf
+Web/web.c

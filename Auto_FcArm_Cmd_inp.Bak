@@ -1,2 +1,6 @@
-~loc.cgx 
+~loc.cgx,
+~index.html,
+~jquery.min.js.gz,
+~smoothie.js.gz,
+~graph.html 
 TO web.c RTE NOPRINT ROOT(Web)

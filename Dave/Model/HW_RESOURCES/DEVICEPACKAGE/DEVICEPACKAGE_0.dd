@@ -4,6 +4,13 @@
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.27"/>
     <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin31"/>
   </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="30" URI="http://resources/lqfp100.0.0/devicepackage/0/30">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.28"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin30"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="37" URI="http://resources/lqfp100.0.0/devicepackage/0/37">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin37"/>
+  </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="79" URI="http://resources/lqfp100.0.0/devicepackage/0/79">
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/DIGITAL_IO/v4_0_1/DIGITAL_IO_0.app#//@hwResources.1"/>
     <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin79"/>
@@ -11,5 +18,9 @@
   <provided xsi:type="ResourceModel:ResourceGroup" name="78" URI="http://resources/lqfp100.0.0/devicepackage/0/78">
     <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PWM/v4_0_0/PWM_0.app#//@hwResources.3"/>
     <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin78"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="19" URI="http://resources/lqfp100.0.0/devicepackage/0/19">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ADC_MEASUREMENT/v4_0_1/ADC_MEASUREMENT_0.app#//@hwResources.29"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LQFP100.0.0/devicepackage/0/pin19"/>
   </provided>
 </ResourceModel:DevicePackage>

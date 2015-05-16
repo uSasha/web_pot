@@ -8,9 +8,12 @@
 
 int Init_Thread_Pump (void);
 void watering_setTime(uint16_t watering_hour);
+int16_t watering_getTime(void);
 void watering_daysSet(uint8_t weekday);
 void watering_daysReset(uint8_t weekday);
 bool watering_isItTime(void);
 void watering_setWeekAmount(uint16_t milliliters);
+uint16_t watering_getWeekAmount(void);
+
 
 extern osThreadId 	t_pump;                                          // thread id

@@ -1,12 +1,5 @@
 #include <DAVE.h>	
-
-
-struct sensors_data
-{
-   time_t  timestamp;
-   uint8_t temperature;
-   uint8_t moisture;
-};
+#include "logging_system.h"
 
 bool data_Write(struct sensors_data * data, uint32_t size_words)
 {
@@ -22,5 +15,6 @@ struct sensors_data data_Read(uint32_t size_words)
 	data.timestamp = 0;
 	data.moisture = 0;
 	data.temperature = 0;
+	data.lite = 0;
 	return data;
 }

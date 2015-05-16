@@ -39,6 +39,11 @@ void pump (void const *argument) {
   }
 }
 
+int16_t watering_getTime(void)
+{
+	return watering_hour;
+}
+
 void watering_setTime(int16_t hour_24hd)
 {
 	watering_hour = hour_24hd;
@@ -79,4 +84,8 @@ uint32_t computePumpOnTicks(void)
 void watering_setWeekAmount(uint16_t milliliters)
 {
 	watering_milliliters_per_week = milliliters;
+}
+uint16_t watering_getWeekAmount(void)
+{
+ 	return watering_milliliters_per_week;
 }

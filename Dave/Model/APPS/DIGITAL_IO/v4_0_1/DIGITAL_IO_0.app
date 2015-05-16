@@ -14,7 +14,7 @@
     </solverVarMap>
   </hwResources>
   <hwResources name="pin" URI="http://resources/4.0.1/app/DIGITAL_IO/0/__pin_hwres_port_pin" resourceGroupUri="devicepackage/0/79" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.1"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.3"/>
   </hwResources>
   <connections URI="http://resources/4.0.1/app/DIGITAL_IO/0/http://resources/4.0.1/app/DIGITAL_IO/0/vs_digital_io_pad_pin/http://resources/4.0.1/app/DIGITAL_IO/0/__pin_vs_digital_io_pad_pin" systemDefined="true" sourceSignal="pin" targetSignal="pin_signal" srcVirtualSignal="//@virtualSignals.1" targetVirtualSignal="//@virtualSignals.2"/>
   <connections URI="http://resources/4.0.1/app/DIGITAL_IO/0/http://resources/4.0.1/app/DIGITAL_IO/0/__pin_vs_digital_io_pad_pin/http://resources/4.0.1/app/DIGITAL_IO/0/vs_digital_io_pad_pin" systemDefined="true" sourceSignal="pin_signal" targetSignal="pin" srcVirtualSignal="//@virtualSignals.2" targetVirtualSignal="//@virtualSignals.1"/>

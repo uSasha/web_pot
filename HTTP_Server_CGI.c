@@ -12,6 +12,8 @@
 #include "rl_net.h"
 #include <DAVE.h>												//Declarations from DAVE Code Generation (includes SFR declaration)
 #include "logging_system.h"
+#include "rtc.h"                        // Infineon::DAVE:RTC
+#include "Thread_pump.h"
 
 extern struct sensors_data data_buffer[BUFFER_SIZE]; 
 
@@ -122,11 +124,15 @@ uint32_t cgi_script (const char *env, char *buf, uint32_t buflen, uint32_t *pcgi
   uint32_t len = 0;
 	
 	DIGITAL_IO_ToggleOutput(&DIGITAL_IO_0);
+	XMC_RTC_TIME_t time;
+	RTC_GetTime(&time);
+	uint16_t watering_hour = watering_getTime();
+	uint16_t watering_amount = watering_getWeekAmount();
 	
 	switch (env[0]) { 
 		case 'L' : 
-		sprintf(buf, "{\"x\":\"%d\", \"y\":\"%d\", \"z\":\"%d\"}" \
-		,data_buffer[0].moisture, data_buffer[0].temperature, data_buffer[0].timestamp); 
+			sprintf(buf, "{\"x\":\"%d\", \"y\":\"%d\", \"z\":\"%d\", \"watering_hour\":\"%d\", \"current_hour\":\"%d\", \"current_minutes\":\"2%d\", \"watering_amount\":\"%d\" }" \
+		,data_buffer[0].moisture, data_buffer[0].temperature, data_buffer[0].lite, watering_hour, time.hours, time.minutes, watering_amount); 
 
 		len = strlen(buf); 
 		break; 

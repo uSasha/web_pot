@@ -7,6 +7,7 @@
 #define TICKS_IN_MINUTE		60000000	// TODO check values
 #define ADC_FACTOR_TEMP		100		// TODO check values
 #define ADC_FACTOR_MOISTURE 200 // TODO check values
+#define ADC_FACTOR_LITE		300		// TODO check values
 
 extern osThreadId t_ledOff;                    /* assigned task id of task: ledOff  */
 extern osThreadId t_pump;    
@@ -71,4 +72,7 @@ void sensors_measureData(struct sensors_data * data_buffer)
 	result = ADC_MEASUREMENT_GetResult(&ADC_MEASUREMENT_Channel_B);
 	result *= ADC_FACTOR_MOISTURE;
 	data_buffer->moisture = result;	
+	result = ADC_MEASUREMENT_GetResult(&ADC_MEASUREMENT_Channel_C);
+	result *= ADC_FACTOR_LITE;
+	data_buffer->lite = result;	
 }

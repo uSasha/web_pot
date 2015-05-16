@@ -9,6 +9,10 @@
 				$('#val_x').val(json_sample.x);
 				$('#val_y').val(json_sample.y);
 				$('#val_z').val(json_sample.z);
+				$('#val_hour').val(json_sample.watering_hour);
+				$('#val_amount').val(json_sample.watering_amount);
+				$('#val_cur_hour').val(json_sample.current_hour);
+				$('#val_cur_minutes').val(json_sample.current_minutes);			
 			}
 			function update() {
 				getData();
@@ -36,8 +40,8 @@
 	</br>
 
 	<form method="post" action="input5.php">	<!-- check php replacement --> 
-		<p>Weekly amount <input type="text" size="2" name="amount"></p>
-		<p>Watering hour <input type="text" size="2" name="time"></p>
+		<p>Weekly amount <input id="val_amount" type="text" size="2" name="amount" value="#val_x"></p>
+		<p>Watering hour <input id="val_hour" type="text" size="2" name="time"></p>
 		<p>
 			Watering days:
 			<input type="checkbox" name="day" value="0">Mon
@@ -53,8 +57,8 @@
 
 	<form>
 		<p>
-			<input type="text" size="1", name="hour">:
-			<input type="text" size="1", name="minute">
+			<input id="val_cur_hour" type="text" size="1", name="hour">:
+			<input id="val_cur_minutes" type="text" size="1", name="minute">
 
 			<select size="1" name="week_day">
 				<option value="0">mon</option>

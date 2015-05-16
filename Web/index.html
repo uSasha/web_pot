@@ -25,12 +25,50 @@
     </style>
   </head>
   <body>
-    <h2>WebPot</h2>
-    <p>Sensor data is:
-    x = <input id="val_x" type="text" value="">,
-    y = <input id="val_y" type="text" value="">,
-    z = <input id="val_z" type="text" value=""></p>
+    <h2>
+    	WebPot
+    	<a href="graph.html">Week Log</a>
+    </h2>
+    <p>
+    Temperature <input id="val_x" type="text" value="" size="2"><Br> 
+    Moisture <input id="val_y" type="text" value="" size="2"><Br> 
+    Lite <input id="val_z" type="text" value="" size="2"></p>
 	</br>
-	<a href="graph.html" target=_blank>Graphical View</a>
+
+	<form method="post" action="input5.php">	<!-- check php replacement --> 
+		<p>Weekly amount <input type="text" size="2" name="amount"></p>
+		<p>Watering hour <input type="text" size="2" name="time"></p>
+		<p>
+			Watering days:
+			<input type="checkbox" name="day" value="0">Mon
+			<input type="checkbox" name="day" value="1">Tue<Br>
+			<input type="checkbox" name="day" value="2">Wed 
+			<input type="checkbox" name="day" value="3"checked>Thu
+			<input type="checkbox" name="day" value="4">Fri
+			<input type="checkbox" name="day" value="5">Sat
+			<input type="checkbox" name="day" value="6">Sun
+		</p>
+		<p><input type="submit" value="Change"></p>
+	</form>
+
+	<form>
+		<p>
+			<input type="text" size="1", name="hour">:
+			<input type="text" size="1", name="minute">
+
+			<select size="1" name="week_day">
+				<option value="0">mon</option>
+				<option selected value="1">tue</option>
+				<option value="2">wed</option>
+				<option value="3">thu</option>
+				<option value="4">fri</option>
+				<option value="5">sat</option>
+				<option value="6">sun</option>
+			</select>
+
+			<input type="submit" value="set time">
+
+		</p>
+	</form>
   </body>
 </html>

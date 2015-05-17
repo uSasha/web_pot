@@ -131,8 +131,8 @@ uint32_t cgi_script (const char *env, char *buf, uint32_t buflen, uint32_t *pcgi
 	
 	switch (env[0]) { 
 		case 'L' : 
-			sprintf(buf, "{\"x\":\"%d\", \"y\":\"%d\", \"z\":\"%d\", \"watering_hour\":\"%d\", \"current_hour\":\"%d\", \"current_minutes\":\"2%d\", \"watering_amount\":\"%d\" }" \
-		,data_buffer[0].moisture, data_buffer[0].temperature, data_buffer[0].lite, watering_hour, time.hours, time.minutes, watering_amount); 
+			sprintf(buf, "{\"x\":\"%d\", \"y\":\"%d\", \"z\":\"%d\", \"watering_hour\":\"%d\", \"current_hour\":\"%d\", \"current_minutes\":\"%.02d\", \"watering_amount\":\"%d\", \"current_wday\":\"%d\", \"watering_mon\":\"%d\", \"watering_tue\":\"%d\", \"watering_wed\":\"%d\", \"watering_thu\":\"%d\", \"watering_fri\":\"%d\", \"watering_sat\":\"%d\", \"watering_sun\":\"%d\" }" \
+		,data_buffer[0].moisture, data_buffer[0].temperature, data_buffer[0].lite, watering_hour, time.hours, time.minutes, watering_amount, time.daysofweek, watering_daysGet(0), watering_daysGet(1), watering_daysGet(2), watering_daysGet(3), watering_daysGet(4), watering_daysGet(5), watering_daysGet(6)); 
 
 		len = strlen(buf); 
 		break; 

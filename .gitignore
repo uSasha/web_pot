@@ -69,3 +69,4 @@ JLinkLog.txt
 UVBuild/web.crf
 Web/web.c
 JLinkLog.txt
+*.crf

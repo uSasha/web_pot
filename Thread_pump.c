@@ -19,7 +19,7 @@ void pump (void const *argument);                             // thread function
 osThreadId 	t_pump;                                          // thread id
 osThreadDef (pump, osPriorityNormal, 1, 0);                   // thread object
 static uint16_t watering_hour = 12;	// hour 24 hour/day format
-static bool watering_days[7] 	= {false, false, false, false, false, false, false};
+static bool watering_days[7] 	= {true, false, true, false, true, false, true};
 static uint16_t watering_milliliters_per_week = 0;
 
 int Init_Thread_Pump (void) {
@@ -57,6 +57,17 @@ void watering_daysSet(uint8_t weekday)
 void watering_daysReset(uint8_t weekday)
 {
 	watering_days[weekday] = false;
+}
+
+uint16_t watering_daysGet(uint8_t weekday)
+{
+	if(watering_days[weekday])
+	{
+		return 1;
+	}else
+	{
+		return 0;
+	}
 }
 
 bool watering_isItTime(void)

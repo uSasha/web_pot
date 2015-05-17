@@ -12,7 +12,60 @@
 				$('#val_hour').val(json_sample.watering_hour);
 				$('#val_amount').val(json_sample.watering_amount);
 				$('#val_cur_hour').val(json_sample.current_hour);
-				$('#val_cur_minutes').val(json_sample.current_minutes);			
+				$('#val_cur_minutes').val(json_sample.current_minutes);		
+
+				if(json_sample.watering_mon == 1)
+				{
+					$( "#mon" ).prop( "checked", true );
+				}else
+				{
+					$( "#mon" ).prop( "checked", false );
+				}
+				if(json_sample.watering_tue == 1)
+				{
+					$( "#tue" ).prop( "checked", true );
+				}else
+				{
+					$( "#tue" ).prop( "checked", false );
+				}
+				if(json_sample.watering_wed == 1)
+				{
+					$( "#wed" ).prop( "checked", true );
+				}else
+				{
+					$( "#wed" ).prop( "checked", false );
+				}
+				if(json_sample.watering_thu == 1)
+				{
+					$( "#thu" ).prop( "checked", true );
+				}else
+				{
+					$( "#thu" ).prop( "checked", false );
+				}
+				if(json_sample.watering_fri == 1)
+				{
+					$( "#fri" ).prop( "checked", true );
+				}else
+				{
+					$( "#fri" ).prop( "checked", false );
+				}
+				if(json_sample.watering_sat == 1)
+				{
+					$( "#sat" ).prop( "checked", true );
+				}else
+				{
+					$( "#sat" ).prop( "checked", false );
+				}
+				if(json_sample.watering_wed == 1)
+				{
+					$( "#sun" ).prop( "checked", true );
+				}else
+				{
+					$( "#sun" ).prop( "checked", false );
+				}
+				
+				$("div.current_time select").val(json_sample.current_wday);
+				
 			}
 			function update() {
 				getData();
@@ -44,35 +97,36 @@
 		<p>Watering hour <input id="val_hour" type="text" size="2" name="time"></p>
 		<p>
 			Watering days:
-			<input type="checkbox" name="day" value="0">Mon
-			<input type="checkbox" name="day" value="1">Tue<Br>
-			<input type="checkbox" name="day" value="2">Wed 
-			<input type="checkbox" name="day" value="3"checked>Thu
-			<input type="checkbox" name="day" value="4">Fri
-			<input type="checkbox" name="day" value="5">Sat
-			<input type="checkbox" name="day" value="6">Sun
+			<input  id="mon" type="checkbox" name="day" value="0">Mon
+			<input  id="tue" type="checkbox" name="day" value="1">Tue<Br>
+			<input  id="wed" type="checkbox" name="day" value="2">Wed 
+			<input  id="thu" type="checkbox" name="day" value="3">Thu
+			<input  id="fri" type="checkbox" name="day" value="4">Fri
+			<input  id="sat" type="checkbox" name="day" value="5">Sat
+			<input  id="sun" type="checkbox" name="day" value="6">Sun
 		</p>
 		<p><input type="submit" value="Change"></p>
 	</form>
+	
+	<div class="current_time">
+		<form>
+			<p>
+				<input id="val_cur_hour" type="text" size="1", name="hour">:
+				<input id="val_cur_minutes" type="text" size="1", name="minute">
+				
+				<select size="1" name="week_day">
+					<option value="0">mon</option>
+					<option value="1">tue</option>
+					<option value="2">wed</option>
+					<option value="3">thu</option>
+					<option value="4">fri</option>
+					<option value="5">sat</option>
+					<option value="6">sun</option>
+				</select>
 
-	<form>
-		<p>
-			<input id="val_cur_hour" type="text" size="1", name="hour">:
-			<input id="val_cur_minutes" type="text" size="1", name="minute">
-
-			<select size="1" name="week_day">
-				<option value="0">mon</option>
-				<option selected value="1">tue</option>
-				<option value="2">wed</option>
-				<option value="3">thu</option>
-				<option value="4">fri</option>
-				<option value="5">sat</option>
-				<option value="6">sun</option>
-			</select>
-
-			<input type="submit" value="set time">
-
-		</p>
-	</form>
+				<input type="submit" value="set time">
+			</p>
+		</form>
+	</div>
   </body>
 </html>

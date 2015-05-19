@@ -12,15 +12,23 @@ void data_Write(struct sensors_data * input_data)
 	// TODO implement data reading from Flash/SD
   static struct sensors_data  data_buffer[BUFFER_SIZE];
   static uint16_t i = 0;
-  data_buffer[i] = * input_data;
+  
+  data_buffer[i].lite = input_data->lite;
+  data_buffer[i].moisture = input_data->moisture;
+  data_buffer[i].temperature= input_data->temperature;
+  
   time_t time_sec;
   RTC_Time(&time_sec); // get UNIX time
   data_buffer[i].timestamp = time_sec;
+
   i++;
   if(i >= BUFFER_SIZE)
   {
     i = 0;
-    logging_writeToStorage(data_buffer);
+    if(!logging_writeToStorage(data_buffer))
+    {
+      // handle write error
+    }
   }
 }
 

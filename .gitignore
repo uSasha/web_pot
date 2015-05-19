@@ -70,3 +70,4 @@ UVBuild/web.crf
 Web/web.c
 JLinkLog.txt
 *.crf
+RTE/RTE_Components.h

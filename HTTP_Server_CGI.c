@@ -67,73 +67,75 @@ void cgi_process_data (uint8_t code, const char *data, uint32_t len) {
         data = http_get_env_var (data, var, sizeof (var));
         if (var[0] != 0) {
           // First character is non-null, string exists
-					XMC_RTC_TIME_t time;
-					RTC_GetTime(&time);
-					
-          if (var[0] == 'h'){
-						char temp_str[2];
-						strncpy(temp_str, var+2, 2);
-						uint8_t hour = atoi(temp_str);
-						if((0 <= hour) && (hour <= 23))
-						{
-							time.hours = hour;
-						}
-          }else
-					if (var[0] == 'm'){
-						char temp_str[2];
-						strncpy(temp_str, var+2, 2);
-						uint8_t minute = atoi(temp_str);
-						if((0 <= minute) && (minute <= 59))
-						time.minutes = atoi(temp_str);
-						
-          }else
-					if (var[0] == 'd'){
-						char temp_str[1];
-						strncpy(temp_str, var+2, 2);
-						uint8_t day = atoi(temp_str);
-						if((0 <= day) && (day <= 6))
-						{						
-							time.daysofweek = day;
-						}
-          }					
-					RTC_SetTime(&time);
-					
+          if(var[0] == 'c')
+          {
+  					XMC_RTC_TIME_t time;
+  					RTC_GetTime(&time);
+  					
+            if (var[2] == 'h'){
+  						char temp_str[2];
+  						strncpy(temp_str, var+4, 2);  // copy symbols 5-6
+  						uint8_t hour = atoi(temp_str);
+  						if(hour <= 23)
+  						{
+  							time.hours = hour;
+  						}
+            }else
+  					if (var[2] == 'm'){
+  						char temp_str[2];
+  						strncpy(temp_str, var+4, 2);
+  						uint8_t minute = atoi(temp_str);
+  						if(minute <= 59)
+  						time.minutes = atoi(temp_str);
+  						
+            }else
+  					if (var[2] == 'd'){
+  						char temp_str[2];
+  						strncpy(temp_str, var+4, 2);
+  						uint8_t day = atoi(temp_str);
+  						if(day <= 6)
+  						{						
+  							time.daysofweek = day;
+  						}
+            }					
+  					RTC_SetTime(&time);
+					}
 					if(var[0] == 'w')
 					{
+            if(var[2] == 'a')
+            {
+              char temp_str[3];
+              strncpy(temp_str, var+4, 3);
+              uint16_t amount = atoi(temp_str);
+              if((MIN_WEEK_AMOUNT <= amount) && (amount <= MAX_WEEK_AMOUNT))
+              {
+                watering_setWeekAmount(amount);
+              }
+              
+              // we do it here because this case run before "days"
+              // and we really want to clear watering days table only once
+              watering_daysResetAll();    
+            }else
+            if(var[2] == 'h')
+            {
+              char temp_str[2];
+              strncpy(temp_str, var+4, 2);
+              uint8_t hour = atoi(temp_str);
+              if(hour <= 23)
+              {
+                watering_setTime(atoi(temp_str));               
+              }
+            }else
 						if(var[2] == 'd')
 						{
-							char temp_str[1];
+							char temp_str[2];
 							strncpy(temp_str, var+4, 2);
 							uint8_t day = atoi(temp_str);
-							if((0 <= day) && (day <= 6))
+							if(day <= 6)
 							{
 								// all days were cleared before in "amount" case
 								// we only need to set active ones
 								watering_daysSet(day);
-							}
-						}
-						if(var[2] == 'a')
-						{
-							char temp_str[3];
-							strncpy(temp_str, var+4, 3);
-							uint16_t amount = atoi(temp_str);
-							if((MIN_WEEK_AMOUNT <= amount) && (amount <= MAX_WEEK_AMOUNT))
-							{
-								watering_setWeekAmount(amount);
-							}
-							
-							// we do it here because this case run before "days"
-							// and we really want to clear watering days table only once
-							watering_daysResetAll();		
-						}
-						if(var[2] == 'h')
-						{
-							char temp_str[2];
-							strncpy(temp_str, var+4, 2);
-							uint8_t hour = atoi(temp_str);
-							if((0 <= hour) && (hour <= 23))
-							{
-								watering_setTime(atoi(temp_str));								
 							}
 						}
 					}

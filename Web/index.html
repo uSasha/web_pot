@@ -4,11 +4,15 @@
 	<script type="text/javascript">
 		$(function() {
 			var json_sample = [];
-			function getData() {
+			function getSenorData() {
 				$.getJSON("loc.cgx", function(loc) { json_sample = loc; });
 				$('#val_x').val(json_sample.x);
 				$('#val_y').val(json_sample.y);
 				$('#val_z').val(json_sample.z);
+
+			}
+
+			function getSettingsData(){
 				$('#val_hour').val(json_sample.watering_hour);
 				$('#val_amount').val(json_sample.watering_amount);
 				$('#val_cur_hour').val(json_sample.current_hour);
@@ -65,13 +69,22 @@
 				}
 				
 				$("div.current_time select").val(json_sample.current_wday);
-				
 			}
-			function update() {
-				getData();
-				setTimeout(update, 2000);
+//			function update() {
+//				getData();
+//				setTimeout(update, 2000);
+//			}
+			getSenorData();
+			setTimeout(update, 1000);
+			static i = 0;
+			i++;
+			if(i == 60)
+			{
+				i = 0;
+				getSettingsData();
 			}
-			update();
+			
+//			update();
 		});
 	</script>
 	<style>
@@ -111,10 +124,10 @@
 	<div class="current_time">
 		<form action="index.html" method="POST" name="current_time">
 			<p>
-				<input id="val_cur_hour" type="text" size="1", name="h">:
-				<input id="val_cur_minutes" type="text" size="1", name="m">
+				<input id="val_cur_hour" type="text" size="1", name="c_h">:
+				<input id="val_cur_minutes" type="text" size="1", name="c_m">
 				
-				<select size="1" name="d">
+				<select size="1" name="c_d">
 					<option value="0">mon</option>
 					<option value="1">tue</option>
 					<option value="2">wed</option>

@@ -59,6 +59,14 @@ void watering_daysReset(uint8_t weekday)
 	watering_days[weekday] = false;
 }
 
+void watering_daysResetAll(void)
+{
+	for(uint8_t i = 0; i <= 6; i++)
+	{
+		watering_days[i] = false;
+	}
+}
+
 uint16_t watering_daysGet(uint8_t weekday)
 {
 	if(watering_days[weekday])

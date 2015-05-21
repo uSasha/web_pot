@@ -137,7 +137,7 @@
           <Target>
             <UseTarget>1</UseTarget>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
-            <RunToMain>0</RunToMain>
+            <RunToMain>1</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
             <RestoreWatchpoints>1</RestoreWatchpoints>
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
@@ -424,14 +424,149 @@
               <FilePath>.\Thread_webserver.c</FilePath>
             </File>
             <File>
-              <FileName>Thread_sensors.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Thread_sensors.c</FilePath>
-            </File>
-            <File>
               <FileName>logging_system.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\logging_system.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_Server_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_Server_CGI.c</FilePath>
+            </File>
+            <File>
+              <FileName>Thread_Sensors.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Thread_Sensors.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Web</GroupName>
+          <Files>
+            <File>
+              <FileName>graph.html</FileName>
+              <FileType>9</FileType>
+              <FilePath>.\Web\graph.html</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>2</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>0</ComprImg>
+                </CommonProperty>
+                <FileArmAds/>
+              </FileOption>
+            </File>
+            <File>
+              <FileName>index.html</FileName>
+              <FileType>9</FileType>
+              <FilePath>.\Web\index.html</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>2</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>0</ComprImg>
+                </CommonProperty>
+                <FileArmAds/>
+              </FileOption>
+            </File>
+            <File>
+              <FileName>jquery.min.js.gz</FileName>
+              <FileType>9</FileType>
+              <FilePath>.\Web\jquery.min.js.gz</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>2</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>0</ComprImg>
+                </CommonProperty>
+                <FileArmAds/>
+              </FileOption>
+            </File>
+            <File>
+              <FileName>loc.cgx</FileName>
+              <FileType>9</FileType>
+              <FilePath>.\Web\loc.cgx</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>2</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>0</ComprImg>
+                </CommonProperty>
+                <FileArmAds/>
+              </FileOption>
+            </File>
+            <File>
+              <FileName>smoothie.js.gz</FileName>
+              <FileType>9</FileType>
+              <FilePath>.\Web\smoothie.js.gz</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>2</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>0</ComprImg>
+                </CommonProperty>
+                <FileArmAds/>
+              </FileOption>
+            </File>
+            <File>
+              <FileName>web.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Web\web.c</FilePath>
             </File>
           </Files>
         </Group>
